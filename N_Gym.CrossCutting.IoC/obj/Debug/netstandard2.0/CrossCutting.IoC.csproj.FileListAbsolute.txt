@@ -1,0 +1,8 @@
+C:\Users\Win7\Desktop\Teste\N_Gym\CrossCutting.IoC\obj\Debug\netstandard2.0\CrossCutting.IoC.csproj.CoreCompileInputs.cache
+C:\Users\Win7\Desktop\Teste\N_Gym\CrossCutting.IoC\obj\Debug\netstandard2.0\CrossCutting.IoC.AssemblyInfoInputs.cache
+C:\Users\Win7\Desktop\Teste\N_Gym\CrossCutting.IoC\obj\Debug\netstandard2.0\CrossCutting.IoC.AssemblyInfo.cs
+C:\Users\Win7\Desktop\Teste\N_Gym\CrossCutting.IoC\bin\Debug\netstandard2.0\CrossCutting.IoC.deps.json
+C:\Users\Win7\Desktop\Teste\N_Gym\CrossCutting.IoC\bin\Debug\netstandard2.0\CrossCutting.IoC.dll
+C:\Users\Win7\Desktop\Teste\N_Gym\CrossCutting.IoC\bin\Debug\netstandard2.0\CrossCutting.IoC.pdb
+C:\Users\Win7\Desktop\Teste\N_Gym\CrossCutting.IoC\obj\Debug\netstandard2.0\CrossCutting.IoC.dll
+C:\Users\Win7\Desktop\Teste\N_Gym\CrossCutting.IoC\obj\Debug\netstandard2.0\CrossCutting.IoC.pdb

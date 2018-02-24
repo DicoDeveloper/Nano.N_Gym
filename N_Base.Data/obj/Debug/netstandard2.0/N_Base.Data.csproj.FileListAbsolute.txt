@@ -1,0 +1,10 @@
+C:\Users\Win7\Desktop\Teste\N_Gym\N_Base.Data\obj\Debug\netstandard2.0\N_Base.Data.csproj.CoreCompileInputs.cache
+C:\Users\Win7\Desktop\Teste\N_Gym\N_Base.Data\obj\Debug\netstandard2.0\N_Base.Data.AssemblyInfoInputs.cache
+C:\Users\Win7\Desktop\Teste\N_Gym\N_Base.Data\obj\Debug\netstandard2.0\N_Base.Data.AssemblyInfo.cs
+C:\Users\Win7\Desktop\Teste\N_Gym\N_Base.Data\bin\Debug\netstandard2.0\N_Base.Data.deps.json
+C:\Users\Win7\Desktop\Teste\N_Gym\N_Base.Data\bin\Debug\netstandard2.0\N_Base.Data.dll
+C:\Users\Win7\Desktop\Teste\N_Gym\N_Base.Data\bin\Debug\netstandard2.0\N_Base.Data.pdb
+C:\Users\Win7\Desktop\Teste\N_Gym\N_Base.Data\bin\Debug\netstandard2.0\N_Base.Entity.dll
+C:\Users\Win7\Desktop\Teste\N_Gym\N_Base.Data\bin\Debug\netstandard2.0\N_Base.Entity.pdb
+C:\Users\Win7\Desktop\Teste\N_Gym\N_Base.Data\obj\Debug\netstandard2.0\N_Base.Data.dll
+C:\Users\Win7\Desktop\Teste\N_Gym\N_Base.Data\obj\Debug\netstandard2.0\N_Base.Data.pdb

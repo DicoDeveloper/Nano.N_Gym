@@ -1,0 +1,8 @@
+C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.Application\bin\Debug\netstandard2.0\N_Gym.Application.deps.json
+C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.Application\bin\Debug\netstandard2.0\N_Gym.Application.dll
+C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.Application\bin\Debug\netstandard2.0\N_Gym.Application.pdb
+C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.Application\obj\Debug\netstandard2.0\N_Gym.Application.csproj.CoreCompileInputs.cache
+C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.Application\obj\Debug\netstandard2.0\N_Gym.Application.AssemblyInfoInputs.cache
+C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.Application\obj\Debug\netstandard2.0\N_Gym.Application.AssemblyInfo.cs
+C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.Application\obj\Debug\netstandard2.0\N_Gym.Application.dll
+C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.Application\obj\Debug\netstandard2.0\N_Gym.Application.pdb
