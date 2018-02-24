@@ -4744,7 +4744,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.0.1"
+          "Microsoft.EntityFrameworkCore": "2.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.1"
         },
         "compile": {
           "bin/placeholder/N_Base.Entity.dll": {}
@@ -4801,6 +4802,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.1",
           "N_Base.Entity": "1.0.0",
           "Newtonsoft.Json": "11.0.1"
         },
@@ -12620,7 +12622,6 @@
     ".NETCoreApp,Version=v2.0": [
       "AutoMapper >= 6.2.2",
       "Microsoft.AspNetCore.All >= 2.0.5",
-      "Microsoft.EntityFrameworkCore >= 2.0.1",
       "Microsoft.NETCore.App >= 2.0.0",
       "N_Gym.Application >= 1.0.0",
       "N_Gym.CrossCutting.IoC >= 1.0.0",
@@ -12634,12 +12635,15 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "c:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Gym.API\\N_Gym.API.csproj",
+      "projectUniqueName": "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Gym.API\\N_Gym.API.csproj",
       "projectName": "N_Gym.API",
-      "projectPath": "c:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Gym.API\\N_Gym.API.csproj",
+      "projectPath": "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Gym.API\\N_Gym.API.csproj",
       "packagesPath": "C:\\Users\\dico_\\.nuget\\packages\\",
-      "outputPath": "c:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Gym.API\\obj\\",
+      "outputPath": "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Gym.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -12660,14 +12664,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "c:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Gym.Application\\N_Gym.Application.csproj": {
-              "projectPath": "c:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Gym.Application\\N_Gym.Application.csproj"
+            "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Gym.Entity\\N_Gym.Entity.csproj": {
+              "projectPath": "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Gym.Entity\\N_Gym.Entity.csproj"
             },
-            "c:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Gym.Entity\\N_Gym.Entity.csproj": {
-              "projectPath": "c:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Gym.Entity\\N_Gym.Entity.csproj"
+            "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Gym.CrossCutting.IoC\\N_Gym.CrossCutting.IoC.csproj": {
+              "projectPath": "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Gym.CrossCutting.IoC\\N_Gym.CrossCutting.IoC.csproj"
             },
-            "c:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Gym.CrossCutting.IoC\\N_Gym.CrossCutting.IoC.csproj": {
-              "projectPath": "c:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Gym.CrossCutting.IoC\\N_Gym.CrossCutting.IoC.csproj"
+            "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Gym.Application\\N_Gym.Application.csproj": {
+              "projectPath": "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Gym.Application\\N_Gym.Application.csproj"
             }
           }
         }
@@ -12688,10 +12692,6 @@
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "[2.0.5, )"
-          },
-          "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[2.0.1, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",

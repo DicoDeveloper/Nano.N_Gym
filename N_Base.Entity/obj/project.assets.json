@@ -2940,12 +2940,15 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "c:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Base.Entity\\N_Base.Entity.csproj",
+      "projectUniqueName": "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Base.Entity\\N_Base.Entity.csproj",
       "projectName": "N_Base.Entity",
-      "projectPath": "c:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Base.Entity\\N_Base.Entity.csproj",
+      "projectPath": "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Base.Entity\\N_Base.Entity.csproj",
       "packagesPath": "C:\\Users\\dico_\\.nuget\\packages\\",
-      "outputPath": "c:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Base.Entity\\obj\\",
+      "outputPath": "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym\\N_Base.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

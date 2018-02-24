@@ -6,3 +6,12 @@ C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.Domain\obj\Debug\netstandard2.0\N_Gym.Do
 C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.Domain\obj\Debug\netstandard2.0\N_Gym.Domain.AssemblyInfo.cs
 C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.Domain\obj\Debug\netstandard2.0\N_Gym.Domain.dll
 C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.Domain\obj\Debug\netstandard2.0\N_Gym.Domain.pdb
+C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.Domain\bin\Debug\netstandard2.0\N_Gym.Domain.deps.json
+C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.Domain\bin\Debug\netstandard2.0\N_Gym.Domain.dll
+C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.Domain\bin\Debug\netstandard2.0\N_Gym.Domain.pdb
+C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.Domain\obj\Debug\netstandard2.0\N_Gym.Domain.csprojResolveAssemblyReference.cache
+C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.Domain\obj\Debug\netstandard2.0\N_Gym.Domain.csproj.CoreCompileInputs.cache
+C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.Domain\obj\Debug\netstandard2.0\N_Gym.Domain.AssemblyInfoInputs.cache
+C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.Domain\obj\Debug\netstandard2.0\N_Gym.Domain.AssemblyInfo.cs
+C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.Domain\obj\Debug\netstandard2.0\N_Gym.Domain.dll
+C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.Domain\obj\Debug\netstandard2.0\N_Gym.Domain.pdb
