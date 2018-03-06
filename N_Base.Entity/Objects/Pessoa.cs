@@ -10,9 +10,7 @@ namespace N_Base.Entity.Objects
     {
         #region Propriedades
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public long Id { get; set; }
-        [Required(ErrorMessage = "Código é obrigatório")]
-        public long Codigo { get; set; }
+        public long Id { get; set; }        
         [MaxLength(80, ErrorMessage = "Nome não pode ultrapassar 80 caracteres"), Required(ErrorMessage = "Informar o nome é obrigatório")]
         public string Nome { get => Nome; set => Nome = value.Length > 80 ? value.Substring(0, 80) : value; }
         [Required]

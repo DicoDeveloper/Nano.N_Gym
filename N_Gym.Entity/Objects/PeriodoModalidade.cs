@@ -4,19 +4,18 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace N_Gym.Entity.Objects
 {
-    [Table("PERIODOS_MODALIDADES")]
     public class PeriodoModalidade
     {
         #region Propriedades
-        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity), Column("ID_PERIODO_MODALIDADE")]
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long Id { get; set; }
-        [ForeignKey("Modalidade"), Column("ID_MODALIDADE"), Required]
+        [ForeignKey("Modalidade"), Required]
         public long IdModalidade { get; set; }
-        [Column("DIA_SEMANA"), Required]
+        [Required]
         public DiaSemana DiaSemana { get; set; }
-        [Column("HR_INICIO"), Required]
+        [Required]
         public string HrInicio { get; set; }
-        [Column("HR_FIM"), Required]
+        [Required]
         public string HrFim { get; set; }
         public virtual Modalidade Modalidade { get; set; }
         #endregion

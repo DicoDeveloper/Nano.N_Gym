@@ -5,97 +5,91 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace N_Gym.Entity.Objects
 {
-    [Table("AVALIACOES")]
     public class Avaliacao
     {
         #region Propriedades
-        [Column("ID_AVALIACAO")]
         public long Id { get; set; }
-        [ForeignKey("Cliente"),Column("ID_CLIENTE"), Required]
+        [ForeignKey("Cliente")]
         public long IdCliente { get; set; }
-        [Column("IDADE")]
         public int Idade { get; set; }
-        [MaxLength(8), Column("PRESSAO_ARTERIAL")]
+        [MaxLength(8)]
         public string PresArterial { get; set; }
-        [MaxLength(8), Column("FC_REPOUSO")]
+        [MaxLength(8)]
         public string FcRepouso { get; set; }
-        [Column("ESTATURA")]
         public int Estatura { get; set; }
-        [Range(0.001, 999999.999, ErrorMessage = "Peso não pode ser zero"), Column("PESO")]
+        [Range(0.001, 999999.999, ErrorMessage = "Peso não pode ser zero")]
         public double Peso { get; set; }
-        [MaxLength(8), Column("FLEXIBILIDADE")]
+        [MaxLength(8)]
         public string Flexibilidade { get; set; }
-        [Column("DAT_AVALIACAO")]
         public DateTime Data { get; set; }
-        [MaxLength(8), Column("CIRCUNF_TORAX")]
+        [MaxLength(8)]
         public string CircTorax { get; set; }
-        [MaxLength(8), Column("CIRCUNF_CINTURA")]
+        [MaxLength(8)]
         public string CircCintura { get; set; }
-        [MaxLength(8), Column("CIRCUNF_ABDOME")]
+        [MaxLength(8)]
         public string CircAbdome { get; set; }
-        [MaxLength(8), Column("CIRCUNF_BRACO_DIR")]
+        [MaxLength(8)]
         public string CircBracDir { get; set; }
-        [MaxLength(8), Column("CIRCUNF_ANTEBRACO_DIR")]
+        [MaxLength(8)]
         public string CircAntebraDir { get; set; }
-        [MaxLength(8), Column("CIRCUNF_BRACO_ESQ")]
+        [MaxLength(8)]
         public string CircBracEsq { get; set; }
-        [MaxLength(8), Column("CIRCUNF_ANTEBRACO_ESQ")]
+        [MaxLength(8)]
         public string CircAntebraEsq { get; set; }
-        [MaxLength(8), Column("CIRCUNF_QUADRIL")]
+        [MaxLength(8)]
         public string CircQuadril { get; set; }
-        [MaxLength(8), Column("CIRCUNF_COXA_DIR")]
+        [MaxLength(8)]
         public string CircCoxaDir { get; set; }
-        [MaxLength(8), Column("CIRCUNF_PANTURRILHA_DIR")]
+        [MaxLength(8)]
         public string CircPantuDir { get; set; }
-        [MaxLength(8), Column("CIRCUNF_COXA_ESQ")]
+        [MaxLength(8)]
         public string CircCoxaEsq { get; set; }
-        [MaxLength(8), Column("CIRCUNF_PANTURRILHA_ESQ")]
+        [MaxLength(8)]
         public string CircPantuEsq { get; set; }
-        [MaxLength(8), Column("MASSA_MAGRA_KG")]
+        [MaxLength(8)]
         public string MassaMagraKg { get; set; }
-        [MaxLength(8), Column("GORDURA_KG")]
+        [MaxLength(8)]
         public string GorduraKg { get; set; }
-        [MaxLength(8), Column("PESO_IDEAL_KG")]
+        [MaxLength(8)]
         public string PesoIdealKg { get; set; }
-        [MaxLength(8), Column("PESO_EXTRA_KG")]
+        [MaxLength(8)]
         public string PesoExtraKg { get; set; }
-        [MaxLength(8), Column("IMC")]
+        [MaxLength(8)]
         public string IMC { get; set; }
-        [MaxLength(8), Column("FC_MAX")]
+        [MaxLength(8)]
         public string FcMax { get; set; }
-        [MaxLength(8), Column("MASSA_MAGRA_PERCENT")]
+        [MaxLength(8)]
         public string MassaMagraPercent { get; set; }
-        [MaxLength(8), Column("GORDURA_PERCENT")]
+        [MaxLength(8)]
         public string GorduraPercent { get; set; }
-        [MaxLength(8), Column("GORDURA_PRETENDIDA")]
+        [MaxLength(8)]
         public string GorduraPretend { get; set; }
-        [MaxLength(8), Column("GORDURA_EXTRA_PERCENT")]
+        [MaxLength(8)]
         public string GorduraExtraPercent { get; set; }
-        [MaxLength(20), Column("CLASSIFICACAO")]
+        [MaxLength(20)]
         public string Classificacao { get; set; }
-        [MaxLength(6), Column("CUTAN_ABDOMINAL")]
+        [MaxLength(6)]
         public string CutAbdominal { get; set; }
-        [MaxLength(6), Column("CUTAN_AXILA")]
+        [MaxLength(6)]
         public string CutAxila { get; set; }
-        [MaxLength(6), Column("CUTAN_COXA")]
+        [MaxLength(6)]
         public string CutCoxa { get; set; }
-        [MaxLength(6), Column("CUTAN_PANTURRILHA")]
+        [MaxLength(6)]
         public string CutPanturrilha { get; set; }
-        [MaxLength(6), Column("CUTAN_SUBESCAPULAR")]
+        [MaxLength(6)]
         public string CutSubescapular { get; set; }
-        [MaxLength(6), Column("CUTAN_SUPRAILIACA")]
+        [MaxLength(6)]
         public string CutSuprailiaca { get; set; }
-        [MaxLength(6), Column("CUTAN_TORAX")]
+        [MaxLength(6)]
         public string CutTorax { get; set; }
-        [MaxLength(6), Column("CUTAN_TRICEPS")]
+        [MaxLength(6)]
         public string CutTriceps { get; set; }
-        [MaxLength(30), Column("RCQ")]
+        [MaxLength(30)]
         public string RCQ { get; set; }
-        [MaxLength(30), Column("RISCO_CORONARIANO")]
+        [MaxLength(30)]
         public string RiscoCoronariano { get; set; }
-        [Column("PROTOCOLO")]
         public TipoProtocoloAvaliacao Protocolo { get; set; }
-        public virtual ClienteGym Cliente { get; set; }
+        public virtual Cliente Cliente { get; set; }
         #endregion
     }
 }

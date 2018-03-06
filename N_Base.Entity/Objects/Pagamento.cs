@@ -19,6 +19,7 @@ namespace N_Base.Entity.Objects
         [Range(0, 999999.99), Required]
         public decimal Troco { get; set; }
         public DateTime DataPago { get; set; }
+        public bool Cancelado { get; set; }
         #endregion
     }
 }

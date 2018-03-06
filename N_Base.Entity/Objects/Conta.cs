@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -8,13 +9,21 @@ namespace N_Base.Entity.Objects
     {
         #region Propriedades
         public long Id { get; set; }
-        [ForeignKey("CentroCusto")]
-        public long IdCentroCusto { get; set; }
-
+        [ForeignKey("ContaSuperior")]
+        public long IdContaSupereior { get; set; }
+        public string Descricao { get; set; }
+        public decimal Valor { get; set; }
+        public DateTime Vencimento { get; set; }
+        public virtual Conta ContaSuperior { get; set; }
+        public virtual List<Conta> ContasInferiores { get; set; }
         public virtual List<Pagamento> Pagamentos { get; set; }
-        public virtual CentroCusto CentroCusto { get; set; }
+        public bool Cancelado { get; set; }
         #endregion
 
-        public Conta() => Pagamentos = new List<Pagamento>();
+        public Conta()
+        {
+            ContasInferiores = new List<Conta>();
+            Pagamentos = new List<Pagamento>();
+        }
     }
 }
