@@ -14,10 +14,10 @@ namespace N_Base.Entity.Objects
         public string Descricao { get; set; }
         public decimal Valor { get; set; }
         public DateTime Vencimento { get; set; }
+         public bool Cancelado { get; set; }
         public virtual Conta ContaSuperior { get; set; }
         public virtual List<Conta> ContasInferiores { get; set; }
-        public virtual List<Pagamento> Pagamentos { get; set; }
-        public bool Cancelado { get; set; }
+        public virtual List<Pagamento> Pagamentos { get; set; }       
         #endregion
 
         public Conta()

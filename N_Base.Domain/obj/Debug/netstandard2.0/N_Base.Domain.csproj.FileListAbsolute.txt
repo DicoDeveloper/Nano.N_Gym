@@ -1,0 +1,8 @@
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Domain\bin\Debug\netstandard2.0\N_Base.Domain.deps.json
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Domain\bin\Debug\netstandard2.0\N_Base.Domain.dll
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Domain\bin\Debug\netstandard2.0\N_Base.Domain.pdb
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Domain\obj\Debug\netstandard2.0\N_Base.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Domain\obj\Debug\netstandard2.0\N_Base.Domain.AssemblyInfoInputs.cache
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Domain\obj\Debug\netstandard2.0\N_Base.Domain.AssemblyInfo.cs
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Domain\obj\Debug\netstandard2.0\N_Base.Domain.dll
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Domain\obj\Debug\netstandard2.0\N_Base.Domain.pdb

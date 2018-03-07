@@ -89,6 +89,7 @@ namespace N_Gym.Entity.Objects
         [MaxLength(30)]
         public string RiscoCoronariano { get; set; }
         public TipoProtocoloAvaliacao Protocolo { get; set; }
+        public bool Cancelado { get; set; }
         public virtual Cliente Cliente { get; set; }
         #endregion
     }

@@ -18,7 +18,7 @@ namespace N_Gym.Entity.Objects
         public string Personal { get => Personal; set => Personal = value.Length > 60 ? value.Substring(0, 60) : value; }
         public string Descricao { get; set; }
         [Required]
-        public bool Possui { get; set; }
+        public bool Ativa { get; set; }
         public virtual List<PeriodoModalidade> Periodos { get; set; }
         public virtual List<ContratoModalidade> ContratosModalidades { get; set; }
         #endregion

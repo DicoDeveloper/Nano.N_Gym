@@ -17,6 +17,7 @@ namespace N_Gym.Entity.Objects
         public string HrInicio { get; set; }
         [Required]
         public string HrFim { get; set; }
+        public bool Ativo { get; set; }
         public virtual Modalidade Modalidade { get; set; }
         #endregion
     }

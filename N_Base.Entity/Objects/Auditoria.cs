@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using N_Base.Entity.Enums.Auditoria;
 using N_Base.Entity.Enums.Data;
+using N_Base.Entity.Interfaces;
 
 namespace N_Base.Entity.Objects
 {

@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\N_Gym.Entity\N_Gym.Entity.csproj" />
+    <ProjectReference Include="..\N_Base.Entity\N_Base.Entity.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

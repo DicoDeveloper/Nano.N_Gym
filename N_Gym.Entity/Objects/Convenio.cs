@@ -11,6 +11,7 @@ namespace N_Gym.Entity.Objects
         public string Descricao { get; set; }
         public ModoCobranca Modo { get; set; }
         public decimal Desconto { get; set; }
+        public bool Ativo { get; set; }
         public virtual List<ConvenioCliente> ConveniosCliente { get; set; }
         #endregion
     }

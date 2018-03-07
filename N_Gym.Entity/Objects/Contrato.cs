@@ -15,10 +15,10 @@ namespace N_Gym.Entity.Objects
         public long IdConta { get; set; }
         public string NumeroDocumento { get; set; }
         public DateTime Vencimento { get; set; }
+        public bool Cancelado { get; set; }
         public virtual Cliente Cliente { get; set; }
         public virtual Conta Conta { get; set; }
-        public virtual List<ContratoModalidade> ContratosModalidades
-        { get; set; }
+        public virtual List<ContratoModalidade> ContratosModalidades { get; set; }
         #endregion
     }
 }
