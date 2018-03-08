@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using N_Base.Entity.Interfaces;
 using N_Base.Entity.Objects;
 
 namespace N_Base.Data.Infra
@@ -27,6 +26,26 @@ namespace N_Base.Data.Infra
         bool Insert(Endereco endereco);
         Task<IEnumerable<Endereco>> GetEnderecos();
         Task<Endereco> GetEndereco(long id);
+        #endregion
+        #region Funcionario
+        bool Insert(Funcionario funcionario);
+        Task<IEnumerable<Funcionario>> GetFuncionarios();
+        Task<Funcionario> GetFuncionario(long id);
+        #endregion
+        #region Loja
+        bool Insert(Loja loja);
+        Task<IEnumerable<Loja>> GetLojas();
+        Task<Loja> GetLoja(long id);
+        #endregion
+        #region Pagamento
+        bool Insert(Pagamento pagamento);
+        Task<IEnumerable<Pagamento>> GetPagamentos();
+        Task<Pagamento> GetPagamento(long id);
+        #endregion
+        #region PermissaoUsuario
+        bool Insert(PermissaoUsuario permissaoUsuario);
+        Task<IEnumerable<PermissaoUsuario>> GetPermissoes();
+        Task<PermissaoUsuario> GetPermissao(long id);
         #endregion
     }
 }

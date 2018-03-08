@@ -19,3 +19,16 @@ C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Base.Data\obj\Debug\netstandard2.0\N_B
 C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Base.Data\obj\Debug\netstandard2.0\N_Base.Data.AssemblyInfo.cs
 C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Base.Data\obj\Debug\netstandard2.0\N_Base.Data.dll
 C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Base.Data\obj\Debug\netstandard2.0\N_Base.Data.pdb
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Data\obj\Debug\netstandard2.0\N_Base.Data.dll
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Data\obj\Debug\netstandard2.0\N_Base.Data.pdb
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Data\bin\Debug\netstandard2.0\N_Base.Data.deps.json
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Data\bin\Debug\netstandard2.0\N_Base.Data.dll
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Data\bin\Debug\netstandard2.0\N_Base.Data.pdb
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Data\bin\Debug\netstandard2.0\N_Base.Domain.dll
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Data\bin\Debug\netstandard2.0\N_Base.Entity.dll
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Data\bin\Debug\netstandard2.0\N_Base.Entity.pdb
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Data\bin\Debug\netstandard2.0\N_Base.Domain.pdb
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Data\obj\Debug\netstandard2.0\N_Base.Data.csprojResolveAssemblyReference.cache
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Data\obj\Debug\netstandard2.0\N_Base.Data.csproj.CoreCompileInputs.cache
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Data\obj\Debug\netstandard2.0\N_Base.Data.AssemblyInfoInputs.cache
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Base.Data\obj\Debug\netstandard2.0\N_Base.Data.AssemblyInfo.cs

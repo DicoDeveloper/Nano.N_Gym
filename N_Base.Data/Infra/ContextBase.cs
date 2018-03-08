@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using N_Base.Entity.Interfaces;
 using N_Base.Entity.Objects;
 
 namespace N_Base.Data.Infra
@@ -72,6 +71,46 @@ namespace N_Base.Data.Infra
         }
         public async Task<IEnumerable<Endereco>> GetEnderecos() => await Enderecos.ToListAsync();
         public async Task<Endereco> GetEndereco(long id) => await Enderecos.FindAsync(id);
+        #endregion
+        #region Metodos Funcionario
+        public bool Insert(Funcionario funcionario)
+        {
+            Funcionarios.Add(funcionario);
+            SaveChanges();
+            return true;
+        }
+        public async Task<IEnumerable<Funcionario>> GetFuncionarios() => await Funcionarios.ToListAsync();
+        public async Task<Funcionario> GetFuncionario(long id) => await Funcionarios.FindAsync(id);
+        #endregion
+        #region Metodos Loja
+        public bool Insert(Loja loja)
+        {
+            Lojas.Add(loja);
+            SaveChanges();
+            return true;
+        }
+        public async Task<IEnumerable<Loja>> GetLojas() => await Lojas.ToListAsync();
+        public async Task<Loja> GetLoja(long id) => await Lojas.FindAsync(id);
+        #endregion
+        #region Metodos Pagamento
+        public bool Insert(Pagamento pagamento)
+        {
+            Pagamentos.Add(pagamento);
+            SaveChanges();
+            return true;
+        }
+        public async Task<IEnumerable<Pagamento>> GetPagamentos() => await Pagamentos.ToListAsync();
+        public async Task<Pagamento> GetPagamento(long id) => await Pagamentos.FindAsync(id);
+        #endregion
+        #region Metodos PermissaoUsuario
+        public bool Insert(PermissaoUsuario permissao)
+        {
+            PermicoesUsuarios.Add(permissao);
+            SaveChanges();
+            return true;
+        }
+        public async Task<IEnumerable<PermissaoUsuario>> GetPermissoes() => await PermicoesUsuarios.ToListAsync();
+        public async Task<PermissaoUsuario> GetPermissao(long id) => await PermicoesUsuarios.FindAsync(id);
         #endregion
     }
 }

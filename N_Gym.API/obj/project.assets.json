@@ -4731,6 +4731,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.1",
+          "N_Base.Domain": "1.0.0",
           "N_Base.Entity": "1.0.0"
         },
         "compile": {
@@ -4738,6 +4739,19 @@
         },
         "runtime": {
           "bin/placeholder/N_Base.Data.dll": {}
+        }
+      },
+      "N_Base.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "N_Base.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/N_Base.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/N_Base.Domain.dll": {}
         }
       },
       "N_Base.Entity/1.0.0": {
@@ -12592,6 +12606,11 @@
       "path": "../N_Base.Data/N_Base.Data.csproj",
       "msbuildProject": "../N_Base.Data/N_Base.Data.csproj"
     },
+    "N_Base.Domain/1.0.0": {
+      "type": "project",
+      "path": "../N_Base.Domain/N_Base.Domain.csproj",
+      "msbuildProject": "../N_Base.Domain/N_Base.Domain.csproj"
+    },
     "N_Base.Entity/1.0.0": {
       "type": "project",
       "path": "../N_Base.Entity/N_Base.Entity.csproj",
@@ -12635,11 +12654,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.API\\N_Gym.API.csproj",
+      "projectUniqueName": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.API\\N_Gym.API.csproj",
       "projectName": "N_Gym.API",
-      "projectPath": "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.API\\N_Gym.API.csproj",
+      "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.API\\N_Gym.API.csproj",
       "packagesPath": "C:\\Users\\Win7\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.API\\obj\\",
+      "outputPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12656,14 +12675,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Application\\N_Gym.Application.csproj": {
-              "projectPath": "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Application\\N_Gym.Application.csproj"
+            "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Application\\N_Gym.Application.csproj": {
+              "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Application\\N_Gym.Application.csproj"
             },
-            "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Entity\\N_Gym.Entity.csproj": {
-              "projectPath": "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Entity\\N_Gym.Entity.csproj"
+            "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Entity\\N_Gym.Entity.csproj": {
+              "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Entity\\N_Gym.Entity.csproj"
             },
-            "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.CrossCutting.IoC\\N_Gym.CrossCutting.IoC.csproj": {
-              "projectPath": "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.CrossCutting.IoC\\N_Gym.CrossCutting.IoC.csproj"
+            "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.CrossCutting.IoC\\N_Gym.CrossCutting.IoC.csproj": {
+              "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.CrossCutting.IoC\\N_Gym.CrossCutting.IoC.csproj"
             }
           }
         }

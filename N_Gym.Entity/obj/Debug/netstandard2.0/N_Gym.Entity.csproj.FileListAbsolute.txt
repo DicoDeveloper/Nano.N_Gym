@@ -19,3 +19,14 @@ C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.Entity\obj\Debug\netstandard2.0\N_
 C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.Entity\obj\Debug\netstandard2.0\N_Gym.Entity.AssemblyInfo.cs
 C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.Entity\obj\Debug\netstandard2.0\N_Gym.Entity.dll
 C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.Entity\obj\Debug\netstandard2.0\N_Gym.Entity.pdb
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.Entity\obj\Debug\netstandard2.0\N_Gym.Entity.dll
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.Entity\obj\Debug\netstandard2.0\N_Gym.Entity.pdb
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.Entity\bin\Debug\netstandard2.0\N_Gym.Entity.deps.json
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.Entity\bin\Debug\netstandard2.0\N_Gym.Entity.dll
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.Entity\bin\Debug\netstandard2.0\N_Gym.Entity.pdb
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.Entity\bin\Debug\netstandard2.0\N_Base.Entity.dll
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.Entity\bin\Debug\netstandard2.0\N_Base.Entity.pdb
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.Entity\obj\Debug\netstandard2.0\N_Gym.Entity.csprojResolveAssemblyReference.cache
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.Entity\obj\Debug\netstandard2.0\N_Gym.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.Entity\obj\Debug\netstandard2.0\N_Gym.Entity.AssemblyInfoInputs.cache
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.Entity\obj\Debug\netstandard2.0\N_Gym.Entity.AssemblyInfo.cs

@@ -23,7 +23,7 @@ namespace N_Base.Data.Repository
         }
         public async Task<IEnumerable<Endereco>> GetAll()
         {
-             try
+            try
             {
                 return await _context.GetEnderecos();
             }

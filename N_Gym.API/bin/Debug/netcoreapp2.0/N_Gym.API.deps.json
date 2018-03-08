@@ -3786,6 +3786,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.1",
+          "N_Base.Domain": "1.0.0",
           "N_Base.Entity": "1.0.0"
         },
         "runtime": {
@@ -3793,6 +3794,17 @@
         },
         "compile": {
           "N_Base.Data.dll": {}
+        }
+      },
+      "N_Base.Domain/1.0.0": {
+        "dependencies": {
+          "N_Base.Entity": "1.0.0"
+        },
+        "runtime": {
+          "N_Base.Domain.dll": {}
+        },
+        "compile": {
+          "N_Base.Domain.dll": {}
         }
       },
       "N_Base.Entity/1.0.0": {
@@ -6045,6 +6057,11 @@
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
     },
     "N_Base.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "N_Base.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

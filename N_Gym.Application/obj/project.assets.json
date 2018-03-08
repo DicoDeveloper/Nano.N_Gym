@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Application\\N_Gym.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Application\\N_Gym.Application.csproj",
       "projectName": "N_Gym.Application",
-      "projectPath": "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Application\\N_Gym.Application.csproj",
+      "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Application\\N_Gym.Application.csproj",
       "packagesPath": "C:\\Users\\Win7\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Application\\obj\\",
+      "outputPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

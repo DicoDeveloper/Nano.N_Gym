@@ -703,6 +703,19 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
+      "N_Base.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "N_Base.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/N_Base.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/N_Base.Domain.dll": {}
+        }
+      },
       "N_Base.Entity/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -2939,6 +2952,11 @@
         "system.threading.tasks.nuspec"
       ]
     },
+    "N_Base.Domain/1.0.0": {
+      "type": "project",
+      "path": "../N_Base.Domain/N_Base.Domain.csproj",
+      "msbuildProject": "../N_Base.Domain/N_Base.Domain.csproj"
+    },
     "N_Base.Entity/1.0.0": {
       "type": "project",
       "path": "../N_Base.Entity/N_Base.Entity.csproj",
@@ -2950,6 +2968,7 @@
       "Microsoft.EntityFrameworkCore >= 2.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.0.1",
       "NETStandard.Library >= 2.0.1",
+      "N_Base.Domain >= 1.0.0",
       "N_Base.Entity >= 1.0.0"
     ]
   },
@@ -2960,11 +2979,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Data\\N_Base.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Data\\N_Base.Data.csproj",
       "projectName": "N_Base.Data",
-      "projectPath": "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Data\\N_Base.Data.csproj",
+      "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Data\\N_Base.Data.csproj",
       "packagesPath": "C:\\Users\\Win7\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Data\\obj\\",
+      "outputPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2981,8 +3000,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Entity\\N_Base.Entity.csproj": {
-              "projectPath": "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Entity\\N_Base.Entity.csproj"
+            "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Entity\\N_Base.Entity.csproj": {
+              "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Entity\\N_Base.Entity.csproj"
+            },
+            "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Domain\\N_Base.Domain.csproj": {
+              "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Domain\\N_Base.Domain.csproj"
             }
           }
         }

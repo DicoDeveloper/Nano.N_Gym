@@ -2998,11 +2998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Entity\\N_Gym.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Entity\\N_Gym.Entity.csproj",
       "projectName": "N_Gym.Entity",
-      "projectPath": "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Entity\\N_Gym.Entity.csproj",
+      "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Entity\\N_Gym.Entity.csproj",
       "packagesPath": "C:\\Users\\Win7\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Entity\\obj\\",
+      "outputPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3019,8 +3019,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Entity\\N_Base.Entity.csproj": {
-              "projectPath": "c:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Entity\\N_Base.Entity.csproj"
+            "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Entity\\N_Base.Entity.csproj": {
+              "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Entity\\N_Base.Entity.csproj"
             }
           }
         }
