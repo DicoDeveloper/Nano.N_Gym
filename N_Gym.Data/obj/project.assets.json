@@ -755,6 +755,19 @@
           "bin/placeholder/N_Base.Entity.dll": {}
         }
       },
+      "N_Gym.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "N_Gym.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/N_Gym.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/N_Gym.Domain.dll": {}
+        }
+      },
       "N_Gym.Entity/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -3036,6 +3049,11 @@
       "path": "../N_Base.Entity/N_Base.Entity.csproj",
       "msbuildProject": "../N_Base.Entity/N_Base.Entity.csproj"
     },
+    "N_Gym.Domain/1.0.0": {
+      "type": "project",
+      "path": "../N_Gym.Domain/N_Gym.Domain.csproj",
+      "msbuildProject": "../N_Gym.Domain/N_Gym.Domain.csproj"
+    },
     "N_Gym.Entity/1.0.0": {
       "type": "project",
       "path": "../N_Gym.Entity/N_Gym.Entity.csproj",
@@ -3048,6 +3066,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.0.1",
       "NETStandard.Library >= 2.0.1",
       "N_Base.Data >= 1.0.0",
+      "N_Gym.Domain >= 1.0.0",
       "N_Gym.Entity >= 1.0.0"
     ]
   },
@@ -3084,6 +3103,9 @@
             },
             "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Data\\N_Base.Data.csproj": {
               "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Data\\N_Base.Data.csproj"
+            },
+            "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Domain\\N_Gym.Domain.csproj": {
+              "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Domain\\N_Gym.Domain.csproj"
             }
           }
         }

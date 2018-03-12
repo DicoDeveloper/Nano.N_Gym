@@ -50,3 +50,5 @@ C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.CrossCutting.IoC\obj\Debug\netstanda
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.CrossCutting.IoC\obj\Debug\netstandard2.0\N_Gym.CrossCutting.IoC.csproj.CoreCompileInputs.cache
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.CrossCutting.IoC\obj\Debug\netstandard2.0\N_Gym.CrossCutting.IoC.AssemblyInfoInputs.cache
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.CrossCutting.IoC\obj\Debug\netstandard2.0\N_Gym.CrossCutting.IoC.AssemblyInfo.cs
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.CrossCutting.IoC\bin\Debug\netstandard2.0\N_Gym.Domain.dll
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.CrossCutting.IoC\bin\Debug\netstandard2.0\N_Gym.Domain.pdb

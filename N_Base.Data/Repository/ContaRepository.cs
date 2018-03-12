@@ -1,15 +1,16 @@
 using System;
+using N_Base.Data.Interfaces;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using N_Base.Data.Infra;
-using N_Base.Domain.Interfaces;
+using N_Base.Domain.Interfaces.Repositories;
 using N_Base.Entity.Objects;
 
 namespace N_Base.Data.Repository
 {
     public class ContaRepository : IContaRepository
     {
-        private IContext _context { get; set; }
+        private IContext _context;
 
         public ContaRepository(IContext context) => _context = context;
 

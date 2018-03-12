@@ -68,3 +68,5 @@ C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.AP
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.csproj.CoreCompileInputs.cache
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.AssemblyInfoInputs.cache
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.AssemblyInfo.cs
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Domain.dll
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Domain.pdb

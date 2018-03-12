@@ -44,3 +44,5 @@ C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.Data\obj\Debug\netstandard2.0\N_Gym.
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.Data\obj\Debug\netstandard2.0\N_Gym.Data.csproj.CoreCompileInputs.cache
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.Data\obj\Debug\netstandard2.0\N_Gym.Data.AssemblyInfoInputs.cache
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.Data\obj\Debug\netstandard2.0\N_Gym.Data.AssemblyInfo.cs
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.Data\bin\Debug\netstandard2.0\N_Gym.Domain.dll
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.Data\bin\Debug\netstandard2.0\N_Gym.Domain.pdb

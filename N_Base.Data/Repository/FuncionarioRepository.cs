@@ -2,7 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using N_Base.Data.Infra;
-using N_Base.Domain.Interfaces;
+using N_Base.Domain.Interfaces.Repositories;
+using N_Base.Data.Interfaces;
 using N_Base.Entity.Objects;
 
 namespace N_Base.Data.Repository

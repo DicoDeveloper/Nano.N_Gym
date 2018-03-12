@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using N_Base.Entity.Objects;
 
-namespace N_Base.Data.Infra
+namespace N_Base.Data.Interfaces
 {
     public interface IContext : IDisposable
     {
@@ -46,6 +46,21 @@ namespace N_Base.Data.Infra
         bool Insert(PermissaoUsuario permissaoUsuario);
         Task<IEnumerable<PermissaoUsuario>> GetPermissoes();
         Task<PermissaoUsuario> GetPermissao(long id);
+        #endregion
+        #region Pessoa
+        bool Insert(Pessoa pessoa);
+        Task<IEnumerable<Pessoa>> GetPessoas();
+        Task<Pessoa> GetPessoa(long id);
+        #endregion
+        #region SystemConfig
+        bool Insert(SystemConfig sys);
+        Task<IEnumerable<SystemConfig>> GetSystemConfigs();
+        Task<SystemConfig> GetSystemConfig(long id);
+        #endregion
+        #region Usuario
+        bool Insert(Usuario user);
+        Task<IEnumerable<Usuario>> GetUsuarios();
+        Task<Usuario> GetUsuario(long id);
         #endregion
     }
 }

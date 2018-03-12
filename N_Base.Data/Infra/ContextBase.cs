@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using N_Base.Data.Interfaces;
 using N_Base.Entity.Objects;
 
 namespace N_Base.Data.Infra
@@ -111,6 +112,36 @@ namespace N_Base.Data.Infra
         }
         public async Task<IEnumerable<PermissaoUsuario>> GetPermissoes() => await PermicoesUsuarios.ToListAsync();
         public async Task<PermissaoUsuario> GetPermissao(long id) => await PermicoesUsuarios.FindAsync(id);
+        #endregion
+        #region Metodos Pessoa
+        public bool Insert(Pessoa pessoa)
+        {
+            Pessoas.Add(pessoa);
+            SaveChanges();
+            return true;
+        }
+        public async Task<IEnumerable<Pessoa>> GetPessoas() => await Pessoas.ToListAsync();
+        public async Task<Pessoa> GetPessoa(long id) => await Pessoas.FindAsync(id);
+        #endregion
+        #region Metodos SystemConfig
+        public bool Insert(SystemConfig sys)
+        {
+            SystemConfigs.Add(sys);
+            SaveChanges();
+            return true;
+        }
+        public async Task<IEnumerable<SystemConfig>> GetSystemConfigs() => await SystemConfigs.ToListAsync();
+        public async Task<SystemConfig> GetSystemConfig(long id) => await SystemConfigs.FindAsync(id);
+        #endregion
+        #region Metodos Usuario
+        public bool Insert(Usuario user)
+        {
+            Usuarios.Add(user);
+            SaveChanges();
+            return true;
+        }
+        public async Task<IEnumerable<Usuario>> GetUsuarios() => await Usuarios.ToListAsync();
+        public async Task<Usuario> GetUsuario(long id) => await Usuarios.FindAsync(id);
         #endregion
     }
 }
