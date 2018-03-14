@@ -43,7 +43,7 @@ namespace N_Gym.Data.Repository
                 _context.Dispose();
             }
         }
-        public async Task<FichaAvaliacaoCliente> Get(int id)
+        public async Task<FichaAvaliacaoCliente> Get(long id)
         {
             try
             {

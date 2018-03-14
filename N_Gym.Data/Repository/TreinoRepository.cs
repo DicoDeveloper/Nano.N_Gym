@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using N_Gym.Data.Interfaces;
@@ -12,17 +13,50 @@ namespace N_Gym.Data.Repository
 
         public TreinoRepository(IContextGym context) => _context = context;
 
-        public bool Insert(Treino entity)
+        public bool Insert(Treino treino)
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                return _context.Insert(treino);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Erro ao Inserir Treino.\nMensagem:{ex.Message}");
+            }
+            finally
+            {
+                _context.Dispose();
+            }
         }
-        public Task<IEnumerable<Treino>> GetAll()
+        public async Task<IEnumerable<Treino>> GetAll()
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                return await _context.GetTreinos();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Erro ao Buscar Treinos.\nMensagem:{ex.Message}");
+            }
+            finally
+            {
+                _context.Dispose();
+            }
         }
-        public Task<Treino> Get(int id)
+        public async Task<Treino> Get(long id)
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                return await _context.GetTreino(id);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Erro ao Buscar Treino.\nMensagem:{ex.Message}");
+            }
+            finally
+            {
+                _context.Dispose();
+            }
         }
     }
 }

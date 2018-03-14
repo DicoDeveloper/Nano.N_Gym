@@ -43,7 +43,7 @@ namespace N_Base.Data.Repository
                 _context.Dispose();
             }
         }
-        public async Task<Contrato> Get(int id)
+        public async Task<Contrato> Get(long id)
         {
             try
             {

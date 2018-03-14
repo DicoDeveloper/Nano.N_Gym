@@ -43,7 +43,7 @@ namespace N_Gym.Data.Repository
                 _context.Dispose();
             }
         }
-        public async Task<PeriodoModalidade> Get(int id)
+        public async Task<PeriodoModalidade> Get(long id)
         {
             try
             {

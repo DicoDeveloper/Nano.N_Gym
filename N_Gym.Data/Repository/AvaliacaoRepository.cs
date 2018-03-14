@@ -44,7 +44,7 @@ namespace N_Gym.Data.Repository
                 _context.Dispose();
             }
         }
-        public async Task<Avaliacao> Get(int id)
+        public async Task<Avaliacao> Get(long id)
         {
             try
             {
@@ -58,6 +58,6 @@ namespace N_Gym.Data.Repository
             {
                 _context.Dispose();
             }
-        }        
+        }
     }
 }
