@@ -1,0 +1,3 @@
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.Application\obj\Debug\netcoreapp2.0\N_Gym.Application.csproj.CoreCompileInputs.cache
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.Application\obj\Debug\netcoreapp2.0\N_Gym.Application.AssemblyInfoInputs.cache
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.Application\obj\Debug\netcoreapp2.0\N_Gym.Application.AssemblyInfo.cs

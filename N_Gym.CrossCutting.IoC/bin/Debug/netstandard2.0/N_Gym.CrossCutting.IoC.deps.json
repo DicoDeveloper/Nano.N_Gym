@@ -14,7 +14,9 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.1",
           "NETStandard.Library": "2.0.1",
           "N_Base.Data": "1.0.0",
-          "N_Gym.Data": "1.0.0"
+          "N_Base.Domain": "1.0.0",
+          "N_Gym.Data": "1.0.0",
+          "N_Gym.Domain": "1.0.0"
         },
         "runtime": {
           "N_Gym.CrossCutting.IoC.dll": {}
@@ -671,6 +673,7 @@
       },
       "N_Gym.Domain/1.0.0": {
         "dependencies": {
+          "N_Base.Domain": "1.0.0",
           "N_Gym.Entity": "1.0.0"
         },
         "runtime": {

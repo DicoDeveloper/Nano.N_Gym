@@ -6,6 +6,15 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using AutoMapper;
 using N_Base.Data.Interfaces;
+using N_Base.Domain.Interfaces.Repositories;
+using N_Base.Data.Repository;
+using N_Base.Domain.Interfaces.Services;
+using N_Base.Domain.Services;
+using N_Gym.Data.Interfaces;
+using N_Gym.Domain.Interfaces.Repositories;
+using N_Gym.Data.Repository;
+using N_Gym.Domain.Interfaces.Services;
+using N_Gym.Domain.Services;
 
 namespace N_Gym.CrossCutting.IoC
 {
@@ -18,9 +27,54 @@ namespace N_Gym.CrossCutting.IoC
                b => b.MigrationsAssembly("N_Gym_Application"))
                .ConfigureWarnings(warnings => warnings.Throw(CoreEventId.IncludeIgnoredWarning)));
             
-            // Base
+            // Context
             services.AddTransient<IContext, ContextGym>();
+            services.AddTransient<IContextGym, ContextGym>();
             
+            // Base - Domain - Interfaces - Repository
+            services.AddTransient<IAuditoriaRepository, AuditoriaRepository>();
+            services.AddTransient<ICargoRepository, CargoRepository>();
+            services.AddTransient<IContaRepository, ContaRepository>();
+            services.AddTransient<IEnderecoRepository, EnderecoRepository>();
+            services.AddTransient<IFuncionarioRepository, FuncionarioRepository>();
+            services.AddTransient<ILojaRepository, LojaRepository>();
+            services.AddTransient<IPagamentoRepository, PagamentoRepository>();
+            services.AddTransient<IPermissaoUsuarioRepository, PermissaoUsuarioRepository>();
+            services.AddTransient<ISystemConfigRepository, SystemConfigRepository>();
+            services.AddTransient<IUsuarioRepository, UsuarioRepository>();
+            // Base - Domain - Interfaces - Services
+            services.AddTransient<IAuditoriaService, AuditoriaService>();
+            services.AddTransient<ICargoService, CargoService>();
+            services.AddTransient<IContaService, ContaService>();
+            services.AddTransient<IEnderecoService, EnderecoService>();
+            services.AddTransient<IFuncionarioService, FuncionarioService>();
+            services.AddTransient<ILojaService, LojaService>();
+            services.AddTransient<IPagamentoService, PagamentoService>();
+            services.AddTransient<IPermissaoUsuarioService, PermissaoUsuarioService>();
+            services.AddTransient<ISystemConfigService, SystemConfigService>();
+            services.AddTransient<IUsuarioService, UsuarioService>();
+            // Gym - Domain - Interfaces - Repository
+            services.AddTransient<IAvaliacaoRepository, AvaliacaoRepository>();
+            services.AddTransient<IClienteRepository, ClienteRepository>();
+            services.AddTransient<IContratoRepository, ContratoRepository>();
+            services.AddTransient<IConvenioRepository, ConvenioRepository>();
+            services.AddTransient<IEquipamentoAparelhoRepository, EquipamentoAparelhoRepository>();
+            services.AddTransient<IExercicioRepository, ExercicioRepository>();
+            services.AddTransient<IFichaAvaliacaoClienteRepository, FichaAvaliacaoClienteRepository>();
+            services.AddTransient<IModalidadeRepository, ModalidadeRepository>();
+            services.AddTransient<IPeriodoModalidadeRepository, PeriodoModalidadeRepository>();
+            services.AddTransient<ITreinoRepository, TreinoRepository>();
+             // Gym - Domain - Interfaces - Services
+            services.AddTransient<IAvaliacaoService, AvaliacaoService>();
+            services.AddTransient<IClienteService, ClienteService>();
+            services.AddTransient<IContratoService, ContratoService>();
+            services.AddTransient<IConvenioService, ConvenioService>();
+            services.AddTransient<IEquipamentoAparelhoService, EquipamentoAparelhoService>();
+            services.AddTransient<IExercicioService, ExercicioService>();
+            services.AddTransient<IFichaAvaliacaoClienteService, FichaAvaliacaoClienteService>();
+            services.AddTransient<IModalidadeService, ModalidadeService>();
+            services.AddTransient<IPeriodoModalidadeService, PeriodoModalidadeService>();
+            services.AddTransient<ITreinoService, TreinoService>();
         }
     }
 }

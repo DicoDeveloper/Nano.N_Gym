@@ -14,7 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\N_Gym.Application\N_Gym.Application.csproj" />
     <ProjectReference Include="..\N_Gym.Entity\N_Gym.Entity.csproj" />
     <ProjectReference Include="..\N_Gym.CrossCutting.IoC\N_Gym.CrossCutting.IoC.csproj" />
   </ItemGroup>

@@ -712,6 +712,19 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
+      "N_Base.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "N_Base.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/N_Base.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/N_Base.Domain.dll": {}
+        }
+      },
       "N_Base.Entity/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -2992,6 +3005,11 @@
         "system.threading.tasks.nuspec"
       ]
     },
+    "N_Base.Domain/1.0.0": {
+      "type": "project",
+      "path": "../N_Base.Domain/N_Base.Domain.csproj",
+      "msbuildProject": "../N_Base.Domain/N_Base.Domain.csproj"
+    },
     "N_Base.Entity/1.0.0": {
       "type": "project",
       "path": "../N_Base.Entity/N_Base.Entity.csproj",
@@ -3006,6 +3024,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.1",
+      "N_Base.Domain >= 1.0.0",
       "N_Gym.Entity >= 1.0.0"
     ]
   },
@@ -3039,6 +3058,9 @@
           "projectReferences": {
             "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Entity\\N_Gym.Entity.csproj": {
               "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Entity\\N_Gym.Entity.csproj"
+            },
+            "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Domain\\N_Base.Domain.csproj": {
+              "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Domain\\N_Base.Domain.csproj"
             }
           }
         }

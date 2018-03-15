@@ -759,6 +759,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "N_Base.Domain": "1.0.0",
           "N_Gym.Entity": "1.0.0"
         },
         "compile": {

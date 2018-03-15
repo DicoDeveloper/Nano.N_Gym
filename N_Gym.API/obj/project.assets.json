@@ -4768,16 +4768,6 @@
           "bin/placeholder/N_Base.Entity.dll": {}
         }
       },
-      "N_Gym.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/N_Gym.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/N_Gym.Application.dll": {}
-        }
-      },
       "N_Gym.CrossCutting.IoC/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -4786,7 +4776,9 @@
           "Microsoft.EntityFrameworkCore": "2.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.1",
           "N_Base.Data": "1.0.0",
-          "N_Gym.Data": "1.0.0"
+          "N_Base.Domain": "1.0.0",
+          "N_Gym.Data": "1.0.0",
+          "N_Gym.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/N_Gym.CrossCutting.IoC.dll": {}
@@ -4816,6 +4808,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "N_Base.Domain": "1.0.0",
           "N_Gym.Entity": "1.0.0"
         },
         "compile": {
@@ -12630,11 +12623,6 @@
       "path": "../N_Base.Entity/N_Base.Entity.csproj",
       "msbuildProject": "../N_Base.Entity/N_Base.Entity.csproj"
     },
-    "N_Gym.Application/1.0.0": {
-      "type": "project",
-      "path": "../N_Gym.Application/N_Gym.Application.csproj",
-      "msbuildProject": "../N_Gym.Application/N_Gym.Application.csproj"
-    },
     "N_Gym.CrossCutting.IoC/1.0.0": {
       "type": "project",
       "path": "../N_Gym.CrossCutting.IoC/N_Gym.CrossCutting.IoC.csproj",
@@ -12661,7 +12649,6 @@
       "AutoMapper >= 6.2.2",
       "Microsoft.AspNetCore.All >= 2.0.5",
       "Microsoft.NETCore.App >= 2.0.0",
-      "N_Gym.Application >= 1.0.0",
       "N_Gym.CrossCutting.IoC >= 1.0.0",
       "N_Gym.Entity >= 1.0.0"
     ]
@@ -12694,9 +12681,6 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Application\\N_Gym.Application.csproj": {
-              "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Application\\N_Gym.Application.csproj"
-            },
             "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Entity\\N_Gym.Entity.csproj": {
               "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Entity\\N_Gym.Entity.csproj"
             },

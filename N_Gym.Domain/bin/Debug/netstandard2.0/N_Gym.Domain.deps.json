@@ -10,6 +10,7 @@
       "N_Gym.Domain/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.1",
+          "N_Base.Domain": "1.0.0",
           "N_Gym.Entity": "1.0.0"
         },
         "runtime": {
@@ -453,6 +454,14 @@
           "System.Runtime": "4.3.0"
         }
       },
+      "N_Base.Domain/1.0.0": {
+        "dependencies": {
+          "N_Base.Entity": "1.0.0"
+        },
+        "runtime": {
+          "N_Base.Domain.dll": {}
+        }
+      },
       "N_Base.Entity/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.0.1",
@@ -858,6 +867,11 @@
       "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    },
+    "N_Base.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "N_Base.Entity/1.0.0": {
       "type": "project",

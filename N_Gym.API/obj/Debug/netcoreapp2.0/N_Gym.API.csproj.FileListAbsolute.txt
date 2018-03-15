@@ -53,11 +53,9 @@ C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.AP
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Base.Data.dll
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Base.Domain.dll
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Base.Entity.dll
-C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Application.dll
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.CrossCutting.IoC.dll
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Data.dll
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Entity.dll
-C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Application.pdb
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Entity.pdb
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.CrossCutting.IoC.pdb
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Base.Entity.pdb
