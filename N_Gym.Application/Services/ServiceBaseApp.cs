@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using N_Base.Domain.Interfaces.Services;
-using N_Gym.API.Interfaces;
+using N_Gym.Application.Interfaces;
 
 namespace N_Gym.Application.Services
 {

@@ -14,8 +14,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\N_Gym.CrossCutting.Ioc\N_Gym.CrossCutting.IoC.csproj" />
     <ProjectReference Include="..\N_Gym.Entity\N_Gym.Entity.csproj" />
-    <ProjectReference Include="..\N_Gym.CrossCutting.IoC\N_Gym.CrossCutting.IoC.csproj" />
+    <ProjectReference Include="..\N_Base.Entity\N_Base.Entity.csproj" />
+    <ProjectReference Include="..\N_Gym.Application\N_Gym.Application.csproj" />
   </ItemGroup>
 
 </Project>

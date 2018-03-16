@@ -1,50 +1,3 @@
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.csproj.CoreCompileInputs.cache
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.AssemblyInfoInputs.cache
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.AssemblyInfo.cs
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.API.deps.json
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.API.runtimeconfig.json
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.API.runtimeconfig.dev.json
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.API.dll
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.API.pdb
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Application.dll
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.CrossCutting.IoC.dll
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Entity.dll
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Application.pdb
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Entity.pdb
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.CrossCutting.IoC.pdb
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.dll
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.pdb
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Base.Entity.dll
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Base.Entity.pdb
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Base.Data.dll
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Data.dll
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Data.pdb
-C:\Users\Win7\Desktop\Teste\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Base.Data.pdb
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.API.deps.json
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.API.runtimeconfig.json
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.API.runtimeconfig.dev.json
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.API.dll
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.API.pdb
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Base.Data.dll
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Base.Entity.dll
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Application.dll
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.CrossCutting.IoC.dll
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Data.dll
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Entity.dll
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Application.pdb
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Entity.pdb
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.CrossCutting.IoC.pdb
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Base.Entity.pdb
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Base.Data.pdb
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Data.pdb
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.csprojResolveAssemblyReference.cache
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.csproj.CoreCompileInputs.cache
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.AssemblyInfoInputs.cache
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.AssemblyInfo.cs
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.dll
-C:\Nano Sistemas\Soluções\N_Gym\N_Gym\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.pdb
-C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.dll
-C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.pdb
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.API.deps.json
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.API.runtimeconfig.json
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.API.runtimeconfig.dev.json
@@ -53,18 +6,21 @@ C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.AP
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Base.Data.dll
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Base.Domain.dll
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Base.Entity.dll
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Application.dll
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.CrossCutting.IoC.dll
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Data.dll
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Domain.dll
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Entity.dll
-C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Entity.pdb
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.CrossCutting.IoC.pdb
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Entity.pdb
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Base.Entity.pdb
-C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Base.Data.pdb
-C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Data.pdb
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Base.Domain.pdb
-C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.csprojResolveAssemblyReference.cache
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Domain.pdb
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Base.Data.pdb
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Application.pdb
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Data.pdb
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.csproj.CoreCompileInputs.cache
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.AssemblyInfoInputs.cache
 C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.AssemblyInfo.cs
-C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Domain.dll
-C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\bin\Debug\netcoreapp2.0\N_Gym.Domain.pdb
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.dll
+C:\Users\Win7\Desktop\N_Gym\N_Gym_API\N_Gym.API\obj\Debug\netcoreapp2.0\N_Gym.API.pdb

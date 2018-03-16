@@ -24,7 +24,7 @@ namespace N_Gym.Data.Infra
         public DbSet<Treino> Treinos { get; set; }
         #endregion
 
-        public ContextGym(DbContextOptions<ContextGym> options) : base(null)
+        public ContextGym(DbContextOptions<ContextGym> options, DbContextOptions<ContextBase> options2) : base(options2)
         {
         }
 
