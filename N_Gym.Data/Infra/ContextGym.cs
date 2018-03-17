@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using N_Gym.Data.Interfaces;
+using N_Base.Entity.Objects;
 
 namespace N_Gym.Data.Infra
 {
@@ -30,7 +31,17 @@ namespace N_Gym.Data.Infra
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<EnderecoPessoa>()
+                            .HasKey(ep => new { ep.EnderecoId, ep.PessoaId });
 
+            modelBuilder.Entity<ContratoModalidade>()
+                .HasKey(cm => new { cm.ContratoId, cm.ModalidadeId });
+
+            modelBuilder.Entity<ConvenioCliente>()
+                .HasKey(cc => new { cc.ConvenioId, cc.ClienteId });
+
+            modelBuilder.Entity<ExercicioTreino>()
+                .HasKey(et => new { et.ExercicioId, et.TreinoId });
         }
 
         #region Metodos Avaliacao

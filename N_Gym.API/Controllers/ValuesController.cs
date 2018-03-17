@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using N_Base.Entity.Objects;
 using N_Gym.Application.Interfaces;
 
 namespace N_Gym.API.Controllers
@@ -16,10 +17,10 @@ namespace N_Gym.API.Controllers
 
         // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<IEnumerable<Auditoria>> Get()
         {
-            _service.GetAll();
-            return new string[] { "value1", "value2" };
+            var a = await _service.GetAll();
+            return a;
         }
 
         // GET api/values/5

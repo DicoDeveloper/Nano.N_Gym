@@ -30,7 +30,8 @@ namespace N_Base.Data.Infra
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
+            modelBuilder.Entity<EnderecoPessoa>()
+                .HasKey(ep => new { ep.EnderecoId, ep.PessoaId });
         }
 
         #region Metodos Auditoria

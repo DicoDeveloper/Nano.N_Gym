@@ -19,7 +19,7 @@ namespace N_Gym.Entity.Objects
         public virtual List<Treino> Treinos { get; set; }
         public virtual List<ConvenioCliente> ConveniosCliente { get; set; }
         public virtual List<Cliente> Dependentes { get; set; }
-        public virtual Contrato Contrato { get; set; }
+        public virtual List<Contrato> Contratos { get; set; }
         public virtual Cliente Responsavel { get; set; }
         #endregion
 
@@ -29,6 +29,7 @@ namespace N_Gym.Entity.Objects
             Treinos = new List<Treino>();
             ConveniosCliente = new List<ConvenioCliente>();
             Dependentes = new List<Cliente>();
+            Contratos = new List<Contrato>();
         }
     }
 }

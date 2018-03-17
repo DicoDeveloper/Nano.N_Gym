@@ -12645,8 +12645,8 @@
     },
     "N_Gym.CrossCutting.IoC/1.0.0": {
       "type": "project",
-      "path": "../N_Gym.CrossCutting.IoC/N_Gym.CrossCutting.IoC.csproj",
-      "msbuildProject": "../N_Gym.CrossCutting.IoC/N_Gym.CrossCutting.IoC.csproj"
+      "path": "../N_Gym.CrossCutting.Ioc/N_Gym.CrossCutting.IoC.csproj",
+      "msbuildProject": "../N_Gym.CrossCutting.Ioc/N_Gym.CrossCutting.IoC.csproj"
     },
     "N_Gym.Data/1.0.0": {
       "type": "project",
@@ -12703,8 +12703,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.CrossCutting.IoC\\N_Gym.CrossCutting.IoC.csproj": {
-              "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.CrossCutting.IoC\\N_Gym.CrossCutting.IoC.csproj"
+            "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.CrossCutting.Ioc\\N_Gym.CrossCutting.IoC.csproj": {
+              "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.CrossCutting.Ioc\\N_Gym.CrossCutting.IoC.csproj"
             },
             "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Entity\\N_Gym.Entity.csproj": {
               "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Entity\\N_Gym.Entity.csproj"

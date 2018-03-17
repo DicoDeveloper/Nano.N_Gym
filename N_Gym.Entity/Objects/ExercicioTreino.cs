@@ -6,12 +6,8 @@ namespace N_Gym.Entity.Objects
     public class ExercicioTreino
     {
         #region Propriedades
-        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public long Id { get; set; }
-        [ForeignKey("Exercicio")]
-        public long IdExercicio { get; set; }
-        [ForeignKey("Treino")]
-        public long IdTreino { get; set; }
+        public long ExercicioId { get; set; }
+        public long TreinoId { get; set; }
         [Required]
         public int NumTreino { get; set; }
         [Required]
