@@ -4,7 +4,6 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace N_Gym.Entity.Objects
 {
-    [Table("MODALIDADES")]
     public class Modalidade
     {
         #region Propriedades

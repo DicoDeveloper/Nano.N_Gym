@@ -18,6 +18,7 @@ using N_Gym.Domain.Services;
 using N_Gym.Application.Interfaces;
 using N_Gym.Application.Services;
 using N_Base.Entity.Objects;
+using N_Gym.Entity.Objects;
 
 namespace N_Gym.CrossCutting.IoC
 {
@@ -25,6 +26,8 @@ namespace N_Gym.CrossCutting.IoC
     {
         public static void RegisterServices(IServiceCollection services, IConfiguration configuration)
         {
+            InitDBContext(configuration);
+
             services.AddDbContext<ContextGym>(options =>
                options.UseSqlServer(configuration.GetConnectionString("N_Gym_DataBase"),
                b => b.MigrationsAssembly("N_Gym_API"))
@@ -34,11 +37,12 @@ namespace N_Gym.CrossCutting.IoC
                b => b.MigrationsAssembly("N_Gym_API"))
                .ConfigureWarnings(warnings => warnings.Throw(CoreEventId.IncludeIgnoredWarning)));
 
-            // Context
+            #region Context
             services.AddTransient<IContext, ContextGym>();
             services.AddTransient<IContextGym, ContextGym>();
+            #endregion
 
-            // Base - Domain - Interfaces - Repository
+            #region Base - Domain - Interfaces - Repository
             services.AddTransient<IAuditoriaRepository, AuditoriaRepository>();
             services.AddTransient<ICargoRepository, CargoRepository>();
             services.AddTransient<IContaRepository, ContaRepository>();
@@ -49,9 +53,18 @@ namespace N_Gym.CrossCutting.IoC
             services.AddTransient<IPermissaoUsuarioRepository, PermissaoUsuarioRepository>();
             services.AddTransient<ISystemConfigRepository, SystemConfigRepository>();
             services.AddTransient<IUsuarioRepository, UsuarioRepository>();
-            // Base - Domain - Services
             services.AddTransient<IRepositoryBase<Auditoria>, AuditoriaRepository>();
-            // Base - Domain - Interfaces - Services
+            services.AddTransient<IRepositoryBase<Cargo>, CargoRepository>();
+            services.AddTransient<IRepositoryBase<Conta>, ContaRepository>();
+            services.AddTransient<IRepositoryBase<Endereco>, EnderecoRepository>();
+            services.AddTransient<IRepositoryBase<Funcionario>, FuncionarioRepository>();
+            services.AddTransient<IRepositoryBase<Loja>, LojaRepository>();
+            services.AddTransient<IRepositoryBase<Pagamento>, PagamentoRepository>();
+            services.AddTransient<IRepositoryBase<PermissaoUsuario>, PermissaoUsuarioRepository>();
+            services.AddTransient<IRepositoryBase<SystemConfig>, SystemConfigRepository>();
+            services.AddTransient<IRepositoryBase<Usuario>, UsuarioRepository>();
+            #endregion
+            #region Base - Domain - Interfaces - Services
             services.AddTransient<IAuditoriaService, AuditoriaService>();
             services.AddTransient<ICargoService, CargoService>();
             services.AddTransient<IContaService, ContaService>();
@@ -62,7 +75,8 @@ namespace N_Gym.CrossCutting.IoC
             services.AddTransient<IPermissaoUsuarioService, PermissaoUsuarioService>();
             services.AddTransient<ISystemConfigService, SystemConfigService>();
             services.AddTransient<IUsuarioService, UsuarioService>();
-            // Gym - Domain - Interfaces - Repository
+            #endregion
+            #region Gym - Domain - Interfaces - Repository
             services.AddTransient<IAvaliacaoRepository, AvaliacaoRepository>();
             services.AddTransient<IClienteRepository, ClienteRepository>();
             services.AddTransient<IContratoRepository, ContratoRepository>();
@@ -73,7 +87,18 @@ namespace N_Gym.CrossCutting.IoC
             services.AddTransient<IModalidadeRepository, ModalidadeRepository>();
             services.AddTransient<IPeriodoModalidadeRepository, PeriodoModalidadeRepository>();
             services.AddTransient<ITreinoRepository, TreinoRepository>();
-            // Gym - Domain - Interfaces - Services
+            services.AddTransient<IRepositoryBase<Avaliacao>, AvaliacaoRepository>();      
+            services.AddTransient<IRepositoryBase<Cliente>, ClienteRepository>();  
+            services.AddTransient<IRepositoryBase<Contrato>, ContratoRepository>();
+            services.AddTransient<IRepositoryBase<Convenio>, ConvenioRepository>();
+            services.AddTransient<IRepositoryBase<EquipamentoAparelho>, EquipamentoAparelhoRepository>();
+            services.AddTransient<IRepositoryBase<Exercicio>, ExercicioRepository>();
+            services.AddTransient<IRepositoryBase<FichaAvaliacaoCliente>, FichaAvaliacaoClienteRepository>();
+            services.AddTransient<IRepositoryBase<Modalidade>, ModalidadeRepository>();
+            services.AddTransient<IRepositoryBase<PeriodoModalidade>, PeriodoModalidadeRepository>();
+            services.AddTransient<IRepositoryBase<Treino>, TreinoRepository>();
+            #endregion
+            #region Gym - Domain - Interfaces - Services
             services.AddTransient<IAvaliacaoService, AvaliacaoService>();
             services.AddTransient<IClienteService, ClienteService>();
             services.AddTransient<IContratoService, ContratoService>();
@@ -84,7 +109,8 @@ namespace N_Gym.CrossCutting.IoC
             services.AddTransient<IModalidadeService, ModalidadeService>();
             services.AddTransient<IPeriodoModalidadeService, PeriodoModalidadeService>();
             services.AddTransient<ITreinoService, TreinoService>();
-            // Gym - Application - Interfaces
+            #endregion
+            #region Gym - Application - Interfaces
             services.AddTransient<IAuditoriaServiceApp, AuditoriaServiceApp>();
             services.AddTransient<IAvaliacaoServiceApp, AvaliacaoServiceApp>();
             services.AddTransient<ICargoServiceApp, CargoServiceApp>();
@@ -105,8 +131,32 @@ namespace N_Gym.CrossCutting.IoC
             services.AddTransient<ISystemConfigServiceApp, SystemConfigServiceApp>();
             services.AddTransient<ITreinoServiceApp, TreinoServiceApp>();
             services.AddTransient<IUsuarioServiceApp, UsuarioServiceApp>();
-            // Gym - Application - Services
+            #endregion
+            #region Gym - Application - Services
             services.AddTransient<IServiceBase<Auditoria>, ServiceBase<Auditoria>>();
+            services.AddTransient<IServiceBase<Avaliacao>, ServiceBase<Avaliacao>>();
+            services.AddTransient<IServiceBase<Cargo>, ServiceBase<Cargo>>();
+            services.AddTransient<IServiceBase<Cliente>, ServiceBase<Cliente>>();
+            services.AddTransient<IServiceBase<Conta>, ServiceBase<Conta>>();
+            services.AddTransient<IServiceBase<Contrato>, ServiceBase<Contrato>>();
+            services.AddTransient<IServiceBase<Convenio>, ServiceBase<Convenio>>();
+            services.AddTransient<IServiceBase<Endereco>, ServiceBase<Endereco>>();
+            #endregion
+        }
+
+        private static void InitDBContext(IConfiguration configuration)
+        {
+            // Create DataBase
+            var options1 = new DbContextOptionsBuilder<ContextGym>();
+            options1.UseSqlServer(configuration.GetConnectionString("N_Gym_DataBase"),
+               b => b.MigrationsAssembly("N_Gym_API"))
+               .ConfigureWarnings(warnings => warnings.Throw(CoreEventId.IncludeIgnoredWarning));
+            var options2 = new DbContextOptionsBuilder<ContextBase>();
+            options2.UseSqlServer(configuration.GetConnectionString("N_Gym_DataBase"),
+               b => b.MigrationsAssembly("N_Gym_API"))
+               .ConfigureWarnings(warnings => warnings.Throw(CoreEventId.IncludeIgnoredWarning));
+            var context = new ContextGym(options1.Options, options2.Options);
+            context.Database.EnsureCreated();
         }
     }
 }

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using N_Gym.Data.Interfaces;
 using N_Base.Entity.Objects;
+using System.Linq;
 
 namespace N_Gym.Data.Infra
 {
@@ -42,6 +43,10 @@ namespace N_Gym.Data.Infra
 
             modelBuilder.Entity<ExercicioTreino>()
                 .HasKey(et => new { et.ExercicioId, et.TreinoId });
+
+            foreach (var relationship in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
+                relationship.DeleteBehavior = DeleteBehavior.Restrict;
+
         }
 
         #region Metodos Avaliacao

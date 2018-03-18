@@ -11,13 +11,13 @@ namespace N_Gym.Entity.Objects
         public long Id { get; set; }
         [ForeignKey("Cliente")]
         public long IdCliente { get; set; }
-        [ForeignKey("Conta")]
+        [ForeignKey("ContaReceber")]
         public long IdConta { get; set; }
         public string NumeroDocumento { get; set; }
         public DateTime Vencimento { get; set; }
         public bool Cancelado { get; set; }
         public virtual Cliente Cliente { get; set; }
-        public virtual Conta Conta { get; set; }
+        public virtual ContaReceberContrato ContaReceber { get; set; }
         public virtual List<ContratoModalidade> ContratosModalidades { get; set; }
         #endregion
     }

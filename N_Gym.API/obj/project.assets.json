@@ -12676,44 +12676,49 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Win7\\.nuget\\packages\\": {},
+    "C:\\Users\\dico_\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.API\\N_Gym.API.csproj",
+      "projectUniqueName": "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym.API\\N_Gym.API.csproj",
       "projectName": "N_Gym.API",
-      "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.API\\N_Gym.API.csproj",
-      "packagesPath": "C:\\Users\\Win7\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.API\\obj\\",
+      "projectPath": "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym.API\\N_Gym.API.csproj",
+      "packagesPath": "C:\\Users\\dico_\\.nuget\\packages\\",
+      "outputPath": "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Win7\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\dico_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.CrossCutting.Ioc\\N_Gym.CrossCutting.IoC.csproj": {
-              "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.CrossCutting.Ioc\\N_Gym.CrossCutting.IoC.csproj"
+            "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Base.Entity\\N_Base.Entity.csproj": {
+              "projectPath": "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Base.Entity\\N_Base.Entity.csproj"
             },
-            "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Entity\\N_Gym.Entity.csproj": {
-              "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Entity\\N_Gym.Entity.csproj"
+            "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym.Application\\N_Gym.Application.csproj": {
+              "projectPath": "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym.Application\\N_Gym.Application.csproj"
             },
-            "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Entity\\N_Base.Entity.csproj": {
-              "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Base.Entity\\N_Base.Entity.csproj"
+            "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym.CrossCutting.Ioc\\N_Gym.CrossCutting.IoC.csproj": {
+              "projectPath": "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym.CrossCutting.Ioc\\N_Gym.CrossCutting.IoC.csproj"
             },
-            "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Application\\N_Gym.Application.csproj": {
-              "projectPath": "C:\\Users\\Win7\\Desktop\\N_Gym\\N_Gym_API\\N_Gym.Application\\N_Gym.Application.csproj"
+            "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym.Entity\\N_Gym.Entity.csproj": {
+              "projectPath": "C:\\Nano Sistemas\\Soluções\\N_Gym\\N_Gym.Entity\\N_Gym.Entity.csproj"
             }
           }
         }

@@ -1,0 +1,8 @@
+C:\Nano Sistemas\Soluções\N_Gym\N_Sale.Domain\bin\Debug\netstandard2.0\N_Sale.Domain.deps.json
+C:\Nano Sistemas\Soluções\N_Gym\N_Sale.Domain\bin\Debug\netstandard2.0\N_Sale.Domain.dll
+C:\Nano Sistemas\Soluções\N_Gym\N_Sale.Domain\bin\Debug\netstandard2.0\N_Sale.Domain.pdb
+C:\Nano Sistemas\Soluções\N_Gym\N_Sale.Domain\obj\Debug\netstandard2.0\N_Sale.Domain.csproj.CoreCompileInputs.cache
+C:\Nano Sistemas\Soluções\N_Gym\N_Sale.Domain\obj\Debug\netstandard2.0\N_Sale.Domain.AssemblyInfoInputs.cache
+C:\Nano Sistemas\Soluções\N_Gym\N_Sale.Domain\obj\Debug\netstandard2.0\N_Sale.Domain.AssemblyInfo.cs
+C:\Nano Sistemas\Soluções\N_Gym\N_Sale.Domain\obj\Debug\netstandard2.0\N_Sale.Domain.dll
+C:\Nano Sistemas\Soluções\N_Gym\N_Sale.Domain\obj\Debug\netstandard2.0\N_Sale.Domain.pdb
