@@ -1,0 +1,6 @@
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Data\bin\Debug\Nano.N_Base.Data.dll
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Data\bin\Debug\Nano.N_Base.Data.pdb
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Data\obj\Debug\Nano.N_Base.Data.csprojAssemblyReference.cache
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Data\obj\Debug\Nano.N_Base.Data.csproj.CoreCompileInputs.cache
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Data\obj\Debug\Nano.N_Base.Data.dll
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Data\obj\Debug\Nano.N_Base.Data.pdb

@@ -1,0 +1,5 @@
+C:\Repositorios\Nano.N_Gym\Nano.N_Business.Commom.Data\bin\Debug\Nano.N_Business.Commom.Data.dll
+C:\Repositorios\Nano.N_Gym\Nano.N_Business.Commom.Data\bin\Debug\Nano.N_Business.Commom.Data.pdb
+C:\Repositorios\Nano.N_Gym\Nano.N_Business.Commom.Data\obj\Debug\Nano.N_Business.Commom.Data.csproj.CoreCompileInputs.cache
+C:\Repositorios\Nano.N_Gym\Nano.N_Business.Commom.Data\obj\Debug\Nano.N_Business.Commom.Data.dll
+C:\Repositorios\Nano.N_Gym\Nano.N_Business.Commom.Data\obj\Debug\Nano.N_Business.Commom.Data.pdb
