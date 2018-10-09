@@ -7,10 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nano.N_Gym.App", "Nano.N_Gy
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nano.N_Base", "Nano.N_Base", "{CED77B65-7DE3-47C8-B8A0-D00FB3A50F88}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nano.N_Business", "Nano.N_Business", "{EDA6BB83-DF50-4F9C-B5EE-7FC2167EE345}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nano.N_Operations", "Nano.N_Operations", "{AA734BF2-3060-4F3D-B074-E76A44E96A6E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nano.N_Base.Data", "Nano.N_Base.Data\Nano.N_Base.Data.csproj", "{D6FC7BEC-66D5-4065-A5FC-68E56849F1B1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nano.N_Base.Domain", "Nano.N_Base.Domain\Nano.N_Base.Domain.csproj", "{0D56EAEB-6F8B-4706-BD91-F17E948BDD20}"
@@ -22,12 +18,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nano.N_Gym.App.Domain", "Nano.N_Gym.App.Domain\Nano.N_Gym.App.Domain.csproj", "{C6B0581C-58E4-4943-B634-116AB199D01A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nano.N_Gym.App.Model", "Nano.N_Gym.App.Model\Nano.N_Gym.App.Model.csproj", "{ADA12047-80F2-49FE-A489-7E752F6FB637}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nano.N_Business.Data", "Nano.N_Business.Data\Nano.N_Business.Data.csproj", "{CAF77A38-F6E8-4EBD-A507-B8F57C406B87}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nano.N_Business.Model", "Nano.N_Business.Model\Nano.N_Business.Model.csproj", "{E73BFC34-3E2D-4833-8987-96907584FFF7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nano.N_Business.Domain", "Nano.N_Business.Domain\Nano.N_Business.Domain.csproj", "{877E40F5-5AB7-46E1-B659-FBAD951A8061}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,18 +49,6 @@ Global
 		{ADA12047-80F2-49FE-A489-7E752F6FB637}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADA12047-80F2-49FE-A489-7E752F6FB637}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADA12047-80F2-49FE-A489-7E752F6FB637}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CAF77A38-F6E8-4EBD-A507-B8F57C406B87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CAF77A38-F6E8-4EBD-A507-B8F57C406B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CAF77A38-F6E8-4EBD-A507-B8F57C406B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CAF77A38-F6E8-4EBD-A507-B8F57C406B87}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E73BFC34-3E2D-4833-8987-96907584FFF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E73BFC34-3E2D-4833-8987-96907584FFF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E73BFC34-3E2D-4833-8987-96907584FFF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E73BFC34-3E2D-4833-8987-96907584FFF7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{877E40F5-5AB7-46E1-B659-FBAD951A8061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{877E40F5-5AB7-46E1-B659-FBAD951A8061}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{877E40F5-5AB7-46E1-B659-FBAD951A8061}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{877E40F5-5AB7-46E1-B659-FBAD951A8061}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,9 +60,6 @@ Global
 		{BF1EEB50-467B-4BBC-952F-10341B9BD8BD} = {BCF541C3-2BB3-4997-B6BA-7778526517DD}
 		{C6B0581C-58E4-4943-B634-116AB199D01A} = {BCF541C3-2BB3-4997-B6BA-7778526517DD}
 		{ADA12047-80F2-49FE-A489-7E752F6FB637} = {BCF541C3-2BB3-4997-B6BA-7778526517DD}
-		{CAF77A38-F6E8-4EBD-A507-B8F57C406B87} = {EDA6BB83-DF50-4F9C-B5EE-7FC2167EE345}
-		{E73BFC34-3E2D-4833-8987-96907584FFF7} = {EDA6BB83-DF50-4F9C-B5EE-7FC2167EE345}
-		{877E40F5-5AB7-46E1-B659-FBAD951A8061} = {EDA6BB83-DF50-4F9C-B5EE-7FC2167EE345}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DFA6AF9B-92CB-4C14-9FC2-F6AB3D41EE6B}
