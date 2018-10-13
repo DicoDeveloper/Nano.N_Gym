@@ -3,3 +3,4 @@ C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Domain\bin\Debug\Nano.N_Gym.App.Domain
 C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Domain\obj\Debug\Nano.N_Gym.App.Domain.csproj.CoreCompileInputs.cache
 C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Domain\obj\Debug\Nano.N_Gym.App.Domain.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Domain\obj\Debug\Nano.N_Gym.App.Domain.pdb
+C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Domain\obj\Debug\Nano.N_Gym.App.Domain.csprojAssemblyReference.cache
