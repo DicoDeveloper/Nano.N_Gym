@@ -41,7 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commom\ExecaoComum.cs" />
+    <Compile Include="Interface\Repository\IBaseRepository.cs" />
+    <Compile Include="Interface\Repository\IEnderecoRepository.cs" />
+    <Compile Include="Interface\Service\IBaseService.cs" />
+    <Compile Include="Interface\Service\IEnderecoService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\BaseService.cs" />
+    <Compile Include="Service\EnderecoService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nano.N_Base.Model\Nano.N_Base.Model.csproj">
+      <Project>{c5e947a4-0a97-4799-961f-ca0132c55564}</Project>
+      <Name>Nano.N_Base.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -4,3 +4,6 @@ C:\Repositorios\Nano.N_Gym\Nano.N_Base.Domain\obj\Debug\Nano.N_Base.Domain.cspro
 C:\Repositorios\Nano.N_Gym\Nano.N_Base.Domain\obj\Debug\Nano.N_Base.Domain.csproj.CoreCompileInputs.cache
 C:\Repositorios\Nano.N_Gym\Nano.N_Base.Domain\obj\Debug\Nano.N_Base.Domain.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Base.Domain\obj\Debug\Nano.N_Base.Domain.pdb
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Domain\bin\Debug\Nano.N_Base.Model.dll
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Domain\bin\Debug\Nano.N_Base.Model.pdb
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Domain\obj\Debug\Nano.N_Base.Domain.csproj.CopyComplete

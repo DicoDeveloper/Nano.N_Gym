@@ -44,7 +44,7 @@
     <Compile Include="Entity\Auditoria.cs" />
     <Compile Include="Entity\Endereco.cs" />
     <Compile Include="Entity\EntityBase.cs" />
-    <Compile Include="Entity\Estoque.cs" />
+    <Compile Include="Entity\EstoqueProduto.cs" />
     <Compile Include="Entity\Fornecedor.cs" />
     <Compile Include="Entity\PermissaoUsuario.cs" />
     <Compile Include="Entity\Pessoa.cs" />

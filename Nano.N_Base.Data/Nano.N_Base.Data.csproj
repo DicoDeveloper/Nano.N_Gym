@@ -45,13 +45,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Infra\BaseContext.cs" />
+    <Compile Include="Infra\EnderecoContext.cs" />
     <Compile Include="Interface\IContext.cs" />
+    <Compile Include="Interface\IEnderecoContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\BaseRepository.cs" />
+    <Compile Include="Repository\EnderecoRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Nano.N_Base.Domain\Nano.N_Base.Domain.csproj">
+      <Project>{0D56EAEB-6F8B-4706-BD91-F17E948BDD20}</Project>
+      <Name>Nano.N_Base.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Nano.N_Base.Model\Nano.N_Base.Model.csproj">
       <Project>{c5e947a4-0a97-4799-961f-ca0132c55564}</Project>
       <Name>Nano.N_Base.Model</Name>
