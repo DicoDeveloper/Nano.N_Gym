@@ -44,11 +44,17 @@
     <Compile Include="Commom\ExecaoComum.cs" />
     <Compile Include="Interface\Repository\IBaseRepository.cs" />
     <Compile Include="Interface\Repository\IEnderecoRepository.cs" />
+    <Compile Include="Interface\Repository\IEstoqueProdutoRepository.cs" />
+    <Compile Include="Interface\Repository\IFornecedorRepository.cs" />
     <Compile Include="Interface\Service\IBaseService.cs" />
     <Compile Include="Interface\Service\IEnderecoService.cs" />
+    <Compile Include="Interface\Service\IEstoqueProdutoService.cs" />
+    <Compile Include="Interface\Service\IFornecedorService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\BaseService.cs" />
     <Compile Include="Service\EnderecoService.cs" />
+    <Compile Include="Service\EstoqueProdutoService.cs" />
+    <Compile Include="Service\FornecedorService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Nano.N_Base.Model\Nano.N_Base.Model.csproj">
