@@ -41,7 +41,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity\Avaliacao.cs" />
+    <Compile Include="Entity\Cliente.cs" />
+    <Compile Include="Entity\Contrato.cs" />
+    <Compile Include="Entity\Treino.cs" />
+    <Compile Include="Entity\PeriodoModalidade.cs" />
+    <Compile Include="Entity\Modalidade.cs" />
+    <Compile Include="Entity\ContratoModalidade.cs" />
+    <Compile Include="Entity\Aparelho.cs" />
+    <Compile Include="Entity\ExercicioTreino.cs" />
+    <Compile Include="Entity\Exercicio.cs" />
+    <Compile Include="Entity\FichaAvaliacao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nano.N_Base.Model\Nano.N_Base.Model.csproj">
+      <Project>{C5E947A4-0A97-4799-961F-CA0132C55564}</Project>
+      <Name>Nano.N_Base.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

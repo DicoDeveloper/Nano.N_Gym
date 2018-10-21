@@ -41,7 +41,51 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface\Repository\ITreinoRepository.cs" />
+    <Compile Include="Interface\Repository\IPeriodoModalidadeRepository.cs" />
+    <Compile Include="Interface\Repository\IModalidadeRepository.cs" />
+    <Compile Include="Interface\Repository\IFichaAvaliacaoRepository.cs" />
+    <Compile Include="Interface\Repository\IContratoModalidadeRepository.cs" />
+    <Compile Include="Interface\Repository\IAparelhoRepository.cs" />
+    <Compile Include="Interface\Repository\IExercicioTreinoRepository.cs" />
+    <Compile Include="Interface\Repository\IExercicioRepository.cs" />
+    <Compile Include="Interface\Repository\IContratoRepository.cs" />
+    <Compile Include="Interface\Repository\IClienteRepository.cs" />
+    <Compile Include="Interface\Repository\IAvaliacaoRepository.cs" />
+    <Compile Include="Interface\Service\ITreinoService.cs" />
+    <Compile Include="Interface\Service\IPeriodoModalidadeService.cs" />
+    <Compile Include="Interface\Service\IModalidadeService.cs" />
+    <Compile Include="Interface\Service\IFichaAvaliacaoService.cs" />
+    <Compile Include="Interface\Service\IContratoModalidadeService.cs" />
+    <Compile Include="Interface\Service\IAparelhoService.cs" />
+    <Compile Include="Interface\Service\IExercicioTreinoService.cs" />
+    <Compile Include="Interface\Service\IExercicioService.cs" />
+    <Compile Include="Interface\Service\IContratoService.cs" />
+    <Compile Include="Interface\Service\IClienteService.cs" />
+    <Compile Include="Interface\Service\IAvaliacaoService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\PeriodoModalidadeService.cs" />
+    <Compile Include="Service\ModalidadeService.cs" />
+    <Compile Include="Service\FichaAvaliacaoService.cs" />
+    <Compile Include="Service\ContratoModalidadeService.cs" />
+    <Compile Include="Service\AparelhoService.cs" />
+    <Compile Include="Service\ExercicioTreinoService.cs" />
+    <Compile Include="Service\ExercicioService.cs" />
+    <Compile Include="Service\ContratoService.cs" />
+    <Compile Include="Service\ClienteService.cs" />
+    <Compile Include="Service\AvaliacaoService.cs" />
+    <Compile Include="Service\GymBaseService.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nano.N_Base.Domain\Nano.N_Base.Domain.csproj">
+      <Project>{0D56EAEB-6F8B-4706-BD91-F17E948BDD20}</Project>
+      <Name>Nano.N_Base.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nano.N_Gym.App.Model\Nano.N_Gym.App.Model.csproj">
+      <Project>{ADA12047-80F2-49FE-A489-7E752F6FB637}</Project>
+      <Name>Nano.N_Gym.App.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

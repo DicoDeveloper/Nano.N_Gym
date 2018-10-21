@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entity\Auditoria.cs" />
+    <Compile Include="Entity\Caracteristica.cs" />
+    <Compile Include="Entity\CaracteristicaPessoa.cs" />
     <Compile Include="Entity\Endereco.cs" />
     <Compile Include="Entity\EntityBase.cs" />
     <Compile Include="Entity\EstoqueProduto.cs" />
