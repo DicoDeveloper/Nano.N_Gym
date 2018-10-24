@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,7 +44,7 @@
   <ItemGroup>
     <Compile Include="Entity\Auditoria.cs" />
     <Compile Include="Entity\Caracteristica.cs" />
-    <Compile Include="Entity\CaracteristicaPessoa.cs" />
+    <Compile Include="Entity\Empresa.cs" />
     <Compile Include="Entity\Endereco.cs" />
     <Compile Include="Entity\EntityBase.cs" />
     <Compile Include="Entity\EstoqueProduto.cs" />

@@ -51,7 +51,6 @@
     <Compile Include="Infra\FichaAvaliacaoContext.cs" />
     <Compile Include="Infra\ExercicioTreinoContext.cs" />
     <Compile Include="Infra\ExercicioContext.cs" />
-    <Compile Include="Infra\ContratoModalidadeContext.cs" />
     <Compile Include="Infra\ContratoContext.cs" />
     <Compile Include="Infra\ClienteContext.cs" />
     <Compile Include="Infra\AvaliacaoContext.cs" />
@@ -62,7 +61,6 @@
     <Compile Include="Interface\IFichaAvaliacaoContext.cs" />
     <Compile Include="Interface\IExercicioTreinoContext.cs" />
     <Compile Include="Interface\IExercicioContext.cs" />
-    <Compile Include="Interface\IContratoModalidadeContext.cs" />
     <Compile Include="Interface\IContratoContext.cs" />
     <Compile Include="Interface\IClienteContext.cs" />
     <Compile Include="Interface\IAvaliacaoContext.cs" />
@@ -71,7 +69,6 @@
     <Compile Include="Repository\PeriodoModalidadeRepository.cs" />
     <Compile Include="Repository\ModalidadeRepository.cs" />
     <Compile Include="Repository\FichaAvaliacaoRepository.cs" />
-    <Compile Include="Repository\ContratoModalidadeRepository.cs" />
     <Compile Include="Repository\AparelhoRepository.cs" />
     <Compile Include="Repository\ExercicioTreinoRepository.cs" />
     <Compile Include="Repository\ExercicioRepository.cs" />

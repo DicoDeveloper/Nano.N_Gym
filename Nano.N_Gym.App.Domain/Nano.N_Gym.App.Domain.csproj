@@ -45,7 +45,6 @@
     <Compile Include="Interface\Repository\IPeriodoModalidadeRepository.cs" />
     <Compile Include="Interface\Repository\IModalidadeRepository.cs" />
     <Compile Include="Interface\Repository\IFichaAvaliacaoRepository.cs" />
-    <Compile Include="Interface\Repository\IContratoModalidadeRepository.cs" />
     <Compile Include="Interface\Repository\IAparelhoRepository.cs" />
     <Compile Include="Interface\Repository\IExercicioTreinoRepository.cs" />
     <Compile Include="Interface\Repository\IExercicioRepository.cs" />
@@ -56,7 +55,6 @@
     <Compile Include="Interface\Service\IPeriodoModalidadeService.cs" />
     <Compile Include="Interface\Service\IModalidadeService.cs" />
     <Compile Include="Interface\Service\IFichaAvaliacaoService.cs" />
-    <Compile Include="Interface\Service\IContratoModalidadeService.cs" />
     <Compile Include="Interface\Service\IAparelhoService.cs" />
     <Compile Include="Interface\Service\IExercicioTreinoService.cs" />
     <Compile Include="Interface\Service\IExercicioService.cs" />
@@ -67,7 +65,6 @@
     <Compile Include="Service\PeriodoModalidadeService.cs" />
     <Compile Include="Service\ModalidadeService.cs" />
     <Compile Include="Service\FichaAvaliacaoService.cs" />
-    <Compile Include="Service\ContratoModalidadeService.cs" />
     <Compile Include="Service\AparelhoService.cs" />
     <Compile Include="Service\ExercicioTreinoService.cs" />
     <Compile Include="Service\ExercicioService.cs" />

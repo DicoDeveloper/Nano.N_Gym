@@ -46,7 +46,7 @@
     <Compile Include="Interface\Repository\ICaracteristicaRepository.cs" />
     <Compile Include="Interface\Repository\IEnderecoRepository.cs" />
     <Compile Include="Interface\Repository\IEstoqueProdutoRepository.cs" />
-    <Compile Include="Interface\Repository\ICaracteristicaPessoaRepository.cs" />
+    <Compile Include="Interface\Repository\IEmpresaRepository.cs" />
     <Compile Include="Interface\Repository\IUsuarioRepository.cs" />
     <Compile Include="Interface\Repository\IPessoaRepository.cs" />
     <Compile Include="Interface\Repository\IPermissaoUsuarioRepository.cs" />
@@ -55,7 +55,7 @@
     <Compile Include="Interface\Service\ICaracteristicaService.cs" />
     <Compile Include="Interface\Service\IEnderecoService.cs" />
     <Compile Include="Interface\Service\IEstoqueProdutoService.cs" />
-    <Compile Include="Interface\Service\ICaracteristicaPessoaService.cs" />
+    <Compile Include="Interface\Service\IEmpresaService.cs" />
     <Compile Include="Interface\Service\IUsuarioService.cs" />
     <Compile Include="Interface\Service\IPessoaService.cs" />
     <Compile Include="Interface\Service\IPermissaoUsuarioService.cs" />
@@ -65,7 +65,7 @@
     <Compile Include="Service\CaracteristicaService.cs" />
     <Compile Include="Service\EnderecoService.cs" />
     <Compile Include="Service\EstoqueProdutoService.cs" />
-    <Compile Include="Service\CaracteristicaPessoaService.cs" />
+    <Compile Include="Service\EmpresaService.cs" />
     <Compile Include="Service\UsuarioService.cs" />
     <Compile Include="Service\PessoaService.cs" />
     <Compile Include="Service\PermissaoUsuarioService.cs" />

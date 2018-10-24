@@ -3,3 +3,7 @@ C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Model\bin\Debug\Nano.N_Gym.App.Model.p
 C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Model\obj\Debug\Nano.N_Gym.App.Model.csproj.CoreCompileInputs.cache
 C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Model\obj\Debug\Nano.N_Gym.App.Model.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Model\obj\Debug\Nano.N_Gym.App.Model.pdb
+C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Model\bin\Debug\Nano.N_Base.Model.dll
+C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Model\bin\Debug\Nano.N_Base.Model.pdb
+C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Model\obj\Debug\Nano.N_Gym.App.Model.csprojAssemblyReference.cache
+C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Model\obj\Debug\Nano.N_Gym.App.Model.csproj.CopyComplete

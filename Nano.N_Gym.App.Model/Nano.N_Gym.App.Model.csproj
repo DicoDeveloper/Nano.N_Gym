@@ -47,7 +47,6 @@
     <Compile Include="Entity\Treino.cs" />
     <Compile Include="Entity\PeriodoModalidade.cs" />
     <Compile Include="Entity\Modalidade.cs" />
-    <Compile Include="Entity\ContratoModalidade.cs" />
     <Compile Include="Entity\Aparelho.cs" />
     <Compile Include="Entity\ExercicioTreino.cs" />
     <Compile Include="Entity\Exercicio.cs" />

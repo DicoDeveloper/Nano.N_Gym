@@ -48,7 +48,7 @@
     <Compile Include="Infra\CaracteristicaContext.cs" />
     <Compile Include="Infra\EnderecoContext.cs" />
     <Compile Include="Infra\EstoqueProdutoContext.cs" />
-    <Compile Include="Infra\CaracteristicaPessoaContext.cs" />
+    <Compile Include="Infra\EmpresaContext.cs" />
     <Compile Include="Infra\UsuarioContext.cs" />
     <Compile Include="Infra\PessoaContext.cs" />
     <Compile Include="Infra\PermissaoUsuarioContext.cs" />
@@ -57,7 +57,7 @@
     <Compile Include="Interface\IContext.cs" />
     <Compile Include="Interface\IEnderecoContext.cs" />
     <Compile Include="Interface\IEstoqueProdutoContext.cs" />
-    <Compile Include="Interface\ICaracteristicaPessoaContext.cs" />
+    <Compile Include="Interface\IEmpresaContext.cs" />
     <Compile Include="Interface\IUsuarioContext.cs" />
     <Compile Include="Interface\IPessoaContext.cs" />
     <Compile Include="Interface\IPermissaoUsuarioContext.cs" />
@@ -67,7 +67,7 @@
     <Compile Include="Repository\CaracteristicaRepository.cs" />
     <Compile Include="Repository\EnderecoRepository.cs" />
     <Compile Include="Repository\EstoqueProdutoRepository.cs" />
-    <Compile Include="Repository\CaracteristicaPessoaRepository.cs" />
+    <Compile Include="Repository\EmpresaRepository.cs" />
     <Compile Include="Repository\UsuarioRepository.cs" />
     <Compile Include="Repository\PessoaRepository.cs" />
     <Compile Include="Repository\PermissaoUsuarioRepository.cs" />
