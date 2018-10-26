@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\Libs\Autofac.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -61,6 +64,7 @@
     <Compile Include="Interface\Service\IPermissaoUsuarioService.cs" />
     <Compile Include="Interface\Service\IFornecedorService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration\BaseDomainRegistration.cs" />
     <Compile Include="Service\BaseService.cs" />
     <Compile Include="Service\CaracteristicaService.cs" />
     <Compile Include="Service\EnderecoService.cs" />
@@ -77,5 +81,6 @@
       <Name>Nano.N_Base.Model</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

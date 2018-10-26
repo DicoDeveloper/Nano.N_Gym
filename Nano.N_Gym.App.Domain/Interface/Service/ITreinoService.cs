@@ -3,7 +3,7 @@ using Nano.N_Gym.App.Model.Entity;
 
 namespace Nano.N_Gym.App.Domain.Interface.Service
 {
-    public interface IETreinoService : IBaseService<Treino>
+    public interface ITreinoService : IBaseService<Treino>
     {
     }
 }

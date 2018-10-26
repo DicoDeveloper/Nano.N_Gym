@@ -80,6 +80,10 @@
       <Project>{ada12047-80f2-49fe-a489-7e752f6fb637}</Project>
       <Name>Nano.N_Gym.App.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Nano.N_Tests.Commom\Nano.N_Tests.Commom.csproj">
+      <Project>{9ea437ac-5630-4fd7-8de1-4575c3150f1e}</Project>
+      <Name>Nano.N_Tests.Commom</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

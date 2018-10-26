@@ -11,3 +11,4 @@ C:\Repositorios\Nano.N_Gym\Nano.N_Base.Data\bin\Debug\Nano.N_Base.Model.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Base.Data\bin\Debug\Nano.N_Base.Domain.pdb
 C:\Repositorios\Nano.N_Gym\Nano.N_Base.Data\bin\Debug\Nano.N_Base.Model.pdb
 C:\Repositorios\Nano.N_Gym\Nano.N_Base.Data\obj\Debug\Nano.N_Base.Data.csproj.CopyComplete
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Data\bin\Debug\Autofac.dll

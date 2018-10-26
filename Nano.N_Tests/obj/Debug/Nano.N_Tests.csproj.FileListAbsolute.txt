@@ -29,3 +29,8 @@ C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Nano.N_Base.Data.pdb
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Nano.N_Base.Data.dll.config
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Nano.N_Tests.dll.config
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Nano.N_Tests.Commom.dll
+C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Nano.N_Tests.Commom.pdb
+C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Autofac.dll
+C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Nano.N_Gym.App.Data.dll
+C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Nano.N_Gym.App.Data.pdb

@@ -48,7 +48,6 @@
     <Compile Include="Entity\PeriodoModalidade.cs" />
     <Compile Include="Entity\Modalidade.cs" />
     <Compile Include="Entity\Aparelho.cs" />
-    <Compile Include="Entity\ExercicioTreino.cs" />
     <Compile Include="Entity\Exercicio.cs" />
     <Compile Include="Entity\FichaAvaliacao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

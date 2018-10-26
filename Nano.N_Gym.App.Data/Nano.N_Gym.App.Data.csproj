@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\Libs\Autofac.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\Libs\EntityFramework.dll</HintPath>
     </Reference>
@@ -49,7 +52,6 @@
     <Compile Include="Infra\PeriodoModalidadeContext.cs" />
     <Compile Include="Infra\ModalidadeContext.cs" />
     <Compile Include="Infra\FichaAvaliacaoContext.cs" />
-    <Compile Include="Infra\ExercicioTreinoContext.cs" />
     <Compile Include="Infra\ExercicioContext.cs" />
     <Compile Include="Infra\ContratoContext.cs" />
     <Compile Include="Infra\ClienteContext.cs" />
@@ -59,18 +61,17 @@
     <Compile Include="Interface\IPeriodoModalidadeContext.cs" />
     <Compile Include="Interface\IModalidadeContext.cs" />
     <Compile Include="Interface\IFichaAvaliacaoContext.cs" />
-    <Compile Include="Interface\IExercicioTreinoContext.cs" />
     <Compile Include="Interface\IExercicioContext.cs" />
     <Compile Include="Interface\IContratoContext.cs" />
     <Compile Include="Interface\IClienteContext.cs" />
     <Compile Include="Interface\IAvaliacaoContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration\GymDataRegistration.cs" />
     <Compile Include="Repository\TreinoRepository.cs" />
     <Compile Include="Repository\PeriodoModalidadeRepository.cs" />
     <Compile Include="Repository\ModalidadeRepository.cs" />
     <Compile Include="Repository\FichaAvaliacaoRepository.cs" />
     <Compile Include="Repository\AparelhoRepository.cs" />
-    <Compile Include="Repository\ExercicioTreinoRepository.cs" />
     <Compile Include="Repository\ExercicioRepository.cs" />
     <Compile Include="Repository\ContratoRepository.cs" />
     <Compile Include="Repository\ClienteRepository.cs" />

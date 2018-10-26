@@ -1,5 +1,4 @@
 ﻿using Nano.N_Base.Data.Interface;
-using System;
 using System.Data.Entity;
 using System.Linq;
 
@@ -8,25 +7,11 @@ namespace Nano.N_Base.Data.Infra
     public class BaseContext<TEntity> : DbContext, IContext<TEntity> where TEntity : class
     {
         public DbSet<TEntity> Entities { get; set; }
-        private readonly string NameSchema;
 
         public BaseContext(string connectionName = "N_Base") : base("Name=" + connectionName)
         {
-            try
-            {
-                NameSchema = connectionName;
-                Database.SetInitializer(new CreateDatabaseIfNotExists<BaseContext<TEntity>>());
-                Database.Initialize(false);
-            }
-            catch (Exception ex)
-            {
-                throw new Exception($"Erro de conexão: {ex.Message}");
-            }
-        }
-
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            modelBuilder.HasDefaultSchema(NameSchema);
+            Database.SetInitializer(new CreateDatabaseIfNotExists<BaseContext<TEntity>>());
+            Database.Initialize(false);
         }
 
         public bool Save(TEntity entity)

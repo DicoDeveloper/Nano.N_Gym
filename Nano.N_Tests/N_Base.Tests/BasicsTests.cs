@@ -1,26 +1,40 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Nano.N_Base.Data.Infra;
 using Nano.N_Base.Domain.Interface.Service;
-using Nano.N_Base.Model.Entity;
-using System.Linq;
+using Nano.N_Gym.App.Domain.Interface.Service;
+using Nano.N_Tests.Commom;
 
 namespace Nano.N_Tests.N_Base.Tests
 {
     [TestClass]
     public class BasicsTests
     {
-        private readonly IEmpresaService _empresaService;
+        private readonly Ioc _ioc;
 
-        //public BasicsTests(IEmpresaService empresaService)
-        //{
-        //    _empresaService = empresaService;
-        //}
+        public BasicsTests()
+        {
+            _ioc = new Ioc();
+        }
 
         [TestMethod]
-        public void TestCreateDataBase()
+        public void TestCreateTablesDataBase()
         {
-            var context = new EmpresaContext();
-            IQueryable<Empresa> empresas = _empresaService.GetAll();
+            _ioc.Resolve<IAparelhoService>();
+            _ioc.Resolve<IAvaliacaoService>();
+            _ioc.Resolve<ICaracteristicaService>();
+            _ioc.Resolve<IClienteService>();
+            _ioc.Resolve<IContratoService>();
+            _ioc.Resolve<IEmpresaService>();
+            _ioc.Resolve<IEnderecoService>();
+            _ioc.Resolve<IEstoqueProdutoService>();
+            _ioc.Resolve<IExercicioService>();
+            _ioc.Resolve<IFichaAvaliacaoService>();
+            _ioc.Resolve<IFornecedorService>();
+            _ioc.Resolve<IModalidadeService>();
+            _ioc.Resolve<IPeriodoModalidadeService>();
+            _ioc.Resolve<IPermissaoUsuarioService>();
+            _ioc.Resolve<IPessoaService>();
+            _ioc.Resolve<ITreinoService>();
+            _ioc.Resolve<IUsuarioService>();
         }
 
     }

@@ -6,5 +6,10 @@ namespace Nano.N_Base.Model.Entity
     public class Empresa : Pessoa
     {
         public string CNPJ { get; set; }
+
+        public override string ToString()
+        {
+            return "EMPRESAS";
+        }
     }
 }

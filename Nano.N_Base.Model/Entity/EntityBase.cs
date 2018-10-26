@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Nano.N_Base.Model.Entity
 {
-    public class EntityBase : IEntityBase
+    public class EntityBase
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
