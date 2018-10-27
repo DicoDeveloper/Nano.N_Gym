@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Nano.N_Base.Domain.Interface.Service;
+using Nano.N_Base.Domain.Interface.Service.Sistema;
+using Nano.N_Base.Domain.Interface.Service.Estoque;
 using Nano.N_Gym.App.Domain.Interface.Service;
 using Nano.N_Tests.Commom;
 

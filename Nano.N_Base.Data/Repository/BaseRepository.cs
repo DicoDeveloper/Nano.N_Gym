@@ -6,9 +6,9 @@ namespace Nano.N_Base.Data.Repository
 {
     public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class
     {
-        private readonly IContext<TEntity> _context;
+        private readonly IBaseContext<TEntity> _context;
 
-        public BaseRepository(IContext<TEntity> context) => _context = context;
+        public BaseRepository(IBaseContext<TEntity> context) => _context = context;
 
         public bool Save(TEntity entity) => _context.Save(entity);
 

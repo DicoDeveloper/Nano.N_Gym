@@ -3,4 +3,3 @@ C:\Repositorios\Nano.N_Gym\Nano.N_Base.Model\bin\Debug\Nano.N_Base.Model.pdb
 C:\Repositorios\Nano.N_Gym\Nano.N_Base.Model\obj\Debug\Nano.N_Base.Model.csproj.CoreCompileInputs.cache
 C:\Repositorios\Nano.N_Gym\Nano.N_Base.Model\obj\Debug\Nano.N_Base.Model.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Base.Model\obj\Debug\Nano.N_Base.Model.pdb
-C:\Repositorios\Nano.N_Gym\Nano.N_Base.Model\obj\Debug\Nano.N_Base.Model.csprojAssemblyReference.cache

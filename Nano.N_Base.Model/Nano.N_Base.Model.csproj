@@ -42,16 +42,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entity\Auditoria.cs" />
-    <Compile Include="Entity\Caracteristica.cs" />
-    <Compile Include="Entity\Empresa.cs" />
-    <Compile Include="Entity\Endereco.cs" />
+    <Compile Include="Entity\Estoque\EstoqueMensal.cs" />
+    <Compile Include="Entity\Estoque\Inventario.cs" />
+    <Compile Include="Entity\Estoque\ItemInventario.cs" />
+    <Compile Include="Entity\Estoque\LimitadorEstoque.cs" />
+    <Compile Include="Entity\Estoque\MovimentacaoEstoque.cs" />
+    <Compile Include="Entity\Sistema\Auditoria.cs" />
+    <Compile Include="Entity\Sistema\Caracteristica.cs" />
+    <Compile Include="Entity\Sistema\Cargo.cs" />
+    <Compile Include="Entity\Sistema\Empresa.cs" />
+    <Compile Include="Entity\Sistema\Endereco.cs" />
     <Compile Include="Entity\EntityBase.cs" />
-    <Compile Include="Entity\EstoqueProduto.cs" />
-    <Compile Include="Entity\Fornecedor.cs" />
-    <Compile Include="Entity\PermissaoUsuario.cs" />
-    <Compile Include="Entity\Pessoa.cs" />
-    <Compile Include="Entity\Usuario.cs" />
+    <Compile Include="Entity\Estoque\EstoqueProduto.cs" />
+    <Compile Include="Entity\Sistema\Fornecedor.cs" />
+    <Compile Include="Entity\Sistema\Funcionario.cs" />
+    <Compile Include="Entity\Sistema\Parametro.cs" />
+    <Compile Include="Entity\Sistema\PermissaoUsuario.cs" />
+    <Compile Include="Entity\Sistema\Pessoa.cs" />
+    <Compile Include="Entity\Sistema\Proficao.cs" />
+    <Compile Include="Entity\Sistema\Usuario.cs" />
     <Compile Include="Interface\IEntityBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

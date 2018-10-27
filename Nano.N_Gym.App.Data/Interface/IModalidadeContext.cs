@@ -3,7 +3,7 @@ using Nano.N_Gym.App.Model.Entity;
 
 namespace Nano.N_Gym.App.Data.Interface
 {
-    public interface IModalidadeContext : IContext<Modalidade>
+    public interface IModalidadeContext : IBaseContext<Modalidade>
     {
     }
 }

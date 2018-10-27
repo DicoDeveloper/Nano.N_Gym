@@ -48,34 +48,49 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Infra\BaseContext.cs" />
-    <Compile Include="Infra\CaracteristicaContext.cs" />
-    <Compile Include="Infra\EnderecoContext.cs" />
-    <Compile Include="Infra\EstoqueProdutoContext.cs" />
-    <Compile Include="Infra\EmpresaContext.cs" />
-    <Compile Include="Infra\UsuarioContext.cs" />
-    <Compile Include="Infra\PessoaContext.cs" />
-    <Compile Include="Infra\PermissaoUsuarioContext.cs" />
-    <Compile Include="Infra\FornecedorContext.cs" />
-    <Compile Include="Interface\ICaracteristicaContext.cs" />
-    <Compile Include="Interface\IContext.cs" />
-    <Compile Include="Interface\IEnderecoContext.cs" />
-    <Compile Include="Interface\IEstoqueProdutoContext.cs" />
-    <Compile Include="Interface\IEmpresaContext.cs" />
-    <Compile Include="Interface\IUsuarioContext.cs" />
-    <Compile Include="Interface\IPessoaContext.cs" />
-    <Compile Include="Interface\IPermissaoUsuarioContext.cs" />
-    <Compile Include="Interface\IFornecedorContext.cs" />
+    <Compile Include="Infra\Sistema\AuditoriaContext.cs" />
+    <Compile Include="Infra\Sistema\CaracteristicaContext.cs" />
+    <Compile Include="Infra\Sistema\EnderecoContext.cs" />
+    <Compile Include="Infra\Estoque\EstoqueProdutoContext.cs" />
+    <Compile Include="Infra\Sistema\EmpresaContext.cs" />
+    <Compile Include="Infra\Sistema\FuncionarioContext.cs" />
+    <Compile Include="Infra\Sistema\ParametroContext.cs" />
+    <Compile Include="Infra\Sistema\CargoContext.cs" />
+    <Compile Include="Infra\Sistema\ProficaoContext.cs" />
+    <Compile Include="Infra\Sistema\UsuarioContext.cs" />
+    <Compile Include="Infra\Sistema\PessoaContext.cs" />
+    <Compile Include="Infra\Sistema\PermissaoUsuarioContext.cs" />
+    <Compile Include="Infra\Sistema\FornecedorContext.cs" />
+    <Compile Include="Interface\Sistema\IAuditoriaContext.cs" />
+    <Compile Include="Interface\Sistema\ICaracteristicaContext.cs" />
+    <Compile Include="Interface\IBaseContext.cs" />
+    <Compile Include="Interface\Sistema\IEnderecoContext.cs" />
+    <Compile Include="Interface\Estoque\IEstoqueProdutoContext.cs" />
+    <Compile Include="Interface\Sistema\IEmpresaContext.cs" />
+    <Compile Include="Interface\Sistema\IFuncionarioContext.cs" />
+    <Compile Include="Interface\Sistema\IParametroContext.cs" />
+    <Compile Include="Interface\Sistema\ICargoContext.cs" />
+    <Compile Include="Interface\Sistema\IProficaoContext.cs" />
+    <Compile Include="Interface\Sistema\IUsuarioContext.cs" />
+    <Compile Include="Interface\Sistema\IPessoaContext.cs" />
+    <Compile Include="Interface\Sistema\IPermissaoUsuarioContext.cs" />
+    <Compile Include="Interface\Sistema\IFornecedorContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registration\BaseDataRegistration.cs" />
     <Compile Include="Repository\BaseRepository.cs" />
-    <Compile Include="Repository\CaracteristicaRepository.cs" />
-    <Compile Include="Repository\EnderecoRepository.cs" />
-    <Compile Include="Repository\EstoqueProdutoRepository.cs" />
-    <Compile Include="Repository\EmpresaRepository.cs" />
-    <Compile Include="Repository\UsuarioRepository.cs" />
-    <Compile Include="Repository\PessoaRepository.cs" />
-    <Compile Include="Repository\PermissaoUsuarioRepository.cs" />
-    <Compile Include="Repository\FornecedorRepository.cs" />
+    <Compile Include="Repository\Sistema\CaracteristicaRepository.cs" />
+    <Compile Include="Repository\Sistema\EnderecoRepository.cs" />
+    <Compile Include="Repository\Estoque\EstoqueProdutoRepository.cs" />
+    <Compile Include="Repository\Sistema\EmpresaRepository.cs" />
+    <Compile Include="Repository\Sistema\FuncionarioRepository.cs" />
+    <Compile Include="Repository\Sistema\ParametroRepository.cs" />
+    <Compile Include="Repository\Sistema\AuditoriaRepository.cs" />
+    <Compile Include="Repository\Sistema\CargoRepository.cs" />
+    <Compile Include="Repository\Sistema\ProficaoRepository.cs" />
+    <Compile Include="Repository\Sistema\UsuarioRepository.cs" />
+    <Compile Include="Repository\Sistema\PessoaRepository.cs" />
+    <Compile Include="Repository\Sistema\PermissaoUsuarioRepository.cs" />
+    <Compile Include="Repository\Sistema\FornecedorRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -90,5 +105,6 @@
       <Name>Nano.N_Base.Model</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
