@@ -18,3 +18,4 @@ C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Data\bin\Debug\Nano.N_Gym.App.Domain.p
 C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Data\bin\Debug\Nano.N_Gym.App.Model.pdb
 C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Data\obj\Debug\Nano.N_Gym.App.Data.csprojAssemblyReference.cache
 C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Data\obj\Debug\Nano.N_Gym.App.Data.csproj.CopyComplete
+C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Data\bin\Debug\Newtonsoft.Json.dll

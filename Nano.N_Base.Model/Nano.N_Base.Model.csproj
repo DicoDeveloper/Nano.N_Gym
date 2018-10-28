@@ -31,6 +31,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -42,11 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity\EntityBasePorEmpresa.cs" />
     <Compile Include="Entity\Estoque\EstoqueMensal.cs" />
     <Compile Include="Entity\Estoque\Inventario.cs" />
     <Compile Include="Entity\Estoque\ItemInventario.cs" />
     <Compile Include="Entity\Estoque\LimitadorEstoque.cs" />
     <Compile Include="Entity\Estoque\MovimentacaoEstoque.cs" />
+    <Compile Include="Entity\ProdutoVinculos\LoteCorTamanho.cs" />
+    <Compile Include="Entity\ProdutoVinculos\LoteTamanho.cs" />
+    <Compile Include="Entity\ProdutoVinculos\LoteCor.cs" />
+    <Compile Include="Entity\ProdutoVinculos\Produto.cs" />
     <Compile Include="Entity\Sistema\Auditoria.cs" />
     <Compile Include="Entity\Sistema\Caracteristica.cs" />
     <Compile Include="Entity\Sistema\Cargo.cs" />
@@ -56,11 +65,17 @@
     <Compile Include="Entity\Estoque\EstoqueProduto.cs" />
     <Compile Include="Entity\Sistema\Fornecedor.cs" />
     <Compile Include="Entity\Sistema\Funcionario.cs" />
+    <Compile Include="Entity\Sistema\ItemPermissaoUsuario.cs" />
+    <Compile Include="Entity\Sistema\ParametroEmpresa.cs" />
     <Compile Include="Entity\Sistema\Parametro.cs" />
     <Compile Include="Entity\Sistema\PermissaoUsuario.cs" />
     <Compile Include="Entity\Sistema\Pessoa.cs" />
-    <Compile Include="Entity\Sistema\Proficao.cs" />
     <Compile Include="Entity\Sistema\Usuario.cs" />
+    <Compile Include="Enum\Auditoria\TipoOperacao.cs" />
+    <Compile Include="Enum\Endereco\UF.cs" />
+    <Compile Include="Enum\Inventario\TipoBloqueioProduto.cs" />
+    <Compile Include="Enum\Movimentacao\TipoMovimentacao.cs" />
+    <Compile Include="Enum\Pessoa\EstadoCivil.cs" />
     <Compile Include="Interface\IEntityBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

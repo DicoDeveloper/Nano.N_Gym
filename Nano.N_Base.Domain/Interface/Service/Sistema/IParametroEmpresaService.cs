@@ -2,7 +2,7 @@
 
 namespace Nano.N_Base.Domain.Interface.Service.Sistema
 {
-    public interface IProficaoService : IBaseService<Proficao>
+    public interface IParametroEmpresaService : IBaseService<ParametroEmpresa>
     {
     }
 }

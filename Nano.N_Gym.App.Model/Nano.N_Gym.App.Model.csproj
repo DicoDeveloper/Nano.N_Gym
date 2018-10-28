@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -44,12 +45,17 @@
     <Compile Include="Entity\Avaliacao.cs" />
     <Compile Include="Entity\Cliente.cs" />
     <Compile Include="Entity\Contrato.cs" />
+    <Compile Include="Entity\ExercicioTreino.cs" />
+    <Compile Include="Entity\Proficao.cs" />
     <Compile Include="Entity\Treino.cs" />
     <Compile Include="Entity\PeriodoModalidade.cs" />
     <Compile Include="Entity\Modalidade.cs" />
     <Compile Include="Entity\Aparelho.cs" />
     <Compile Include="Entity\Exercicio.cs" />
     <Compile Include="Entity\FichaAvaliacao.cs" />
+    <Compile Include="Enum\Avaliacao\Protocolo.cs" />
+    <Compile Include="Enum\Exercicio\TipoExercicio.cs" />
+    <Compile Include="Enum\Modalidade\DiaSemana.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,10 +1,10 @@
-﻿using Nano.N_Base.Domain.Interface.Repository.Sistema;
-using Nano.N_Base.Domain.Interface.Service.Sistema;
-using Nano.N_Base.Model.Entity.Sistema;
+﻿using Nano.N_Gym.App.Domain.Interface.Repository;
+using Nano.N_Gym.App.Domain.Interface.Service;
+using Nano.N_Gym.App.Model.Entity;
 
-namespace Nano.N_Base.Domain.Service.Sistema
+namespace Nano.N_Gym.App.Domain.Service
 {
-    internal class ProficaoService : BaseService<Proficao>, IProficaoService
+    internal class ProficaoService : GymBaseService<Proficao>, IProficaoService
     {
         private readonly IProficaoRepository _repository;
 

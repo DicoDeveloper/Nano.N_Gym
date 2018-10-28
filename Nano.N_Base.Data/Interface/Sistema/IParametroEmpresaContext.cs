@@ -2,7 +2,7 @@
 
 namespace Nano.N_Base.Data.Interface.Sistema
 {
-    public interface IProficaoContext : IBaseContext<Proficao>
+    public interface IParametroEmpresaContext : IBaseContext<ParametroEmpresa>
     {
     }
 }

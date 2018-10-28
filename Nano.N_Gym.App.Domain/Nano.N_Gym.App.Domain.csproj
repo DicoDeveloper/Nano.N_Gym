@@ -44,6 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface\Repository\IExercicioTreinoRepository.cs" />
+    <Compile Include="Interface\Repository\IProficaoRepository.cs" />
+    <Compile Include="Interface\Service\IExercicioTreinoService.cs" />
+    <Compile Include="Interface\Service\IProficaoService.cs" />
     <Compile Include="Registration\GymDomainRegistration.cs" />
     <Compile Include="Interface\Repository\ITreinoRepository.cs" />
     <Compile Include="Interface\Repository\IPeriodoModalidadeRepository.cs" />
@@ -64,6 +68,8 @@
     <Compile Include="Interface\Service\IClienteService.cs" />
     <Compile Include="Interface\Service\IAvaliacaoService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\ExercicioTreinoService.cs" />
+    <Compile Include="Service\ProficaoService.cs" />
     <Compile Include="Service\TreinoService.cs" />
     <Compile Include="Service\PeriodoModalidadeService.cs" />
     <Compile Include="Service\ModalidadeService.cs" />

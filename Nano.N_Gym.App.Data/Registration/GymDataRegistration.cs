@@ -16,9 +16,11 @@ namespace Nano.N_Gym.App.Data.Registration
             builder.RegisterType<ClienteRepository>().As<IClienteRepository>();
             builder.RegisterType<ContratoRepository>().As<IContratoRepository>();
             builder.RegisterType<ExercicioRepository>().As<IExercicioRepository>();
+            builder.RegisterType<ExercicioTreinoRepository>().As<IExercicioTreinoRepository>();
             builder.RegisterType<FichaAvaliacaoRepository>().As<IFichaAvaliacaoRepository>();
             builder.RegisterType<ModalidadeRepository>().As<IModalidadeRepository>();
             builder.RegisterType<PeriodoModalidadeRepository>().As<IPeriodoModalidadeRepository>();
+            builder.RegisterType<ProficaoRepository>().As<IProficaoRepository>();
             builder.RegisterType<TreinoRepository>().As<ITreinoRepository>();
             #endregion
 
@@ -28,9 +30,11 @@ namespace Nano.N_Gym.App.Data.Registration
             builder.RegisterType<ClienteContext>().As<IClienteContext>();
             builder.RegisterType<ContratoContext>().As<IContratoContext>();
             builder.RegisterType<ExercicioContext>().As<IExercicioContext>();
+            builder.RegisterType<ExercicioTreinoContext>().As<IExercicioTreinoContext>();
             builder.RegisterType<FichaAvaliacaoContext>().As<IFichaAvaliacaoContext>();
             builder.RegisterType<ModalidadeContext>().As<IModalidadeContext>();
             builder.RegisterType<PeriodoModalidadeContext>().As<IPeriodoModalidadeContext>();
+            builder.RegisterType<ProficaoContext>().As<IProficaoContext>();
             builder.RegisterType<TreinoContext>().As<ITreinoContext>();
             #endregion
         }

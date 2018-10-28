@@ -1,6 +1,21 @@
-﻿namespace Nano.N_Base.Model.Entity.Estoque
+﻿using Nano.N_Base.Model.Entity.ProdutoVinculos;
+using System;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Nano.N_Base.Model.Entity.Estoque
 {
-    public class ItemInventario : EntityBase
+    [Table("ITENS_INVENTARIOS")]
+    public class ItemInventario : EntityBasePorEmpresa
     {
+        [ForeignKey("Produto")]
+        public long IdProduto { get; set; }
+        [ForeignKey("Lote")]
+        public long? IdLote { get; set; }
+        public decimal? QuantidadeContada { get; set; }
+        public decimal? QuantidadeEstoque { get; set; }
+        public DateTime? DataHoraContagem { get; set; }
+
+        public virtual Produto Produto { get; set; }
+        public virtual LoteCorTamanho Lote { get; set; }
     }
 }

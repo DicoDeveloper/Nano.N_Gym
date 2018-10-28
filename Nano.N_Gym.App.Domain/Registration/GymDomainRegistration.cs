@@ -14,9 +14,11 @@ namespace Nano.N_Gym.App.Domain.Registration
             builder.RegisterType<ClienteService>().As<IClienteService>();
             builder.RegisterType<ContratoService>().As<IContratoService>();
             builder.RegisterType<ExercicioService>().As<IExercicioService>();
+            builder.RegisterType<ExercicioTreinoService>().As<IExercicioTreinoService>();
             builder.RegisterType<FichaAvaliacaoService>().As<IFichaAvaliacaoService>();
             builder.RegisterType<ModalidadeService>().As<IModalidadeService>();
             builder.RegisterType<PeriodoModalidadeService>().As<IPeriodoModalidadeService>();
+            builder.RegisterType<ProficaoService>().As<IProficaoService>();
             builder.RegisterType<TreinoService>().As<ITreinoService>();
             #endregion
         }

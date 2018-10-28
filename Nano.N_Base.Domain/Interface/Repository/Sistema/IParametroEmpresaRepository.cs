@@ -2,7 +2,7 @@
 
 namespace Nano.N_Base.Domain.Interface.Repository.Sistema
 {
-    public interface IProficaoRepository : IBaseRepository<Proficao>
+    public interface IParametroEmpresaRepository : IBaseRepository<ParametroEmpresa>
     {
     }
 }
