@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Nano.N_Gym.App.Model.Entity
 {
     [Table("APARELHOS")]
-    public class Aparelho : EntityBasePorEmpresa
+    public class Aparelho : EntityBaseEmpresa
     {
         [MaxLength(80)]
         public string Nome { get; set; }        

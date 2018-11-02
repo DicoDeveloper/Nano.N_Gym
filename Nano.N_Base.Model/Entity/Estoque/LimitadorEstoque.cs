@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Nano.N_Base.Model.Entity.Estoque
 {
     [Table("LIMITADORES_ESTOQUES")]
-    public class LimitadorEstoque : EntityBasePorEmpresa
+    public class LimitadorEstoque : EntityBaseEmpresa
     {
         [ForeignKey("Produto")]
         public long IdProduto { get; set; }

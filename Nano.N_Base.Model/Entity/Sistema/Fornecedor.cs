@@ -1,6 +1,9 @@
-﻿namespace Nano.N_Base.Model.Entity.Sistema
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Nano.N_Base.Model.Entity.Sistema
 {
-    public class Fornecedor : EntityBase
+    [Table("FORNECEDORES")]
+    public class Fornecedor : Pessoa
     {
     }
 }

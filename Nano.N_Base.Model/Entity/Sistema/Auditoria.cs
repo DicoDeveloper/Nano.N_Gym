@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Nano.N_Base.Model.Entity.Sistema
 {
     [Table("AUDITORIAS")]
-    public class Auditoria : EntityBasePorEmpresa
+    public class Auditoria : EntityBaseEmpresa
     {
         public TipoOperacao TipoOperacao { get; set; }
         [MaxLength(50)]
@@ -16,7 +16,8 @@ namespace Nano.N_Base.Model.Entity.Sistema
         public string NomeUsuario { get; set; }
         [MaxLength(60)]
         public string Onde { get; set; }
-        public Type Entidade { get; set; }
+        [MaxLength(30)]
+        public string Entidade { get; set; }
         public string ObjetosJson { get; set; }
     }
 }

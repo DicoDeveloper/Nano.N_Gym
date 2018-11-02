@@ -15,14 +15,14 @@ namespace Nano.N_Gym.App.Model.Entity
         public decimal? Valor { get; set; }
         public string Descricao { get; set; }
 
-        public virtual IList<Funcionario> Funcionarios { get; set; }
+        public virtual IList<Colaborador> Funcionarios { get; set; }
         public virtual IList<Contrato> Contratos { get; set; }
         public virtual IList<PeriodoModalidade> Periodos { get; set; }
         public virtual IList<Empresa> Empresas { get; set; }
 
         public Modalidade()
         {
-            Funcionarios = new List<Funcionario>();
+            Funcionarios = new List<Colaborador>();
             Contratos = new List<Contrato>();
             Periodos = new List<PeriodoModalidade>();
             Empresas = new List<Empresa>();

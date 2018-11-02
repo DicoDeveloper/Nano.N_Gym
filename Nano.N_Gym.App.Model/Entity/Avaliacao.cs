@@ -94,6 +94,6 @@ namespace Nano.N_Gym.App.Model.Entity
         public Protocolo Protocolo { get; set; }
 
         public virtual Cliente Cliente { get; set; }
-        public virtual Funcionario PersonalTrainer { get; set; }
+        public virtual Colaborador PersonalTrainer { get; set; }
     }
 }

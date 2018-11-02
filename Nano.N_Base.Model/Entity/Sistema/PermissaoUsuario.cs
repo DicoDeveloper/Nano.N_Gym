@@ -7,13 +7,10 @@ namespace Nano.N_Base.Model.Entity.Sistema
     [Table("PERMISSOES_USUARIOS")]
     public class PermissaoUsuario : EntityBase
     {
-        [ForeignKey("Usuario")]
-        public long IdUsuario { get; set; }
         public string PermissoesJson { get; set; }
 
-        public virtual Usuario Usuario { get; set; }
         [NotMapped]
-        public IList<ItemPermissaoUsuario> Itenspermissao { get; set; }
+        public virtual IList<ItemPermissaoUsuario> Itenspermissao { get; set; }
 
         public PermissaoUsuario()
         {

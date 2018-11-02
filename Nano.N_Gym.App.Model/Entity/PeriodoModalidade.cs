@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Nano.N_Gym.App.Model.Entity
 {
     [Table("PERIODOS_MODALIDADES")]
-    public class PeriodoModalidade : EntityBasePorEmpresa
+    public class PeriodoModalidade : EntityBaseEmpresa
     {
         [ForeignKey("Modalidade"), Required]
         public long IdModalidade { get; set; }

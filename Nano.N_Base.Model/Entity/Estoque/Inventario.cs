@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Nano.N_Base.Model.Entity.Estoque
 {
     [Table("INVENTARIOS")]
-    public class Inventario : EntityBasePorEmpresa
+    public class Inventario : EntityBaseEmpresa
     {
         [MaxLength(30)]
         public string Descricao { get; set; }

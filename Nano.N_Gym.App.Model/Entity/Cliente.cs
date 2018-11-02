@@ -16,6 +16,7 @@ namespace Nano.N_Gym.App.Model.Entity
         public virtual IList<Treino> Treinos { get; set; }
         public virtual IList<Cliente> Dependentes { get; set; }
         public virtual IList<Contrato> Contratos { get; set; }
+        public virtual IList<Proficao> Proficoes { get; set; }
 
         public Cliente()
         {
@@ -23,6 +24,7 @@ namespace Nano.N_Gym.App.Model.Entity
             Treinos = new List<Treino>();
             Dependentes = new List<Cliente>();
             Contratos = new List<Contrato>();
+            Proficoes = new List<Proficao>();
         }
     }
 }
