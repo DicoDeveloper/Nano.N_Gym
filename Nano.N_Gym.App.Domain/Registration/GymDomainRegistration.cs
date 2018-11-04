@@ -9,6 +9,7 @@ namespace Nano.N_Gym.App.Domain.Registration
         public static void Register(ref ContainerBuilder builder)
         {
             #region Services
+            builder.RegisterType<AnamneseService>().As<IAnamneseService>();
             builder.RegisterType<AparelhoService>().As<IAparelhoService>();
             builder.RegisterType<AvaliacaoAntropometricaService>().As<IAvaliacaoAntropometricaService>();
             builder.RegisterType<AvaliacaoBaseService>().As<IAvaliacaoBaseService>();
@@ -23,8 +24,8 @@ namespace Nano.N_Gym.App.Domain.Registration
             builder.RegisterType<ContratoService>().As<IContratoService>();
             builder.RegisterType<ExercicioService>().As<IExercicioService>();
             builder.RegisterType<ExercicioTreinoService>().As<IExercicioTreinoService>();
-            builder.RegisterType<FichaAvaliacaoService>().As<IFichaAvaliacaoService>();
             builder.RegisterType<ModalidadeService>().As<IModalidadeService>();
+            builder.RegisterType<PARQService>().As<IPARQService>();
             builder.RegisterType<PeriodoModalidadeService>().As<IPeriodoModalidadeService>();
             builder.RegisterType<TreinoService>().As<ITreinoService>();
             #endregion

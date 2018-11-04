@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity\PARQ.cs" />
     <Compile Include="Entity\AvaliacaoAntropometrica.cs" />
     <Compile Include="Entity\AvaliacaoPerimetria.cs" />
     <Compile Include="Entity\AvaliacaoComposicaoCorporal.cs" />
@@ -59,7 +60,10 @@
     <Compile Include="Entity\Modalidade.cs" />
     <Compile Include="Entity\Aparelho.cs" />
     <Compile Include="Entity\Exercicio.cs" />
-    <Compile Include="Entity\FichaAvaliacao.cs" />
+    <Compile Include="Entity\Anamnese.cs" />
+    <Compile Include="Enum\Anamnese\TipoTratamentoDiabete.cs" />
+    <Compile Include="Enum\Anamnese\TipoDiabete.cs" />
+    <Compile Include="Enum\Anamnese\TipoConsumoBebidaAlcoolica.cs" />
     <Compile Include="Enum\Avaliacao\Protocolo.cs" />
     <Compile Include="Enum\Avaliacao\StatusAvaliacao.cs" />
     <Compile Include="Enum\Exercicio\TipoExercicio.cs" />

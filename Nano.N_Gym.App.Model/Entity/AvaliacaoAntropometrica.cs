@@ -9,7 +9,7 @@ namespace Nano.N_Gym.App.Model.Entity
         [ForeignKey("Base")]
         public long IdBase { get; set; }
         public decimal? PressaoArterial { get; set; }
-        public decimal? FCRepouso { get; set; }
+        public string FCRepouso { get; set; }
         public decimal? Flexibilidade { get; set; }        
         
         public virtual AvaliacaoBase Base { get; set; }

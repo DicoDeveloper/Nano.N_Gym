@@ -11,6 +11,7 @@ namespace Nano.N_Gym.App.Data.Registration
         public static void Register(ref ContainerBuilder builder)
         {
             #region Repositories
+            builder.RegisterType<AnamneseRepository>().As<IAnamneseRepository>();
             builder.RegisterType<AparelhoRepository>().As<IAparelhoRepository>();
             builder.RegisterType<AvaliacaoAntropometricaRepository>().As<IAvaliacaoAntropometricaRepository>();
             builder.RegisterType<AvaliacaoBaseRepository>().As<IAvaliacaoBaseRepository>();
@@ -25,13 +26,14 @@ namespace Nano.N_Gym.App.Data.Registration
             builder.RegisterType<ContratoRepository>().As<IContratoRepository>();
             builder.RegisterType<ExercicioRepository>().As<IExercicioRepository>();
             builder.RegisterType<ExercicioTreinoRepository>().As<IExercicioTreinoRepository>();
-            builder.RegisterType<FichaAvaliacaoRepository>().As<IFichaAvaliacaoRepository>();
             builder.RegisterType<ModalidadeRepository>().As<IModalidadeRepository>();
+            builder.RegisterType<PARQRepository>().As<IPARQRepository>();
             builder.RegisterType<PeriodoModalidadeRepository>().As<IPeriodoModalidadeRepository>();
             builder.RegisterType<TreinoRepository>().As<ITreinoRepository>();
             #endregion
 
             #region Contexties
+            builder.RegisterType<AnamneseContext>().As<IAnamneseContext>();
             builder.RegisterType<AparelhoContext>().As<IAparelhoContext>();
             builder.RegisterType<AvaliacaoAntropometricaContext>().As<IAvaliacaoAntropometricaContext>();
             builder.RegisterType<AvaliacaoBaseContext>().As<IAvaliacaoBaseContext>();
@@ -46,8 +48,8 @@ namespace Nano.N_Gym.App.Data.Registration
             builder.RegisterType<ContratoContext>().As<IContratoContext>();
             builder.RegisterType<ExercicioContext>().As<IExercicioContext>();
             builder.RegisterType<ExercicioTreinoContext>().As<IExercicioTreinoContext>();
-            builder.RegisterType<FichaAvaliacaoContext>().As<IFichaAvaliacaoContext>();
             builder.RegisterType<ModalidadeContext>().As<IModalidadeContext>();
+            builder.RegisterType<PARQContext>().As<IPARQContext>();
             builder.RegisterType<PeriodoModalidadeContext>().As<IPeriodoModalidadeContext>();
             builder.RegisterType<TreinoContext>().As<ITreinoContext>();
             #endregion

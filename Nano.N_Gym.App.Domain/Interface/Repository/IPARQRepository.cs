@@ -3,7 +3,7 @@ using Nano.N_Gym.App.Model.Entity;
 
 namespace Nano.N_Gym.App.Domain.Interface.Repository
 {
-    public interface IFichaAvaliacaoRepository : IBaseRepository<FichaAvaliacao>
+    public interface IPARQRepository : IBaseRepository<PARQ>
     {
     }
 }

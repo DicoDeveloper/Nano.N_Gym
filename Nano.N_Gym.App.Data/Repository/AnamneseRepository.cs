@@ -5,11 +5,11 @@ using Nano.N_Gym.App.Model.Entity;
 
 namespace Nano.N_Gym.App.Data.Repository
 {
-    public class FichaAvaliacaoRepository : BaseRepository<FichaAvaliacao>, IFichaAvaliacaoRepository
+    public class AnamneseRepository : BaseRepository<Anamnese>, IAnamneseRepository
     {
-        private readonly IFichaAvaliacaoContext _context;
+        private readonly IAnamneseContext _context;
 
-        public FichaAvaliacaoRepository(IFichaAvaliacaoContext context) : base(context)
+        public AnamneseRepository(IAnamneseContext context) : base(context)
         {
             _context = context;
         }

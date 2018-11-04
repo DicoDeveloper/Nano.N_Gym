@@ -11,7 +11,7 @@ namespace Nano.N_Base.Model.Entity.Sistema
         [MaxLength(100)]
         public string Nome { get; set; }
         [MaxLength(18)]
-        public string CpfCnpj { get; set; }        
+        public string CPF_CNPJ { get; set; }        
         [MaxLength(18)]
         public string NumeroIdentidade { get; set; }
         public DateTime? Nascimento { get; set; }

@@ -53,6 +53,7 @@
     <Compile Include="Interface\Repository\IAvaliacaoCompletaRepository.cs" />
     <Compile Include="Interface\Repository\IColaboradorRepository.cs" />
     <Compile Include="Interface\Repository\IExercicioTreinoRepository.cs" />
+    <Compile Include="Interface\Repository\IPARQRepository.cs" />
     <Compile Include="Interface\Service\IAvaliacaoPerimetriaService.cs" />
     <Compile Include="Interface\Service\IAvaliacaoAntropometricaService.cs" />
     <Compile Include="Interface\Service\IAvaliacaoRiscoCoronarianoService.cs" />
@@ -62,11 +63,12 @@
     <Compile Include="Interface\Service\IAvaliacaoCompletaService.cs" />
     <Compile Include="Interface\Service\IColaboradorService.cs" />
     <Compile Include="Interface\Service\IExercicioTreinoService.cs" />
+    <Compile Include="Interface\Service\IPARQService.cs" />
     <Compile Include="Registration\GymDomainRegistration.cs" />
     <Compile Include="Interface\Repository\ITreinoRepository.cs" />
     <Compile Include="Interface\Repository\IPeriodoModalidadeRepository.cs" />
     <Compile Include="Interface\Repository\IModalidadeRepository.cs" />
-    <Compile Include="Interface\Repository\IFichaAvaliacaoRepository.cs" />
+    <Compile Include="Interface\Repository\IAnamneseRepository.cs" />
     <Compile Include="Interface\Repository\IAparelhoRepository.cs" />
     <Compile Include="Interface\Repository\IExercicioRepository.cs" />
     <Compile Include="Interface\Repository\IContratoRepository.cs" />
@@ -75,7 +77,7 @@
     <Compile Include="Interface\Service\ITreinoService.cs" />
     <Compile Include="Interface\Service\IPeriodoModalidadeService.cs" />
     <Compile Include="Interface\Service\IModalidadeService.cs" />
-    <Compile Include="Interface\Service\IFichaAvaliacaoService.cs" />
+    <Compile Include="Interface\Service\IAnamneseService.cs" />
     <Compile Include="Interface\Service\IAparelhoService.cs" />
     <Compile Include="Interface\Service\IExercicioService.cs" />
     <Compile Include="Interface\Service\IContratoService.cs" />
@@ -91,10 +93,11 @@
     <Compile Include="Service\AvaliacaoCompletaService.cs" />
     <Compile Include="Service\ColaboradorService.cs" />
     <Compile Include="Service\ExercicioTreinoService.cs" />
+    <Compile Include="Service\PARQService.cs" />
     <Compile Include="Service\TreinoService.cs" />
     <Compile Include="Service\PeriodoModalidadeService.cs" />
     <Compile Include="Service\ModalidadeService.cs" />
-    <Compile Include="Service\FichaAvaliacaoService.cs" />
+    <Compile Include="Service\AnamneseService.cs" />
     <Compile Include="Service\AparelhoService.cs" />
     <Compile Include="Service\ExercicioService.cs" />
     <Compile Include="Service\ContratoService.cs" />
