@@ -8,8 +8,10 @@ namespace Nano.N_Base.Model.Entity.Sistema
     {
         [ForeignKey("Pessoa")]
         public long IdPessoa { get; set; }
-        [MaxLength(50)]
+        [MaxLength(100)]
         public string Descricao { get; set; }
+        [MaxLength(80)]
+        public string NomeContato { get; set; }
         [MaxLength(100)]
         public string EmailPrincipal { get; set; }
         [MaxLength(16)]

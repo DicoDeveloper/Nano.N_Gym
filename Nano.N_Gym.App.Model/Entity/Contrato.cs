@@ -17,6 +17,8 @@ namespace Nano.N_Gym.App.Model.Entity
         public long IdTransacao { get; set; }
         [MaxLength(20)]
         public string NumeroDocumento { get; set; }
+        public DateTime Emissao { get; set; }
+        public DateTime Contabil { get; set; }
         public DateTime? Vencimento { get; set; }
 
         public virtual Cliente Cliente { get; set; }

@@ -42,11 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entity\Avaliacao.cs" />
+    <Compile Include="Entity\AvaliacaoAntropometrica.cs" />
+    <Compile Include="Entity\AvaliacaoPerimetria.cs" />
+    <Compile Include="Entity\AvaliacaoComposicaoCorporal.cs" />
+    <Compile Include="Entity\AvaliacaoCompleta.cs" />
+    <Compile Include="Entity\AvaliacaoRCQ.cs" />
+    <Compile Include="Entity\AvaliacaoRiscoCoronariano.cs" />
+    <Compile Include="Entity\AvaliacaoIMC.cs" />
+    <Compile Include="Entity\AvaliacaoBase.cs" />
+    <Compile Include="Entity\Colaborador.cs" />
     <Compile Include="Entity\Cliente.cs" />
     <Compile Include="Entity\Contrato.cs" />
     <Compile Include="Entity\ExercicioTreino.cs" />
-    <Compile Include="Entity\Proficao.cs" />
     <Compile Include="Entity\Treino.cs" />
     <Compile Include="Entity\PeriodoModalidade.cs" />
     <Compile Include="Entity\Modalidade.cs" />
@@ -54,6 +61,7 @@
     <Compile Include="Entity\Exercicio.cs" />
     <Compile Include="Entity\FichaAvaliacao.cs" />
     <Compile Include="Enum\Avaliacao\Protocolo.cs" />
+    <Compile Include="Enum\Avaliacao\StatusAvaliacao.cs" />
     <Compile Include="Enum\Exercicio\TipoExercicio.cs" />
     <Compile Include="Enum\Modalidade\DiaSemana.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

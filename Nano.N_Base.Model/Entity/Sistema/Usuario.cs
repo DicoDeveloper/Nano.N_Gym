@@ -15,7 +15,6 @@ namespace Nano.N_Base.Model.Entity.Sistema
         public string Senha { get; set; }        
 
         public virtual PermissaoUsuario Permissao { get; set; }
-        public virtual Colaborador Colaborador { get; set; }
         public virtual IList<Empresa> EmpresasAcesso { get; set; }
 
         public Usuario()

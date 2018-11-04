@@ -44,10 +44,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface\Repository\IAvaliacaoPerimetriaRepository.cs" />
+    <Compile Include="Interface\Repository\IAvaliacaoAntropometricaRepository.cs" />
+    <Compile Include="Interface\Repository\IAvaliacaoRiscoCoronarianoRepository.cs" />
+    <Compile Include="Interface\Repository\IAvaliacaoRCQRepository.cs" />
+    <Compile Include="Interface\Repository\IAvaliacaoIMCRepository.cs" />
+    <Compile Include="Interface\Repository\IAvaliacaoComposicaoCorporalRepository.cs" />
+    <Compile Include="Interface\Repository\IAvaliacaoCompletaRepository.cs" />
+    <Compile Include="Interface\Repository\IColaboradorRepository.cs" />
     <Compile Include="Interface\Repository\IExercicioTreinoRepository.cs" />
-    <Compile Include="Interface\Repository\IProficaoRepository.cs" />
+    <Compile Include="Interface\Service\IAvaliacaoPerimetriaService.cs" />
+    <Compile Include="Interface\Service\IAvaliacaoAntropometricaService.cs" />
+    <Compile Include="Interface\Service\IAvaliacaoRiscoCoronarianoService.cs" />
+    <Compile Include="Interface\Service\IAvaliacaoRCQService.cs" />
+    <Compile Include="Interface\Service\IAvaliacaoIMCService.cs" />
+    <Compile Include="Interface\Service\IAvaliacaoComposicaoCorporalService.cs" />
+    <Compile Include="Interface\Service\IAvaliacaoCompletaService.cs" />
+    <Compile Include="Interface\Service\IColaboradorService.cs" />
     <Compile Include="Interface\Service\IExercicioTreinoService.cs" />
-    <Compile Include="Interface\Service\IProficaoService.cs" />
     <Compile Include="Registration\GymDomainRegistration.cs" />
     <Compile Include="Interface\Repository\ITreinoRepository.cs" />
     <Compile Include="Interface\Repository\IPeriodoModalidadeRepository.cs" />
@@ -57,7 +71,7 @@
     <Compile Include="Interface\Repository\IExercicioRepository.cs" />
     <Compile Include="Interface\Repository\IContratoRepository.cs" />
     <Compile Include="Interface\Repository\IClienteRepository.cs" />
-    <Compile Include="Interface\Repository\IAvaliacaoRepository.cs" />
+    <Compile Include="Interface\Repository\IAvaliacaoBaseRepository.cs" />
     <Compile Include="Interface\Service\ITreinoService.cs" />
     <Compile Include="Interface\Service\IPeriodoModalidadeService.cs" />
     <Compile Include="Interface\Service\IModalidadeService.cs" />
@@ -66,10 +80,17 @@
     <Compile Include="Interface\Service\IExercicioService.cs" />
     <Compile Include="Interface\Service\IContratoService.cs" />
     <Compile Include="Interface\Service\IClienteService.cs" />
-    <Compile Include="Interface\Service\IAvaliacaoService.cs" />
+    <Compile Include="Interface\Service\IAvaliacaoBaseService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\AvaliacaoPerimetriaService.cs" />
+    <Compile Include="Service\AvaliacaoAntropometricaService.cs" />
+    <Compile Include="Service\AvaliacaoRiscoCoronarianoService.cs" />
+    <Compile Include="Service\AvaliacaoRCQService.cs" />
+    <Compile Include="Service\AvaliacaoIMCService.cs" />
+    <Compile Include="Service\AvaliacaoComposicaoCorporalService.cs" />
+    <Compile Include="Service\AvaliacaoCompletaService.cs" />
+    <Compile Include="Service\ColaboradorService.cs" />
     <Compile Include="Service\ExercicioTreinoService.cs" />
-    <Compile Include="Service\ProficaoService.cs" />
     <Compile Include="Service\TreinoService.cs" />
     <Compile Include="Service\PeriodoModalidadeService.cs" />
     <Compile Include="Service\ModalidadeService.cs" />
@@ -78,7 +99,7 @@
     <Compile Include="Service\ExercicioService.cs" />
     <Compile Include="Service\ContratoService.cs" />
     <Compile Include="Service\ClienteService.cs" />
-    <Compile Include="Service\AvaliacaoService.cs" />
+    <Compile Include="Service\AvaliacaoBaseService.cs" />
     <Compile Include="Service\GymBaseService.cs" />
   </ItemGroup>
   <ItemGroup>

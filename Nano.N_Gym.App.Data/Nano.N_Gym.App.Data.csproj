@@ -48,8 +48,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Infra\AparelhoContext.cs" />
+    <Compile Include="Infra\AvaliacaoPerimetriaContext.cs" />
+    <Compile Include="Infra\AvaliacaoAntropometricaContext.cs" />
+    <Compile Include="Infra\AvaliacaoRiscoCoronarianoContext.cs" />
+    <Compile Include="Infra\AvaliacaoRCQContext.cs" />
+    <Compile Include="Infra\AvaliacaoIMCContext.cs" />
+    <Compile Include="Infra\AvaliacaoComposicaoCorporalContext.cs" />
+    <Compile Include="Infra\AvaliacaoCompletaContext.cs" />
+    <Compile Include="Infra\ColaboradorContext.cs" />
     <Compile Include="Infra\ExercicioTreinoContext.cs" />
-    <Compile Include="Infra\ProficaoContext.cs" />
     <Compile Include="Infra\TreinoContext.cs" />
     <Compile Include="Infra\PeriodoModalidadeContext.cs" />
     <Compile Include="Infra\ModalidadeContext.cs" />
@@ -57,10 +64,17 @@
     <Compile Include="Infra\ExercicioContext.cs" />
     <Compile Include="Infra\ContratoContext.cs" />
     <Compile Include="Infra\ClienteContext.cs" />
-    <Compile Include="Infra\AvaliacaoContext.cs" />
+    <Compile Include="Infra\AvaliacaoBaseContext.cs" />
     <Compile Include="Interface\IAparelhoContext.cs" />
+    <Compile Include="Interface\IAvaliacaoPerimetriaContext.cs" />
+    <Compile Include="Interface\IAvaliacaoAntropometricaContext.cs" />
+    <Compile Include="Interface\IAvaliacaoRiscoCoronarianoContext.cs" />
+    <Compile Include="Interface\IAvaliacaoRCQContext.cs" />
+    <Compile Include="Interface\IAvaliacaoIMCContext.cs" />
+    <Compile Include="Interface\IAvaliacaoComposicaoCorporalContext.cs" />
+    <Compile Include="Interface\IAvaliacaoCompletaContext.cs" />
+    <Compile Include="Interface\IColaboradorContext.cs" />
     <Compile Include="Interface\IExercicioTreinoContext.cs" />
-    <Compile Include="Interface\IProficaoContext.cs" />
     <Compile Include="Interface\ITreinoContext.cs" />
     <Compile Include="Interface\IPeriodoModalidadeContext.cs" />
     <Compile Include="Interface\IModalidadeContext.cs" />
@@ -68,11 +82,18 @@
     <Compile Include="Interface\IExercicioContext.cs" />
     <Compile Include="Interface\IContratoContext.cs" />
     <Compile Include="Interface\IClienteContext.cs" />
-    <Compile Include="Interface\IAvaliacaoContext.cs" />
+    <Compile Include="Interface\IAvaliacaoBaseContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registration\GymDataRegistration.cs" />
+    <Compile Include="Repository\AvaliacaoPerimetriaRepository.cs" />
+    <Compile Include="Repository\AvaliacaoAntropometricaRepository.cs" />
+    <Compile Include="Repository\AvaliacaoRiscoCoronarianoRepository.cs" />
+    <Compile Include="Repository\AvaliacaoRCQRepository.cs" />
+    <Compile Include="Repository\AvaliacaoIMCRepository.cs" />
+    <Compile Include="Repository\AvaliacaoComposicaoCorporalRepository.cs" />
+    <Compile Include="Repository\AvaliacaoCompletaRepository.cs" />
+    <Compile Include="Repository\ColaboradorRepository.cs" />
     <Compile Include="Repository\ExercicioTreinoRepository.cs" />
-    <Compile Include="Repository\ProficaoRepository.cs" />
     <Compile Include="Repository\TreinoRepository.cs" />
     <Compile Include="Repository\PeriodoModalidadeRepository.cs" />
     <Compile Include="Repository\ModalidadeRepository.cs" />
@@ -81,7 +102,7 @@
     <Compile Include="Repository\ExercicioRepository.cs" />
     <Compile Include="Repository\ContratoRepository.cs" />
     <Compile Include="Repository\ClienteRepository.cs" />
-    <Compile Include="Repository\AvaliacaoRepository.cs" />
+    <Compile Include="Repository\AvaliacaoBaseRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Nano.N_Base.Data\Nano.N_Base.Data.csproj">

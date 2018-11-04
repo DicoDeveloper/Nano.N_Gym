@@ -1,5 +1,6 @@
 ﻿using Nano.N_Base.Data.Interface;
 using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
 
 namespace Nano.N_Base.Data.Infra
@@ -12,6 +13,12 @@ namespace Nano.N_Base.Data.Infra
         {
             Database.SetInitializer(new CreateDatabaseIfNotExists<BaseContext<TEntity>>());
             Database.Initialize(false);
+        }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
+            modelBuilder.Conventions.Remove<ManyToManyCascadeDeleteConve‌​ntion>();
         }
 
         public bool Save(TEntity entity)

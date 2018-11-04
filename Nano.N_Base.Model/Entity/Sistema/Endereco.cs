@@ -9,13 +9,15 @@ namespace Nano.N_Base.Model.Entity.Sistema
     {
         [MaxLength(9)]
         public string CEP { get; set; }
-        [MaxLength(60)]
-        public string Rua { get; set; }
+        [MaxLength(80)]
+        public string Logradouro { get; set; }
         [MaxLength(15)]
         public string Numero { get; set; }
         [MaxLength(60)]
         public string Complemento { get; set; }
-        [MaxLength(60)]
+        [MaxLength(80)]
+        public string Bairro { get; set; }
+        [MaxLength(80)]
         public string Cidade { get; set; }
         public UF UF { get; set; }        
         public bool Principal { get; set; }       

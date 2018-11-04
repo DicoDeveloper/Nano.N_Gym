@@ -1,5 +1,6 @@
 ﻿using Nano.N_Base.Model.Entity;
 using Nano.N_Gym.App.Model.Enum.Modalidade;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -18,5 +19,11 @@ namespace Nano.N_Gym.App.Model.Entity
         public string HrFim { get; set; }
 
         public virtual Modalidade Modalidade { get; set; }
+        public virtual IList<Colaborador> Colaboradores { get; set; }
+
+        public PeriodoModalidade()
+        {
+            Colaboradores = new List<Colaborador>();
+        }
     }
 }

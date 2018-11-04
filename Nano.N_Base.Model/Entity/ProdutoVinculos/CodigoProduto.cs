@@ -15,5 +15,6 @@ namespace Nano.N_Base.Model.Entity.ProdutoVinculos
         public bool Fiscal { get; set; }
 
         public virtual Produto Produto { get; set; }
+        public virtual UnidadeMedida UnidadeMedida { get; set; }
     }
 }

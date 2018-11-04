@@ -10,11 +10,11 @@ namespace Nano.N_Base.Model.Entity.Sistema
         [MaxLength(80)]
         public string Descricao { get; set; }
 
-        public virtual IList<Colaborador> Funcionarios { get; set; }
+        public virtual IList<ColaboradorBase> Funcionarios { get; set; }
 
         public Cargo()
         {
-            Funcionarios = new List<Colaborador>();
+            Funcionarios = new List<ColaboradorBase>();
         }
     }
 }
