@@ -42,15 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity\Avaliacao\CapacidadeAerobicaRealizada.cs" />
     <Compile Include="Entity\Avaliacao\Flexibilidade.cs" />
     <Compile Include="Entity\Avaliacao\QuestionarioAha.cs" />
     <Compile Include="Entity\Avaliacao\DobrasCutaneas.cs" />
     <Compile Include="Entity\Avaliacao\PARQ.cs" />
-    <Compile Include="Entity\Avaliacao\AvaliacaoAntropometrica.cs" />
+    <Compile Include="Entity\Avaliacao\MassaMuscular.cs" />
     <Compile Include="Entity\Avaliacao\Perimetria.cs" />
     <Compile Include="Entity\Avaliacao\ComposicaoCorporal.cs" />
     <Compile Include="Entity\Avaliacao\RCQ.cs" />
     <Compile Include="Entity\Avaliacao\ForcaResistenciaMuscular.cs" />
+    <Compile Include="Entity\Avaliacao\CapacidadeAerobicaEstimada.cs" />
     <Compile Include="Entity\Avaliacao\RiscoCoronariano.cs" />
     <Compile Include="Entity\Avaliacao\IMC.cs" />
     <Compile Include="Entity\Avaliacao\AvaliacaoBase.cs" />
@@ -58,8 +60,10 @@
     <Compile Include="Entity\Cliente.cs" />
     <Compile Include="Entity\Contrato.cs" />
     <Compile Include="Entity\ExercicioTreino.cs" />
+    <Compile Include="Entity\Localizacao.cs" />
+    <Compile Include="Entity\Turma.cs" />
     <Compile Include="Entity\Treino.cs" />
-    <Compile Include="Entity\PeriodoModalidade.cs" />
+    <Compile Include="Entity\PeriodoTurma.cs" />
     <Compile Include="Entity\Modalidade.cs" />
     <Compile Include="Entity\Aparelho.cs" />
     <Compile Include="Entity\Exercicio.cs" />
@@ -70,7 +74,10 @@
     <Compile Include="Enum\Anamnese\TipoDiabete.cs" />
     <Compile Include="Enum\Anamnese\TipoConsumoBebidaAlcoolica.cs" />
     <Compile Include="Enum\Avaliacao\Genero.cs" />
+    <Compile Include="Enum\Avaliacao\ProtocoloVo2MaxRealizado.cs" />
+    <Compile Include="Enum\Avaliacao\ProtocoloVo2MaxEstimado.cs" />
     <Compile Include="Enum\Avaliacao\Protocolo.cs" />
+    <Compile Include="Enum\Avaliacao\NivelAtividadeAerobica.cs" />
     <Compile Include="Enum\Avaliacao\TipoFlexaoExtensao.cs" />
     <Compile Include="Enum\Avaliacao\StatusAvaliacao.cs" />
     <Compile Include="Enum\Exercicio\TipoExercicio.cs" />

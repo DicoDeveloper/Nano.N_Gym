@@ -71,6 +71,7 @@
     <Compile Include="Infra\ProdutoVinculos\AtributoProdutoContext.cs" />
     <Compile Include="Infra\ProdutoVinculos\UnidadeMedidaContext.cs" />
     <Compile Include="Infra\ProdutoVinculos\ProdutoContext.cs" />
+    <Compile Include="Infra\Sistema\AgendamentoContext.cs" />
     <Compile Include="Infra\Sistema\ClienteBaseContext.cs" />
     <Compile Include="Infra\Sistema\FabricanteContext.cs" />
     <Compile Include="Infra\Sistema\AuditoriaContext.cs" />
@@ -113,6 +114,7 @@
     <Compile Include="Interface\ProdutoVinculos\IAtributoProdutoContext.cs" />
     <Compile Include="Interface\ProdutoVinculos\IUnidadeMedidaContext.cs" />
     <Compile Include="Interface\ProdutoVinculos\IProdutoContext.cs" />
+    <Compile Include="Interface\Sistema\IAgendamentoContext.cs" />
     <Compile Include="Interface\Sistema\IClienteBaseContext.cs" />
     <Compile Include="Interface\Sistema\IFabricanteContext.cs" />
     <Compile Include="Interface\Sistema\IAuditoriaContext.cs" />
@@ -159,6 +161,7 @@
     <Compile Include="Repository\ProdutoVinculos\AtributoProdutoRepository.cs" />
     <Compile Include="Repository\ProdutoVinculos\UnidadeMedidaRepository.cs" />
     <Compile Include="Repository\ProdutoVinculos\ProdutoRepository.cs" />
+    <Compile Include="Repository\Sistema\AgendamentoRepository.cs" />
     <Compile Include="Repository\Sistema\ClienteBaseRepository.cs" />
     <Compile Include="Repository\Sistema\FabricanteRepository.cs" />
     <Compile Include="Repository\Sistema\CaracteristicaRepository.cs" />

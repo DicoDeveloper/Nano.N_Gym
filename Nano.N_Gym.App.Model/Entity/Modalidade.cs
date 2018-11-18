@@ -16,14 +16,17 @@ namespace Nano.N_Gym.App.Model.Entity
         public string Descricao { get; set; }
         
         public virtual IList<Contrato> Contratos { get; set; }
-        public virtual IList<PeriodoModalidade> Periodos { get; set; }
         public virtual IList<Empresa> Empresas { get; set; }
+        public virtual IList<Localizacao> Localizacoes { get; set; }
+        public virtual IList<Turma> Turmas { get; set; }
 
         public Modalidade()
         {            
             Contratos = new List<Contrato>();
-            Periodos = new List<PeriodoModalidade>();
             Empresas = new List<Empresa>();
+            Localizacoes = new List<Localizacao>();
+            Turmas = new List<Turma>();
+
         }
     }
 }

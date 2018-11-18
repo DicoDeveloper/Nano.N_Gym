@@ -27,6 +27,7 @@ namespace Nano.N_Base.Data.Registration
         public static void Register(ref ContainerBuilder builder)
         {
             #region Repositories
+            builder.RegisterType<AgendamentoRepository>().As<IAgendamentoRepository>();
             builder.RegisterType<AtributoProdutoRepository>().As<IAtributoProdutoRepository>();
             builder.RegisterType<AuditoriaRepository>().As<IAuditoriaRepository>();
             builder.RegisterType<CaracteristicaRepository>().As<ICaracteristicaRepository>();
@@ -72,6 +73,7 @@ namespace Nano.N_Base.Data.Registration
             #endregion
 
             #region Contexties
+            builder.RegisterType<AgendamentoContext>().As<IAgendamentoContext>();
             builder.RegisterType<AtributoProdutoContext>().As<IAtributoProdutoContext>();
             builder.RegisterType<AuditoriaContext>().As<IAuditoriaContext>();
             builder.RegisterType<CaracteristicaContext>().As<ICaracteristicaContext>();

@@ -9,7 +9,7 @@ namespace Nano.N_Gym.App.Model.Entity.Avaliacao
     {
         [ForeignKey("IMC")]
         public long IdIMC { get; set; }
-        public int AbdomePerimetria { get; set; }
+        public decimal AbdomePerimetria { get; set; }
         [MaxLength(40)]
         public string Resultado { get; set; }
 

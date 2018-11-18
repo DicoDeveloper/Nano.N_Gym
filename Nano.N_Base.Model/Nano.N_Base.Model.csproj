@@ -70,6 +70,7 @@
     <Compile Include="Entity\ProdutoVinculos\AtributoProduto.cs" />
     <Compile Include="Entity\ProdutoVinculos\UnidadeMedida.cs" />
     <Compile Include="Entity\ProdutoVinculos\Produto.cs" />
+    <Compile Include="Entity\Sistema\Agendamento.cs" />
     <Compile Include="Entity\Sistema\Auditoria.cs" />
     <Compile Include="Entity\Sistema\Caracteristica.cs" />
     <Compile Include="Entity\Sistema\Fabricante.cs" />

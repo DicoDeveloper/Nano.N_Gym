@@ -17,6 +17,7 @@ namespace Nano.N_Base.Domain.Registration
         public static void Register(ref ContainerBuilder builder)
         {
             #region Services
+            builder.RegisterType<AgendamentoService>().As<IAgendamentoService>();
             builder.RegisterType<AtributoProdutoService>().As<IAtributoProdutoService>();
             builder.RegisterType<AuditoriaService>().As<IAuditoriaService>();
             builder.RegisterType<CaracteristicaService>().As<ICaracteristicaService>();

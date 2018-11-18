@@ -1,9 +1,6 @@
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\pt\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
-C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\pt\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
-C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\pt\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Nano.N_Tests.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Nano.N_Tests.pdb
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll

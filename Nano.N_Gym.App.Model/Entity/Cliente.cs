@@ -12,12 +12,13 @@ namespace Nano.N_Gym.App.Model.Entity
     {
         [ForeignKey("ClienteBase")]
         public long IdClienteBase { get; set; }
+        public decimal? Peso { get; set; }
         public bool AcessoLivre { get; set; }
         public Genero Genero { get; set; }
 
         public virtual ClienteBase ClienteBase { get; set; }
         public virtual IList<Anamnese> Anamnesias { get; set; }
-        public virtual IList<AvaliacaoAntropometrica> Antropometricas { get; set; }
+        public virtual IList<MassaMuscular> Antropometricas { get; set; }
         public virtual IList<ComposicaoCorporal> ComposicoesCorporal { get; set; }
         public virtual IList<DobrasCutaneas> DobrasCutaneas { get; set; }
         public virtual IList<IMC> IMCs { get; set; }
@@ -32,7 +33,7 @@ namespace Nano.N_Gym.App.Model.Entity
         public Cliente()
         {
             Anamnesias = new List<Anamnese>();
-            Antropometricas = new List<AvaliacaoAntropometrica>();
+            Antropometricas = new List<MassaMuscular>();
             ComposicoesCorporal = new List<ComposicaoCorporal>();
             DobrasCutaneas = new List<DobrasCutaneas>();
             IMCs = new List<IMC>();

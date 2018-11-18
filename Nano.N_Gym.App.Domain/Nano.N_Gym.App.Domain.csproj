@@ -44,11 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface\Repository\Avaliacao\ICapacidadeAerobicaRealizadaRepository.cs" />
+    <Compile Include="Interface\Repository\Avaliacao\ICapacidadeAerobicaEstimadaRepository.cs" />
     <Compile Include="Interface\Repository\Avaliacao\IFlexibilidadeRepository.cs" />
     <Compile Include="Interface\Repository\Avaliacao\IPerimetriaRepository.cs" />
-    <Compile Include="Interface\Repository\Avaliacao\IAvaliacaoAntropometricaRepository.cs" />
+    <Compile Include="Interface\Repository\Avaliacao\IMassaMuscularRepository.cs" />
     <Compile Include="Interface\Repository\Avaliacao\IQuestionarioAhaRepository.cs" />
     <Compile Include="Interface\Repository\Avaliacao\IForcaResistenciaMuscularRepository.cs" />
+    <Compile Include="Interface\Repository\Avaliacao\IDobrasCutaneasRepository.cs" />
     <Compile Include="Interface\Repository\Avaliacao\IRiscoCoronarianoRepository.cs" />
     <Compile Include="Interface\Repository\Avaliacao\IRCQRepository.cs" />
     <Compile Include="Interface\Repository\Avaliacao\IIMCRepository.cs" />
@@ -56,11 +59,16 @@
     <Compile Include="Interface\Repository\IColaboradorRepository.cs" />
     <Compile Include="Interface\Repository\IExercicioTreinoRepository.cs" />
     <Compile Include="Interface\Repository\Avaliacao\IPARQRepository.cs" />
+    <Compile Include="Interface\Repository\ILocalizacaoRepository.cs" />
+    <Compile Include="Interface\Repository\ITurmaRepository.cs" />
+    <Compile Include="Interface\Service\Avaliacao\ICapacidadeAerobicaRealizadaService.cs" />
+    <Compile Include="Interface\Service\Avaliacao\ICapacidadeAerobicaEstimadaService.cs" />
     <Compile Include="Interface\Service\Avaliacao\IFlexibilidadeService.cs" />
     <Compile Include="Interface\Service\Avaliacao\IPerimetriaService.cs" />
-    <Compile Include="Interface\Service\Avaliacao\IAvaliacaoAntropometricaService.cs" />
+    <Compile Include="Interface\Service\Avaliacao\IMassaMuscularService.cs" />
     <Compile Include="Interface\Service\Avaliacao\IQuestionarioAhaService.cs" />
     <Compile Include="Interface\Service\Avaliacao\IForcaResistenciaMuscularService.cs" />
+    <Compile Include="Interface\Service\Avaliacao\IDobrasCutaneasService.cs" />
     <Compile Include="Interface\Service\Avaliacao\IRiscoCoronarianoService.cs" />
     <Compile Include="Interface\Service\Avaliacao\IRCQService.cs" />
     <Compile Include="Interface\Service\Avaliacao\IIMCService.cs" />
@@ -68,9 +76,11 @@
     <Compile Include="Interface\Service\IColaboradorService.cs" />
     <Compile Include="Interface\Service\IExercicioTreinoService.cs" />
     <Compile Include="Interface\Service\Avaliacao\IPARQService.cs" />
+    <Compile Include="Interface\Service\ILocalizacaoService.cs" />
+    <Compile Include="Interface\Service\ITurmaService.cs" />
     <Compile Include="Registration\GymDomainRegistration.cs" />
     <Compile Include="Interface\Repository\ITreinoRepository.cs" />
-    <Compile Include="Interface\Repository\IPeriodoModalidadeRepository.cs" />
+    <Compile Include="Interface\Repository\IPeriodoTurmaRepository.cs" />
     <Compile Include="Interface\Repository\IModalidadeRepository.cs" />
     <Compile Include="Interface\Repository\Avaliacao\IAnamneseRepository.cs" />
     <Compile Include="Interface\Repository\IAparelhoRepository.cs" />
@@ -79,7 +89,7 @@
     <Compile Include="Interface\Repository\IClienteRepository.cs" />
     <Compile Include="Interface\Repository\Avaliacao\IAvaliacaoBaseRepository.cs" />
     <Compile Include="Interface\Service\ITreinoService.cs" />
-    <Compile Include="Interface\Service\IPeriodoModalidadeService.cs" />
+    <Compile Include="Interface\Service\IPeriodoTurmaService.cs" />
     <Compile Include="Interface\Service\IModalidadeService.cs" />
     <Compile Include="Interface\Service\Avaliacao\IAnamneseService.cs" />
     <Compile Include="Interface\Service\IAparelhoService.cs" />
@@ -88,11 +98,14 @@
     <Compile Include="Interface\Service\IClienteService.cs" />
     <Compile Include="Interface\Service\Avaliacao\IAvaliacaoBaseService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\Avaliacao\CapacidadeAerobicaRealizadaService.cs" />
+    <Compile Include="Service\Avaliacao\CapacidadeAerobicaEstimadaService.cs" />
     <Compile Include="Service\Avaliacao\FlexibilidadeService.cs" />
     <Compile Include="Service\Avaliacao\PerimetriaService.cs" />
-    <Compile Include="Service\Avaliacao\AvaliacaoAntropometricaService.cs" />
+    <Compile Include="Service\Avaliacao\MassaMuscularService.cs" />
     <Compile Include="Service\Avaliacao\QuestionarioAhaService.cs" />
     <Compile Include="Service\Avaliacao\ForcaResistenciaMuscularService.cs" />
+    <Compile Include="Service\Avaliacao\DobrasCutaneasService.cs" />
     <Compile Include="Service\Avaliacao\RiscoCoronarianoService.cs" />
     <Compile Include="Service\Avaliacao\RCQService.cs" />
     <Compile Include="Service\Avaliacao\IMCService.cs" />
@@ -100,8 +113,10 @@
     <Compile Include="Service\ColaboradorService.cs" />
     <Compile Include="Service\ExercicioTreinoService.cs" />
     <Compile Include="Service\Avaliacao\PARQService.cs" />
+    <Compile Include="Service\LocalizacaoService.cs" />
+    <Compile Include="Service\TurmaService.cs" />
     <Compile Include="Service\TreinoService.cs" />
-    <Compile Include="Service\PeriodoModalidadeService.cs" />
+    <Compile Include="Service\PeriodoTurmaService.cs" />
     <Compile Include="Service\ModalidadeService.cs" />
     <Compile Include="Service\Avaliacao\AnamneseService.cs" />
     <Compile Include="Service\AparelhoService.cs" />

@@ -11,7 +11,7 @@ namespace Nano.N_Base.Model.Entity.Fiscal
         public long IdDocumento { get; set; }
         [ForeignKey("Produto")]
         public long IdProduto { get; set; }
-        [ForeignKey("UnidaeMedida")]
+        [ForeignKey("UnidadeMedida")]
         public long IdUnidadeMedida { get; set; }
         [ForeignKey("Lote")]
         public long? IdLote { get; set; }

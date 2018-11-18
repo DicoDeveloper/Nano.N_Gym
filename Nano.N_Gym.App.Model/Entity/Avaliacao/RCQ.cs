@@ -9,8 +9,8 @@ namespace Nano.N_Gym.App.Model.Entity.Avaliacao
     {
         [ForeignKey("Base")]
         public long IdBase { get; set; }
-        public int CinturaPerimetria { get; set; }
-        public int QuadrilPerimetria { get; set; }
+        public decimal CinturaPerimetria { get; set; }
+        public decimal QuadrilPerimetria { get; set; }
         public decimal? Valor { get; set; }
         [MaxLength(40)]
         public string Resultado { get; set; }

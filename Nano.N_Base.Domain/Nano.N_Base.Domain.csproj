@@ -69,6 +69,7 @@
     <Compile Include="Interface\Repository\ProdutoVinculos\IAtributoProdutoRepository.cs" />
     <Compile Include="Interface\Repository\ProdutoVinculos\IUnidadeMedidaRepository.cs" />
     <Compile Include="Interface\Repository\ProdutoVinculos\IProdutoRepository.cs" />
+    <Compile Include="Interface\Repository\Sistema\IAgendamentoRepository.cs" />
     <Compile Include="Interface\Repository\Sistema\IClienteBaseRepository.cs" />
     <Compile Include="Interface\Repository\Sistema\IFabricanteRepository.cs" />
     <Compile Include="Interface\Repository\Sistema\ICaracteristicaRepository.cs" />
@@ -112,6 +113,7 @@
     <Compile Include="Interface\Service\ProdutoVinculos\IAtributoProdutoService.cs" />
     <Compile Include="Interface\Service\ProdutoVinculos\IUnidadeMedidaService.cs" />
     <Compile Include="Interface\Service\ProdutoVinculos\IProdutoService.cs" />
+    <Compile Include="Interface\Service\Sistema\IAgendamentoService.cs" />
     <Compile Include="Interface\Service\Sistema\IClienteBaseService.cs" />
     <Compile Include="Interface\Service\Sistema\IFabricanteService.cs" />
     <Compile Include="Interface\Service\Sistema\ICaracteristicaService.cs" />
@@ -157,6 +159,7 @@
     <Compile Include="Service\ProdutoVinculos\AtributoProdutoService.cs" />
     <Compile Include="Service\ProdutoVinculos\UnidadeMedidaService.cs" />
     <Compile Include="Service\ProdutoVinculos\ProdutoService.cs" />
+    <Compile Include="Service\Sistema\AgendamentoService.cs" />
     <Compile Include="Service\Sistema\ClienteBaseService.cs" />
     <Compile Include="Service\Sistema\FabricanteService.cs" />
     <Compile Include="Service\Sistema\CaracteristicaService.cs" />

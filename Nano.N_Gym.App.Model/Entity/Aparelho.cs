@@ -8,6 +8,8 @@ namespace Nano.N_Gym.App.Model.Entity
     [Table("APARELHOS")]
     public class Aparelho : EntityBaseEmpresa
     {
+        [ForeignKey("Localizacao")]
+        public long? IdLocalizacao { get; set; }
         [MaxLength(80)]
         public string Nome { get; set; }        
         public string Descricao { get; set; }
@@ -17,5 +19,7 @@ namespace Nano.N_Gym.App.Model.Entity
         public decimal? ValorAquisicao { get; set; }
         public DateTime? DataAquisicao { get; set; }
         public DateTime? DataTransferencia { get; set; }
+
+        public virtual Localizacao Localizacao { get; set; }
     }
 }

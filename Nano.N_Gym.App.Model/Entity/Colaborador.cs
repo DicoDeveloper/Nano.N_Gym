@@ -12,14 +12,14 @@ namespace Nano.N_Gym.App.Model.Entity
         public long IdColaboradorBase { get; set; }
 
         public virtual ColaboradorBase ColaboradorBase { get; set; }
-        public virtual IList<PeriodoModalidade> PeriodosModalidades { get; set; }
+        public virtual IList<PeriodoTurma> PeriodosModalidades { get; set; }
         public virtual IList<Treino> Treinos { get; set; }
         public virtual IList<Contrato> Contratos { get; set; }
         
 
         public Colaborador()
         {
-            PeriodosModalidades = new List<PeriodoModalidade>();
+            PeriodosModalidades = new List<PeriodoTurma>();
             Treinos = new List<Treino>();
             Contratos = new List<Contrato>();
         }
