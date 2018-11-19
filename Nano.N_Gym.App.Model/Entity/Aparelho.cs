@@ -1,5 +1,6 @@
 ﻿using Nano.N_Base.Model.Entity;
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -21,5 +22,11 @@ namespace Nano.N_Gym.App.Model.Entity
         public DateTime? DataTransferencia { get; set; }
 
         public virtual Localizacao Localizacao { get; set; }
+        public virtual IList<Imagem> Imagens { get; set; }
+
+        public Aparelho()
+        {
+            Imagens = new List<Imagem>();
+        }
     }
 }

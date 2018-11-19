@@ -20,7 +20,9 @@ namespace Nano.N_Gym.App.Model.Entity
         public virtual IList<Anamnese> Anamnesias { get; set; }
         public virtual IList<MassaMuscular> Antropometricas { get; set; }
         public virtual IList<ComposicaoCorporal> ComposicoesCorporal { get; set; }
+        public virtual IList<Contrato> Contratos { get; set; }
         public virtual IList<DobrasCutaneas> DobrasCutaneas { get; set; }
+        public virtual IList<Imagem> Imagens { get; set; }
         public virtual IList<IMC> IMCs { get; set; }
         public virtual IList<PARQ> PARQs { get; set; }
         public virtual IList<Perimetria> Perimetrias { get; set; }
@@ -28,14 +30,15 @@ namespace Nano.N_Gym.App.Model.Entity
         public virtual IList<RCQ> RCQs { get; set; }
         public virtual IList<RiscoCoronariano> RiscosCoronariano { get; set; }
         public virtual IList<Treino> Treinos { get; set; }
-        public virtual IList<Contrato> Contratos { get; set; }
 
         public Cliente()
         {
             Anamnesias = new List<Anamnese>();
             Antropometricas = new List<MassaMuscular>();
             ComposicoesCorporal = new List<ComposicaoCorporal>();
+            Contratos = new List<Contrato>();
             DobrasCutaneas = new List<DobrasCutaneas>();
+            Imagens = new List<Imagem>();
             IMCs = new List<IMC>();
             PARQs = new List<PARQ>();
             Perimetrias = new List<Perimetria>();
@@ -43,7 +46,6 @@ namespace Nano.N_Gym.App.Model.Entity
             RCQs = new List<RCQ>();
             RiscosCoronariano = new List<RiscoCoronariano>();
             Treinos = new List<Treino>();
-            Contratos = new List<Contrato>();
         }
     }
 }

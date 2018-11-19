@@ -9,7 +9,6 @@ namespace Nano.N_Base.Model.Entity.Sistema
         [ForeignKey("Responsavel")]
         public long? IdResponsavel { get; set; }
         public string Apelido { get; set; }
-        public string Foto { get; set; }
         public bool PermissaoExporDados { get; set; }
 
         public virtual ClienteBase Responsavel { get; set; }

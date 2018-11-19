@@ -20,6 +20,7 @@ namespace Nano.N_Gym.App.Model.Entity
         public virtual Localizacao Pai { get; set; }
         public virtual IList<Aparelho> Aparelhos { get; set; }
         public virtual IList<Localizacao> Filhos { get; set; }
+        public virtual IList<Imagem> Imagens { get; set; }
         public virtual IList<Modalidade> Modalidades { get; set; }
         public virtual IList<PeriodoTurma> PeriodosTurmas { get; set; }
 
@@ -27,6 +28,7 @@ namespace Nano.N_Gym.App.Model.Entity
         {
             Aparelhos = new List<Aparelho>();
             Filhos = new List<Localizacao>();
+            Imagens = new List<Imagem>();
             Modalidades = new List<Modalidade>();
             PeriodosTurmas = new List<PeriodoTurma>();
         }
