@@ -21,10 +21,12 @@ namespace Nano.N_Base.Model.Entity.ProdutoVinculos
 
         public virtual UnidadeMedida UnidadeMedida { get; set; }
         public virtual Fabricante Fabricante { get; set; }
+        public virtual IList<ImagemBase> Imagens { get; set; }        
         public virtual IList<LoteCorTamanho> Lotes { get; set; }        
 
         public Produto()
         {
+            Imagens = new List<ImagemBase>();
             Lotes = new List<LoteCorTamanho>();
         }
     }

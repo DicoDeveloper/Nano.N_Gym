@@ -29,6 +29,7 @@ namespace Nano.N_Gym.App.Data.Registration
             builder.RegisterType<ExercicioTreinoRepository>().As<IExercicioTreinoRepository>();
             builder.RegisterType<FlexibilidadeRepository>().As<IFlexibilidadeRepository>();
             builder.RegisterType<ForcaResistenciaMuscularRepository>().As<IForcaResistenciaMuscularRepository>();
+            builder.RegisterType<ImagemRepository>().As<IImagemRepository>();
             builder.RegisterType<IMCRepository>().As<IIMCRepository>();
             builder.RegisterType<LocalizacaoRepository>().As<ILocalizacaoRepository>();
             builder.RegisterType<MassaMuscularRepository>().As<IMassaMuscularRepository>();
@@ -58,6 +59,7 @@ namespace Nano.N_Gym.App.Data.Registration
             builder.RegisterType<ExercicioTreinoContext>().As<IExercicioTreinoContext>();
             builder.RegisterType<FlexibilidadeContext>().As<IFlexibilidadeContext>();
             builder.RegisterType<ForcaResistenciaMuscularContext>().As<IForcaResistenciaMuscularContext>();
+            builder.RegisterType<ImagemContext>().As<IImagemContext>();
             builder.RegisterType<IMCContext>().As<IIMCContext>();
             builder.RegisterType<LocalizacaoContext>().As<ILocalizacaoContext>();
             builder.RegisterType<MassaMuscularContext>().As<IMassaMuscularContext>();

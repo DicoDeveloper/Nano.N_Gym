@@ -91,6 +91,7 @@
     <Compile Include="Entity\Sistema\Proficao.cs" />
     <Compile Include="Entity\Sistema\Transacao.cs" />
     <Compile Include="Entity\Sistema\Transportadora.cs" />
+    <Compile Include="Entity\Sistema\ImagemBase.cs" />
     <Compile Include="Entity\Sistema\Usuario.cs" />
     <Compile Include="Enum\Auditoria\TipoOperacao.cs" />
     <Compile Include="Enum\Endereco\UF.cs" />

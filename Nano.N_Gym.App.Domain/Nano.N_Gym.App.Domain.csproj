@@ -60,6 +60,7 @@
     <Compile Include="Interface\Repository\IExercicioTreinoRepository.cs" />
     <Compile Include="Interface\Repository\Avaliacao\IPARQRepository.cs" />
     <Compile Include="Interface\Repository\ILocalizacaoRepository.cs" />
+    <Compile Include="Interface\Repository\IImagemRepository.cs" />
     <Compile Include="Interface\Repository\ITurmaRepository.cs" />
     <Compile Include="Interface\Service\Avaliacao\ICapacidadeAerobicaRealizadaService.cs" />
     <Compile Include="Interface\Service\Avaliacao\ICapacidadeAerobicaEstimadaService.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Interface\Service\IExercicioTreinoService.cs" />
     <Compile Include="Interface\Service\Avaliacao\IPARQService.cs" />
     <Compile Include="Interface\Service\ILocalizacaoService.cs" />
+    <Compile Include="Interface\Service\IImagemService.cs" />
     <Compile Include="Interface\Service\ITurmaService.cs" />
     <Compile Include="Registration\GymDomainRegistration.cs" />
     <Compile Include="Interface\Repository\ITreinoRepository.cs" />
@@ -114,6 +116,7 @@
     <Compile Include="Service\ExercicioTreinoService.cs" />
     <Compile Include="Service\Avaliacao\PARQService.cs" />
     <Compile Include="Service\LocalizacaoService.cs" />
+    <Compile Include="Service\ImagemService.cs" />
     <Compile Include="Service\TurmaService.cs" />
     <Compile Include="Service\TreinoService.cs" />
     <Compile Include="Service\PeriodoTurmaService.cs" />

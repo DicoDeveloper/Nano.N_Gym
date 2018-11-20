@@ -25,6 +25,7 @@ namespace Nano.N_Gym.App.Domain.Registration
             builder.RegisterType<ExercicioTreinoService>().As<IExercicioTreinoService>();
             builder.RegisterType<FlexibilidadeService>().As<IFlexibilidadeService>();
             builder.RegisterType<ForcaResistenciaMuscularService>().As<IForcaResistenciaMuscularService>();
+            builder.RegisterType<ImagemService>().As<IImagemService>();
             builder.RegisterType<IMCService>().As<IIMCService>();
             builder.RegisterType<LocalizacaoService>().As<ILocalizacaoService>();
             builder.RegisterType<MassaMuscularService>().As<IMassaMuscularService>();

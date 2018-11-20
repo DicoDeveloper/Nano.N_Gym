@@ -64,6 +64,7 @@
     <Compile Include="Infra\ExercicioTreinoContext.cs" />
     <Compile Include="Infra\Avaliacao\PARQContext.cs" />
     <Compile Include="Infra\LocalizacaoContext.cs" />
+    <Compile Include="Infra\ImagemContext.cs" />
     <Compile Include="Infra\TurmaContext.cs" />
     <Compile Include="Infra\TreinoContext.cs" />
     <Compile Include="Infra\PeriodoTurmaContext.cs" />
@@ -89,6 +90,7 @@
     <Compile Include="Interface\IColaboradorContext.cs" />
     <Compile Include="Interface\IExercicioTreinoContext.cs" />
     <Compile Include="Interface\Avaliacao\IPARQContext.cs" />
+    <Compile Include="Interface\IImagemContext.cs" />
     <Compile Include="Interface\ITurmaContext.cs" />
     <Compile Include="Interface\ILocalizacaoContext.cs" />
     <Compile Include="Interface\ITreinoContext.cs" />
@@ -117,6 +119,7 @@
     <Compile Include="Repository\ExercicioTreinoRepository.cs" />
     <Compile Include="Repository\Avaliacao\PARQRepository.cs" />
     <Compile Include="Repository\LocalizacaoRepository.cs" />
+    <Compile Include="Repository\ImagemRepository.cs" />
     <Compile Include="Repository\TurmaRepository.cs" />
     <Compile Include="Repository\TreinoRepository.cs" />
     <Compile Include="Repository\PeriodoTurmaRepository.cs" />

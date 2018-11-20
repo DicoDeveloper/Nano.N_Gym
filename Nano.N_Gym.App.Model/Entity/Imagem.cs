@@ -1,4 +1,5 @@
 ﻿using Nano.N_Base.Model.Entity;
+using Nano.N_Base.Model.Entity.Sistema;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -12,12 +13,10 @@ namespace Nano.N_Gym.App.Model.Entity
     [Table("IMAGENS")]
     public class Imagem : EntityBase
     {
-        public int Sequencia { get; set; }
-        public byte[] Arquivo { get; set; }
-        [MaxLength(80)]
-        public string Nome { get; set; }
-        public bool Principal { get; set; }
+        [ForeignKey("Base")]
+        public long IdBase { get; set; }
 
+        public virtual ImagemBase Base { get; set; }
         public virtual IList<Aparelho> Aparelhos { get; set; }
         public virtual IList<Cliente> Clientes { get; set; }
         public virtual IList<Colaborador> Colaboradores { get; set; }
