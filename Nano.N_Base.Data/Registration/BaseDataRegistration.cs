@@ -1,24 +1,24 @@
 ﻿using Autofac;
-using Nano.N_Base.Data.Infra.Sistema;
 using Nano.N_Base.Data.Infra.Estoque;
-using Nano.N_Base.Data.Interface.Sistema;
-using Nano.N_Base.Data.Interface.Estoque;
-using Nano.N_Base.Data.Repository.Sistema;
-using Nano.N_Base.Data.Repository.Estoque;
-using Nano.N_Base.Domain.Interface.Repository.Sistema;
-using Nano.N_Base.Domain.Interface.Repository.Estoque;
-using Nano.N_Base.Data.Repository.ProdutoVinculos;
-using Nano.N_Base.Domain.Interface.Repository.ProdutoVinculos;
-using Nano.N_Base.Data.Infra.ProdutoVinculos;
-using Nano.N_Base.Data.Interface.ProdutoVinculos;
-using Nano.N_Base.Data.Repository.Financeiro;
-using Nano.N_Base.Domain.Interface.Repository.Financeiro;
 using Nano.N_Base.Data.Infra.Financeiro;
-using Nano.N_Base.Data.Interface.Financeiro;
-using Nano.N_Base.Data.Repository.Fiscal;
-using Nano.N_Base.Domain.Interface.Repository.Fiscal;
 using Nano.N_Base.Data.Infra.Fiscal;
+using Nano.N_Base.Data.Infra.ProdutoVinculos;
+using Nano.N_Base.Data.Infra.Sistema;
+using Nano.N_Base.Data.Interface.Estoque;
+using Nano.N_Base.Data.Interface.Financeiro;
 using Nano.N_Base.Data.Interface.Fiscal;
+using Nano.N_Base.Data.Interface.ProdutoVinculos;
+using Nano.N_Base.Data.Interface.Sistema;
+using Nano.N_Base.Data.Repository.Estoque;
+using Nano.N_Base.Data.Repository.Financeiro;
+using Nano.N_Base.Data.Repository.Fiscal;
+using Nano.N_Base.Data.Repository.ProdutoVinculos;
+using Nano.N_Base.Data.Repository.Sistema;
+using Nano.N_Base.Domain.Interface.Repository.Estoque;
+using Nano.N_Base.Domain.Interface.Repository.Financeiro;
+using Nano.N_Base.Domain.Interface.Repository.Fiscal;
+using Nano.N_Base.Domain.Interface.Repository.ProdutoVinculos;
+using Nano.N_Base.Domain.Interface.Repository.Sistema;
 
 namespace Nano.N_Base.Data.Registration
 {
@@ -27,14 +27,11 @@ namespace Nano.N_Base.Data.Registration
         public static void Register(ref ContainerBuilder builder)
         {
             #region Repositories
-            builder.RegisterType<AgendamentoRepository>().As<IAgendamentoRepository>();
             builder.RegisterType<AtributoProdutoRepository>().As<IAtributoProdutoRepository>();
             builder.RegisterType<AuditoriaRepository>().As<IAuditoriaRepository>();
             builder.RegisterType<CaracteristicaRepository>().As<ICaracteristicaRepository>();
-            builder.RegisterType<CargoRepository>().As<ICargoRepository>();
-            builder.RegisterType<ClienteBaseRepository>().As<IClienteBaseRepository>();
+            builder.RegisterType<CategoriaRepository>().As<ICategoriaRepository>();
             builder.RegisterType<CodigoProdutoRepository>().As<ICodigoProdutoRepository>();
-            builder.RegisterType<ColaboradorBaseRepository>().As<IColaboradorBaseRepository>();
             builder.RegisterType<CondicaoPagamentoRepository>().As<ICondicaoPagamentoRepository>();
             builder.RegisterType<ContatoRepository>().As<IContatoRepository>();
             builder.RegisterType<DespesaReceitaRepository>().As<IDespesaReceitaRepository>();
@@ -46,7 +43,6 @@ namespace Nano.N_Base.Data.Registration
             builder.RegisterType<EstoqueProdutoRepository>().As<IEstoqueProdutoRepository>();
             builder.RegisterType<FabricanteRepository>().As<IFabricanteRepository>();
             builder.RegisterType<FornecedorRepository>().As<IFornecedorRepository>();
-            builder.RegisterType<ImagemBaseRepository>().As<IImagemBaseRepository>();
             builder.RegisterType<InventarioRepository>().As<IInventarioRepository>();
             builder.RegisterType<ItemDocumentoFiscalRepository>().As<IItemDocumentoFiscalRepository>();
             builder.RegisterType<ItemInventarioRepository>().As<IItemInventarioRepository>();
@@ -62,9 +58,7 @@ namespace Nano.N_Base.Data.Registration
             builder.RegisterType<ParametroRepository>().As<IParametroRepository>();
             builder.RegisterType<ParametroEmpresaRepository>().As<IParametroEmpresaRepository>();
             builder.RegisterType<PermissaoUsuarioRepository>().As<IPermissaoUsuarioRepository>();
-            builder.RegisterType<PessoaRepository>().As<IPessoaRepository>();
             builder.RegisterType<ProdutoRepository>().As<IProdutoRepository>();
-            builder.RegisterType<ProficaoRepository>().As<IProficaoRepository>();
             builder.RegisterType<SerieFiscalRepository>().As<ISerieFiscalRepository>();
             builder.RegisterType<TituloFinanceiroRepository>().As<ITituloFinanceiroRepository>();
             builder.RegisterType<TransacaoRepository>().As<ITransacaoRepository>();
@@ -74,14 +68,11 @@ namespace Nano.N_Base.Data.Registration
             #endregion
 
             #region Contexties
-            builder.RegisterType<AgendamentoContext>().As<IAgendamentoContext>();
             builder.RegisterType<AtributoProdutoContext>().As<IAtributoProdutoContext>();
             builder.RegisterType<AuditoriaContext>().As<IAuditoriaContext>();
             builder.RegisterType<CaracteristicaContext>().As<ICaracteristicaContext>();
-            builder.RegisterType<CargoContext>().As<ICargoContext>();
-            builder.RegisterType<ClienteBaseContext>().As<IClienteBaseContext>();
+            builder.RegisterType<CategoriaContext>().As<ICategoriaContext>();
             builder.RegisterType<CodigoProdutoContext>().As<ICodigoProdutoContext>();
-            builder.RegisterType<ColaboradorBaseContext>().As<IColaboradorBaseContext>();
             builder.RegisterType<CondicaoPagamentoContext>().As<ICondicaoPagamentoContext>();
             builder.RegisterType<ContatoContext>().As<IContatoContext>();
             builder.RegisterType<DespesaReceitaContext>().As<IDespesaReceitaContext>();
@@ -93,7 +84,6 @@ namespace Nano.N_Base.Data.Registration
             builder.RegisterType<EstoqueProdutoContext>().As<IEstoqueProdutoContext>();
             builder.RegisterType<FabricanteContext>().As<IFabricanteContext>();
             builder.RegisterType<FornecedorContext>().As<IFornecedorContext>();
-            builder.RegisterType<ImagemBaseContext>().As<IImagemBaseContext>();
             builder.RegisterType<InventarioContext>().As<IInventarioContext>();
             builder.RegisterType<ItemDocumentoFiscalContext>().As<IItemDocumentoFiscalContext>();
             builder.RegisterType<ItemInventarioContext>().As<IItemInventarioContext>();
@@ -109,9 +99,7 @@ namespace Nano.N_Base.Data.Registration
             builder.RegisterType<ParametroContext>().As<IParametroContext>();
             builder.RegisterType<ParametroEmpresaContext>().As<IParametroEmpresaContext>();
             builder.RegisterType<PermissaoUsuarioContext>().As<IPermissaoUsuarioContext>();
-            builder.RegisterType<PessoaContext>().As<IPessoaContext>();
             builder.RegisterType<ProdutoContext>().As<IProdutoContext>();
-            builder.RegisterType<ProficaoContext>().As<IProficaoContext>();
             builder.RegisterType<SerieFiscalContext>().As<ISerieFiscalContext>();
             builder.RegisterType<TituloFinanceiroContext>().As<ITituloFinanceiroContext>();
             builder.RegisterType<TransacaoContext>().As<ITransacaoContext>();

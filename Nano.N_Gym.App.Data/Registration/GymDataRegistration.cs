@@ -15,11 +15,13 @@ namespace Nano.N_Gym.App.Data.Registration
         public static void Register(ref ContainerBuilder builder)
         {
             #region Repositories
+            builder.RegisterType<AgendamentoRepository>().As<IAgendamentoRepository>();
             builder.RegisterType<AnamneseRepository>().As<IAnamneseRepository>();
             builder.RegisterType<AparelhoRepository>().As<IAparelhoRepository>();
             builder.RegisterType<AvaliacaoBaseRepository>().As<IAvaliacaoBaseRepository>();
             builder.RegisterType<CapacidadeAerobicaEstimadaRepository>().As<ICapacidadeAerobicaEstimadaRepository>();
             builder.RegisterType<CapacidadeAerobicaRealizadaRepository>().As<ICapacidadeAerobicaRealizadaRepository>();
+            builder.RegisterType<CargoRepository>().As<ICargoRepository>();
             builder.RegisterType<ClienteRepository>().As<IClienteRepository>();
             builder.RegisterType<ColaboradorRepository>().As<IColaboradorRepository>();
             builder.RegisterType<ComposicaoCorporalRepository>().As<IComposicaoCorporalRepository>();
@@ -37,6 +39,7 @@ namespace Nano.N_Gym.App.Data.Registration
             builder.RegisterType<PARQRepository>().As<IPARQRepository>();
             builder.RegisterType<PerimetriaRepository>().As<IPerimetriaRepository>();
             builder.RegisterType<PeriodoTurmaRepository>().As<IPeriodoTurmaRepository>();
+            builder.RegisterType<ProficaoRepository>().As<IProficaoRepository>();
             builder.RegisterType<QuestionarioAhaRepository>().As<IQuestionarioAhaRepository>();
             builder.RegisterType<RCQRepository>().As<IRCQRepository>();
             builder.RegisterType<RiscoCoronarianoRepository>().As<IRiscoCoronarianoRepository>();
@@ -45,11 +48,13 @@ namespace Nano.N_Gym.App.Data.Registration
             #endregion
 
             #region Contexties
+            builder.RegisterType<AgendamentoContext>().As<IAgendamentoContext>();
             builder.RegisterType<AnamneseContext>().As<IAnamneseContext>();
             builder.RegisterType<AparelhoContext>().As<IAparelhoContext>();
             builder.RegisterType<AvaliacaoBaseContext>().As<IAvaliacaoBaseContext>();
             builder.RegisterType<CapacidadeAerobicaEstimadaContext>().As<ICapacidadeAerobicaEstimadaContext>();
             builder.RegisterType<CapacidadeAerobicaRealizadaContext>().As<ICapacidadeAerobicaRealizadaContext>();
+            builder.RegisterType<CargoContext>().As<ICargoContext>();
             builder.RegisterType<ClienteContext>().As<IClienteContext>();
             builder.RegisterType<ColaboradorContext>().As<IColaboradorContext>();
             builder.RegisterType<ComposicaoCorporalContext>().As<IComposicaoCorporalContext>();
@@ -67,6 +72,7 @@ namespace Nano.N_Gym.App.Data.Registration
             builder.RegisterType<PARQContext>().As<IPARQContext>();
             builder.RegisterType<PerimetriaContext>().As<IPerimetriaContext>();
             builder.RegisterType<PeriodoTurmaContext>().As<IPeriodoTurmaContext>();
+            builder.RegisterType<ProficaoContext>().As<IProficaoContext>();
             builder.RegisterType<QuestionarioAhaContext>().As<IQuestionarioAhaContext>();
             builder.RegisterType<RCQContext>().As<IRCQContext>();
             builder.RegisterType<RiscoCoronarianoContext>().As<IRiscoCoronarianoContext>();

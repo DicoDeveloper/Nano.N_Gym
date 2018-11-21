@@ -11,11 +11,13 @@ namespace Nano.N_Gym.App.Domain.Registration
         public static void Register(ref ContainerBuilder builder)
         {
             #region Services
+            builder.RegisterType<AgendamentoService>().As<IAgendamentoService>();
             builder.RegisterType<AnamneseService>().As<IAnamneseService>();
             builder.RegisterType<AparelhoService>().As<IAparelhoService>();
             builder.RegisterType<AvaliacaoBaseService>().As<IAvaliacaoBaseService>();
             builder.RegisterType<CapacidadeAerobicaEstimadaService>().As<ICapacidadeAerobicaEstimadaService>();
             builder.RegisterType<CapacidadeAerobicaRealizadaService>().As<ICapacidadeAerobicaRealizadaService>();
+            builder.RegisterType<CargoService>().As<ICargoService>();
             builder.RegisterType<ClienteService>().As<IClienteService>();
             builder.RegisterType<ColaboradorService>().As<IColaboradorService>();
             builder.RegisterType<ComposicaoCorporalService>().As<IComposicaoCorporalService>();
@@ -33,6 +35,7 @@ namespace Nano.N_Gym.App.Domain.Registration
             builder.RegisterType<PARQService>().As<IPARQService>();
             builder.RegisterType<PerimetriaService>().As<IPerimetriaService>();
             builder.RegisterType<PeriodoTurmaService>().As<IPeriodoTurmaService>();
+            builder.RegisterType<ProficaoService>().As<IProficaoService>();
             builder.RegisterType<QuestionarioAhaService>().As<IQuestionarioAhaService>();
             builder.RegisterType<RCQService>().As<IRCQService>();
             builder.RegisterType<RiscoCoronarianoService>().As<IRiscoCoronarianoService>();

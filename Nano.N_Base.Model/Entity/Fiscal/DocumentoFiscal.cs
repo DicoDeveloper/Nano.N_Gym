@@ -23,8 +23,8 @@ namespace Nano.N_Base.Model.Entity.Fiscal
         public DateTime Emissao { get; set; }
         public DateTime DataHoraExpedicao { get; set; }
         public DateTime DataContabil { get; set; }
-        [ForeignKey("Colaborador")]
-        public long? IdColaborador { get; set; }
+        [ForeignKey("Vendedor")]
+        public long? IdVendedor { get; set; }
         [ForeignKey("DestinatarioEmitente")]
         public long? IdDestinatarioEmitente { get; set; }
         [ForeignKey("Endereco")]
@@ -46,7 +46,7 @@ namespace Nano.N_Base.Model.Entity.Fiscal
         [ForeignKey("CondicaoPagamento")]
         public long? IdCondicaoPagamento { get; set; }
 
-        public virtual ColaboradorBase Colaborador { get; set; }
+        public virtual Pessoa Vendedor { get; set; }
         public virtual CondicaoPagamento CondicaoPagamento { get; set; }
         public virtual Endereco Endereco { get; set; }
         public virtual OperacaoFiscal OperacaoFiscal { get; set; }

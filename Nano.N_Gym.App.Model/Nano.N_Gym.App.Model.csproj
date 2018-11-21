@@ -56,12 +56,15 @@
     <Compile Include="Entity\Avaliacao\RiscoCoronariano.cs" />
     <Compile Include="Entity\Avaliacao\IMC.cs" />
     <Compile Include="Entity\Avaliacao\AvaliacaoBase.cs" />
+    <Compile Include="Entity\Cargo.cs" />
     <Compile Include="Entity\Colaborador.cs" />
     <Compile Include="Entity\Cliente.cs" />
     <Compile Include="Entity\Contrato.cs" />
     <Compile Include="Entity\ExercicioTreino.cs" />
     <Compile Include="Entity\Imagem.cs" />
     <Compile Include="Entity\Localizacao.cs" />
+    <Compile Include="Entity\Agendamento.cs" />
+    <Compile Include="Entity\Proficao.cs" />
     <Compile Include="Entity\Turma.cs" />
     <Compile Include="Entity\Treino.cs" />
     <Compile Include="Entity\PeriodoTurma.cs" />

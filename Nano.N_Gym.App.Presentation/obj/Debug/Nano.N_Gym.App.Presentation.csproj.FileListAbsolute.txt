@@ -91,7 +91,6 @@ C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Presentation\bin\pt-br\System.Web.Razo
 C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Presentation\bin\pt-br\System.Web.WebPages.resources.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Presentation\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Presentation\bin\pt-br\System.Web.WebPages.Razor.resources.dll
-C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Presentation\obj\Debug\Nano.N_Gym.App.Presentation.csprojAssemblyReference.cache
 C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Presentation\obj\Debug\Nano.N_Gym.App.Presentation.csproj.CoreCompileInputs.cache
 C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Presentation\obj\Debug\Nano.N_Gym.App.Presentation.csproj.CopyComplete
 C:\Repositorios\Nano.N_Gym\Nano.N_Gym.App.Presentation\obj\Debug\Nano.N_Gym.App.Presentation.dll

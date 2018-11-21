@@ -2,9 +2,9 @@
 {
     public enum TipoOperacao : int
     {
-        View = 0,
-        Insert = 1,
-        Update = 2,
-        Delete = 3        
+        Visualizacao = 0,
+        Cadastro = 1,
+        Alteracao = 2,
+        Exclusao = 3        
     }
 }
