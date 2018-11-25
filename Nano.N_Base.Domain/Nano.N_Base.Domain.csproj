@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,6 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Autofac">
@@ -44,7 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Commom\ExecaoComum.cs" />
     <Compile Include="Interface\Repository\Estoque\IMovimentoEstoqueRepository.cs" />
     <Compile Include="Interface\Repository\Estoque\ILimitadorEstoqueRepository.cs" />
     <Compile Include="Interface\Repository\Estoque\IItemInventarioRepository.cs" />
@@ -169,6 +170,10 @@
     <ProjectReference Include="..\Nano.N_Base.Model\Nano.N_Base.Model.csproj">
       <Project>{c5e947a4-0a97-4799-961f-ca0132c55564}</Project>
       <Name>Nano.N_Base.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nano.N_Base.Validation\Nano.N_Base.Validation.csproj">
+      <Project>{3df944d4-5d03-4e7e-a64c-cc37703985a9}</Project>
+      <Name>Nano.N_Base.Validation</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

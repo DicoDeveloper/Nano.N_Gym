@@ -1,4 +1,5 @@
 ﻿using Nano.N_Base.Model.Entity;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -19,5 +20,11 @@ namespace Nano.N_Gym.App.Model.Entity
         public string TempoIntervalo { get; set; }
 
         public virtual Treino Treino { get; set; }
+        public virtual IList<Exercicio> Exercicios { get; set; }
+
+        public ExercicioTreino()
+        {
+            Exercicios = new List<Exercicio>();
+        }
     }
 }

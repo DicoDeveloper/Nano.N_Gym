@@ -1,0 +1,10 @@
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Validation\bin\Debug\Nano.N_Base.Validation.dll
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Validation\bin\Debug\Nano.N_Base.Validation.pdb
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Validation\bin\Debug\Nano.N_Base.Model.dll
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Validation\bin\Debug\Newtonsoft.Json.dll
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Validation\bin\Debug\Nano.N_Base.Model.pdb
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Validation\obj\Debug\Nano.N_Base.Validation.csprojAssemblyReference.cache
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Validation\obj\Debug\Nano.N_Base.Validation.csproj.CoreCompileInputs.cache
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Validation\obj\Debug\Nano.N_Base.Validation.csproj.CopyComplete
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Validation\obj\Debug\Nano.N_Base.Validation.dll
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Validation\obj\Debug\Nano.N_Base.Validation.pdb

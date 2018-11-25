@@ -4,13 +4,13 @@ using Nano.N_Base.Domain.Registration;
 using Nano.N_Gym.App.Data.Registration;
 using Nano.N_Gym.App.Domain.Registration;
 
-namespace Nano.N_Tests.Commom
+namespace Nano.N_IoC
 {
-    public class Ioc
+    public class IoC
     {
         private readonly IContainer _container;
 
-        public Ioc()
+        public IoC()
         {
             ContainerBuilder builder = CreateAndRegisterBuilder();
             _container = builder.Build();

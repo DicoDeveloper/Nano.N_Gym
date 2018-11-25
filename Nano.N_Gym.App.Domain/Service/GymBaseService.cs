@@ -1,8 +1,7 @@
 ﻿using Nano.N_Base.Domain.Interface.Repository;
 using Nano.N_Base.Domain.Interface.Service;
-using System;
 using System.Linq;
-using static Nano.N_Base.Domain.Commom.ExecaoComum;
+using static Nano.N_Gym.App.Validation.ValidationFactoryGym;
 
 namespace Nano.N_Gym.App.Domain.Service
 {
@@ -14,8 +13,7 @@ namespace Nano.N_Gym.App.Domain.Service
 
         public virtual bool Save(TEntity entity)
         {
-            if (entity == null)
-                throw new ArgumentNullException($"Para salvar {entity.GetType().Name} não pode ser nulo.");
+            Validate(entity);
 
             return _repository.Save(entity);
         }
@@ -24,16 +22,22 @@ namespace Nano.N_Gym.App.Domain.Service
 
         public TEntity GetById(long id)
         {
-            if (id <= 0)
-                ErroDeIdInvalido(typeof(TEntity));
+            ValidateId(id);
 
             return _repository.GetById(id);
         }
 
+        public bool Delete(TEntity entity)
+        {
+            ValidateDelete(entity);
+
+            return _repository.Delete(entity);
+        }
+
         public bool Delete(long id)
         {
-            if (id <= 0)
-                ErroDeIdInvalido(typeof(TEntity));
+            ValidateId(id);
+
             return _repository.Delete(id);
         }
     }

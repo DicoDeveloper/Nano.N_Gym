@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,6 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -92,6 +94,7 @@
     <Compile Include="Entity\Sistema\Usuario.cs" />
     <Compile Include="Enum\Auditoria\TipoOperacao.cs" />
     <Compile Include="Enum\Endereco\UF.cs" />
+    <Compile Include="Enum\Exception\NivelExcecao.cs" />
     <Compile Include="Enum\Financeiro\TipoSituacaoTitulo.cs" />
     <Compile Include="Enum\Financeiro\TipoTaxaFinanciamento.cs" />
     <Compile Include="Enum\Financeiro\TipoDespesaReceita.cs" />
@@ -107,6 +110,10 @@
     <Compile Include="Enum\Movimentacao\TipoMovimentacao.cs" />
     <Compile Include="Enum\Pessoa\EstadoCivil.cs" />
     <Compile Include="Enum\Produto\TipoLote.cs" />
+    <Compile Include="Exception\InvalidOrNullRequiredPropertyException.cs" />
+    <Compile Include="Exception\InvalidIdentifierException.cs" />
+    <Compile Include="Exception\NullEntityException.cs" />
+    <Compile Include="Exception\InvalidEntityException.cs" />
     <Compile Include="Interface\IEntityBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

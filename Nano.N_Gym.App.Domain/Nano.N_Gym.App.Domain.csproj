@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,6 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Autofac">
@@ -143,9 +145,17 @@
       <Project>{0D56EAEB-6F8B-4706-BD91-F17E948BDD20}</Project>
       <Name>Nano.N_Base.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Nano.N_Base.Model\Nano.N_Base.Model.csproj">
+      <Project>{C5E947A4-0A97-4799-961F-CA0132C55564}</Project>
+      <Name>Nano.N_Base.Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Nano.N_Gym.App.Model\Nano.N_Gym.App.Model.csproj">
       <Project>{ADA12047-80F2-49FE-A489-7E752F6FB637}</Project>
       <Name>Nano.N_Gym.App.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nano.N_Gym.App.Validation\Nano.N_Gym.App.Validation.csproj">
+      <Project>{8e975587-d47f-4ba8-8a24-31d3a1b6a42b}</Project>
+      <Name>Nano.N_Gym.App.Validation</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />
