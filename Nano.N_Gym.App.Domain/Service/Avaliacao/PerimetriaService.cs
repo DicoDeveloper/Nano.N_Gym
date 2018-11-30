@@ -1,4 +1,5 @@
-﻿using Nano.N_Gym.App.Domain.Interface.Repository.Avaliacao;
+﻿using Nano.N_Base.Validation.Interface;
+using Nano.N_Gym.App.Domain.Interface.Repository.Avaliacao;
 using Nano.N_Gym.App.Domain.Interface.Service.Avaliacao;
 using Nano.N_Gym.App.Model.Entity.Avaliacao;
 
@@ -8,7 +9,7 @@ namespace Nano.N_Gym.App.Domain.Service.Avaliacao
     {
         private readonly IPerimetriaRepository _repository;
 
-        public PerimetriaService(IPerimetriaRepository repository) : base(repository)
+        public PerimetriaService(IPerimetriaRepository repository, IBaseValidation<Perimetria> validation) : base(repository, validation)
         {
             _repository = repository;
         }

@@ -4,7 +4,7 @@ using Nano.N_Gym.App.Model.Entity.Avaliacao;
 
 namespace Nano.N_Gym.App.Data.Infra.Avaliacao
 {
-    public class RCQContext : BaseContext<RCQ>, IRCQContext
+    internal class RCQContext : GymContext<RCQ>, IRCQContext
     {
     }
 }

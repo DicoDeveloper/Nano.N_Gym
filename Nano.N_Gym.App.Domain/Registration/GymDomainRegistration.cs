@@ -6,15 +6,14 @@ using Nano.N_Gym.App.Domain.Service.Avaliacao;
 
 namespace Nano.N_Gym.App.Domain.Registration
 {
-    public static class GymDomainRegistration
+    public class GymDomainRegistration
     {
-        public static void Register(ref ContainerBuilder builder)
+        public void Register(ref ContainerBuilder builder)
         {
             #region Services
             builder.RegisterType<AgendamentoService>().As<IAgendamentoService>();
             builder.RegisterType<AnamneseService>().As<IAnamneseService>();
             builder.RegisterType<AparelhoService>().As<IAparelhoService>();
-            builder.RegisterType<AvaliacaoBaseService>().As<IAvaliacaoBaseService>();
             builder.RegisterType<CapacidadeAerobicaEstimadaService>().As<ICapacidadeAerobicaEstimadaService>();
             builder.RegisterType<CapacidadeAerobicaRealizadaService>().As<ICapacidadeAerobicaRealizadaService>();
             builder.RegisterType<CargoService>().As<ICargoService>();

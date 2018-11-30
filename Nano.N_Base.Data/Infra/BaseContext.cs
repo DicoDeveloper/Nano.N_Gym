@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace Nano.N_Base.Data.Infra
 {
-    public class BaseContext<TEntity> : DbContext, IBaseContext<TEntity> where TEntity : class
+    internal class BaseContext<TEntity> : DbContext, IBaseContext<TEntity> where TEntity : class
     {
         public DbSet<TEntity> Entities { get; set; }
 

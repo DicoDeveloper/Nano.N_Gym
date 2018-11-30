@@ -4,7 +4,7 @@ using Nano.N_Gym.App.Model.Entity.Avaliacao;
 
 namespace Nano.N_Gym.App.Data.Infra.Avaliacao
 {
-    public class PerimetriaContext : BaseContext<Perimetria>, IPerimetriaContext
+    internal class PerimetriaContext : GymContext<Perimetria>, IPerimetriaContext
     {
     }
 }

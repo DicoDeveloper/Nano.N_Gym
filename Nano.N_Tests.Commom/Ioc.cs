@@ -1,8 +1,10 @@
 ﻿using Autofac;
 using Nano.N_Base.Data.Registration;
 using Nano.N_Base.Domain.Registration;
+using Nano.N_Base.Validation.Registration;
 using Nano.N_Gym.App.Data.Registration;
 using Nano.N_Gym.App.Domain.Registration;
+using Nano.N_Gym.App.Validation.Registration;
 
 namespace Nano.N_IoC
 {
@@ -25,10 +27,12 @@ namespace Nano.N_IoC
         {
             ContainerBuilder builder = new ContainerBuilder();
 
-            BaseDataRegistration.Register(ref builder);
-            BaseDomainRegistration.Register(ref builder);
-            GymDataRegistration.Register(ref builder);
-            GymDomainRegistration.Register(ref builder);
+            new BaseDataRegistration().Register(ref builder);
+            new BaseDomainRegistration().Register(ref builder);
+            new BaseValidationRegistration().Register(ref builder);
+            new GymDataRegistration().Register(ref builder);
+            new GymDomainRegistration().Register(ref builder);
+            new GymValidationRegistration().Register(ref builder);
 
             return builder;
         }

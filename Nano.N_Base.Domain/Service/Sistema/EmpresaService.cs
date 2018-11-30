@@ -1,6 +1,7 @@
 ﻿using Nano.N_Base.Domain.Interface.Repository.Sistema;
 using Nano.N_Base.Domain.Interface.Service.Sistema;
 using Nano.N_Base.Model.Entity.Sistema;
+using Nano.N_Base.Validation.Interface;
 
 namespace Nano.N_Base.Domain.Service.Sistema
 {
@@ -8,7 +9,7 @@ namespace Nano.N_Base.Domain.Service.Sistema
     {
         private readonly IEmpresaRepository _repository;
 
-        public EmpresaService(IEmpresaRepository repository) : base(repository)
+        public EmpresaService(IEmpresaRepository repository, IBaseValidation<Empresa> validation) : base(repository, validation)
         {
             _repository = repository;
         }

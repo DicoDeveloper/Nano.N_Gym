@@ -8,3 +8,4 @@ C:\Repositorios\Nano.N_Gym\Nano.N_Base.Validation\obj\Debug\Nano.N_Base.Validati
 C:\Repositorios\Nano.N_Gym\Nano.N_Base.Validation\obj\Debug\Nano.N_Base.Validation.csproj.CopyComplete
 C:\Repositorios\Nano.N_Gym\Nano.N_Base.Validation\obj\Debug\Nano.N_Base.Validation.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Base.Validation\obj\Debug\Nano.N_Base.Validation.pdb
+C:\Repositorios\Nano.N_Gym\Nano.N_Base.Validation\bin\Debug\Autofac.dll

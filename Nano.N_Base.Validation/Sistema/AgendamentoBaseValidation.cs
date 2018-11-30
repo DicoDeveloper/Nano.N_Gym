@@ -2,7 +2,7 @@
 
 namespace Nano.N_Base.Validation.Sistema
 {
-    internal static class AgendamentoBaseValidation
+    internal class AgendamentoBaseValidation
     {
         public static void Validate(AgendamentoBase agendamento)
         {

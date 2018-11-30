@@ -22,9 +22,9 @@ using Nano.N_Base.Domain.Interface.Repository.Sistema;
 
 namespace Nano.N_Base.Data.Registration
 {
-    public static class BaseDataRegistration 
+    public class BaseDataRegistration 
     {
-        public static void Register(ref ContainerBuilder builder)
+        public void Register(ref ContainerBuilder builder)
         {
             #region Repositories
             builder.RegisterType<AtributoProdutoRepository>().As<IAtributoProdutoRepository>();

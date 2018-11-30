@@ -4,7 +4,7 @@ using Nano.N_Gym.App.Model.Entity;
 
 namespace Nano.N_Gym.App.Data.Infra
 {
-    public class ImagemContext : BaseContext<Imagem>, IImagemContext
+    internal class ImagemContext : GymContext<Imagem>, IImagemContext
     {
     }
 }

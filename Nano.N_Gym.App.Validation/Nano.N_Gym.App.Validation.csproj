@@ -33,6 +33,10 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac, Version=4.8.1.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\Autofac.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,18 +48,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Avaliacao\AnamneseValidation.cs" />
+    <Compile Include="AgendamentoValidation.cs" />
     <Compile Include="ExercicioValidation.cs" />
+    <Compile Include="GymValidation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ValidationFactoryGym.cs" />
+    <Compile Include="Registration\GymValidationRegistration.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Nano.N_Base.Domain\Nano.N_Base.Domain.csproj">
+      <Project>{0D56EAEB-6F8B-4706-BD91-F17E948BDD20}</Project>
+      <Name>Nano.N_Base.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Nano.N_Base.Model\Nano.N_Base.Model.csproj">
       <Project>{c5e947a4-0a97-4799-961f-ca0132c55564}</Project>
       <Name>Nano.N_Base.Model</Name>
     </ProjectReference>
     <ProjectReference Include="..\Nano.N_Base.Validation\Nano.N_Base.Validation.csproj">
-      <Project>{3df944d4-5d03-4e7e-a64c-cc37703985a9}</Project>
+      <Project>{3DF944D4-5D03-4E7E-A64C-CC37703985A9}</Project>
       <Name>Nano.N_Base.Validation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nano.N_Gym.App.Domain\Nano.N_Gym.App.Domain.csproj">
+      <Project>{c6b0581c-58e4-4943-b634-116ab199d01a}</Project>
+      <Name>Nano.N_Gym.App.Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\Nano.N_Gym.App.Model\Nano.N_Gym.App.Model.csproj">
       <Project>{ada12047-80f2-49fe-a489-7e752f6fb637}</Project>

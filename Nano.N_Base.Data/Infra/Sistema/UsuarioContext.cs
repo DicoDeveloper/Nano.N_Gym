@@ -3,7 +3,7 @@ using Nano.N_Base.Model.Entity.Sistema;
 
 namespace Nano.N_Base.Data.Infra.Sistema
 {
-    public class UsuarioContext : BaseContext<Usuario>, IUsuarioContext
+    internal class UsuarioContext : BaseContext<Usuario>, IUsuarioContext
     {
     }
 }

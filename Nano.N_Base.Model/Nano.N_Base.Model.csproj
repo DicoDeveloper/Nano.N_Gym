@@ -112,6 +112,7 @@
     <Compile Include="Enum\Produto\TipoLote.cs" />
     <Compile Include="Exception\InvalidOrNullRequiredPropertyException.cs" />
     <Compile Include="Exception\InvalidIdentifierException.cs" />
+    <Compile Include="Exception\DuplicatedPropertyException.cs" />
     <Compile Include="Exception\NullEntityException.cs" />
     <Compile Include="Exception\InvalidEntityException.cs" />
     <Compile Include="Interface\IEntityBase.cs" />

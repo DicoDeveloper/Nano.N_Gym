@@ -3,7 +3,7 @@ using Nano.N_Base.Model.Entity.ProdutoVinculos;
 
 namespace Nano.N_Base.Data.Infra.ProdutoVinculos
 {
-    public class LoteCorTamanhoContext : BaseContext<LoteCorTamanho>, ILoteCorTamanhoContext
+    internal class LoteCorTamanhoContext : BaseContext<LoteCorTamanho>, ILoteCorTamanhoContext
     {
     }
 }

@@ -10,7 +10,6 @@ namespace Nano.N_Gym.App.Model.Entity
     {
         [Required]
         public string Nome { get; set; }
-        [Required]
         public TipoExercicio Tipo { get; set; }
         public string Descricao { get; set; }
     }

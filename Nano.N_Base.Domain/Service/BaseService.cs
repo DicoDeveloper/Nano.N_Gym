@@ -1,20 +1,24 @@
 ﻿using Nano.N_Base.Domain.Interface.Repository;
 using Nano.N_Base.Domain.Interface.Service;
-using System;
+using Nano.N_Base.Validation.Interface;
 using System.Linq;
-using static Nano.N_Base.Validation.ValidationFactoryBase;
 
 namespace Nano.N_Base.Domain.Service
 {
     internal class BaseService<TEntity> : IBaseService<TEntity> where TEntity : class
     {
         private readonly IBaseRepository<TEntity> _repository;
+        private readonly IBaseValidation<TEntity> _validation;
 
-        public BaseService(IBaseRepository<TEntity> repository) => _repository = repository;
+        public BaseService(IBaseRepository<TEntity> repository, IBaseValidation<TEntity> validation)
+        {
+            _repository = repository;
+            _validation = validation;
+        }
 
         public virtual bool Save(TEntity entity)
         {
-            ValidateBase(entity);
+            _validation.Validate(entity);
 
             return _repository.Save(entity);
         }
@@ -23,21 +27,21 @@ namespace Nano.N_Base.Domain.Service
 
         public TEntity GetById(long id)
         {
-            ValidateIdBase(id);
+            _validation.ValidateId(id);
 
             return _repository.GetById(id);
         }
 
         public bool Delete(TEntity entity)
         {
-            ValidateDeleteBase(entity);
+            _validation.ValidateEntityToDelete(entity);
 
             return _repository.Delete(entity);
         }
 
         public bool Delete(long id)
         {
-            ValidateIdBase(id);
+            _validation.ValidateId(id);
 
             return _repository.Delete(id);
         }

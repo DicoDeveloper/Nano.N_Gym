@@ -1,6 +1,7 @@
 ﻿using Nano.N_Base.Domain.Interface.Repository.Financeiro;
 using Nano.N_Base.Domain.Interface.Service.Financeiro;
 using Nano.N_Base.Model.Entity.Financeiro;
+using Nano.N_Base.Validation.Interface;
 
 namespace Nano.N_Base.Domain.Service.Financeiro
 {
@@ -8,7 +9,7 @@ namespace Nano.N_Base.Domain.Service.Financeiro
     {
         private readonly IDocumentoFinanceiroRepository _repository;
 
-        public DocumentoFinanceiroService(IDocumentoFinanceiroRepository repository) : base(repository)
+        public DocumentoFinanceiroService(IDocumentoFinanceiroRepository repository, IBaseValidation<DocumentoFinanceiro> validation) : base(repository, validation)
         {
             _repository = repository;
         }

@@ -12,9 +12,9 @@ using Nano.N_Base.Domain.Service.Sistema;
 
 namespace Nano.N_Base.Domain.Registration
 {
-    public static class BaseDomainRegistration
+    public class BaseDomainRegistration
     {
-        public static void Register(ref ContainerBuilder builder)
+        public void Register(ref ContainerBuilder builder)
         {
             #region Services
             builder.RegisterType<AtributoProdutoService>().As<IAtributoProdutoService>();

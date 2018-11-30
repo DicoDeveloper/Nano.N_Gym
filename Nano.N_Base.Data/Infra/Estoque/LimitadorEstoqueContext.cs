@@ -3,7 +3,7 @@ using Nano.N_Base.Model.Entity.Estoque;
 
 namespace Nano.N_Base.Data.Infra.Estoque
 {
-    public class LimitadorEstoqueContext : BaseContext<LimitadorEstoque>, ILimitadorEstoqueContext
+    internal class LimitadorEstoqueContext : BaseContext<LimitadorEstoque>, ILimitadorEstoqueContext
     {
     }
 }

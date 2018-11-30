@@ -88,6 +88,9 @@
     <Compile Include="Interface\Service\IAgendamentoService.cs" />
     <Compile Include="Interface\Service\IProficaoService.cs" />
     <Compile Include="Interface\Service\ITurmaService.cs" />
+    <Compile Include="Interface\Validation\Avaliacao\IAnamneseValidation.cs" />
+    <Compile Include="Interface\Validation\IAgendamentoValidation.cs" />
+    <Compile Include="Interface\Validation\IExercicioValidation.cs" />
     <Compile Include="Registration\GymDomainRegistration.cs" />
     <Compile Include="Interface\Repository\ITreinoRepository.cs" />
     <Compile Include="Interface\Repository\IPeriodoTurmaRepository.cs" />
@@ -97,7 +100,6 @@
     <Compile Include="Interface\Repository\IExercicioRepository.cs" />
     <Compile Include="Interface\Repository\IContratoRepository.cs" />
     <Compile Include="Interface\Repository\IClienteRepository.cs" />
-    <Compile Include="Interface\Repository\Avaliacao\IAvaliacaoBaseRepository.cs" />
     <Compile Include="Interface\Service\ITreinoService.cs" />
     <Compile Include="Interface\Service\IPeriodoTurmaService.cs" />
     <Compile Include="Interface\Service\IModalidadeService.cs" />
@@ -106,7 +108,6 @@
     <Compile Include="Interface\Service\IExercicioService.cs" />
     <Compile Include="Interface\Service\IContratoService.cs" />
     <Compile Include="Interface\Service\IClienteService.cs" />
-    <Compile Include="Interface\Service\Avaliacao\IAvaliacaoBaseService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\Avaliacao\CapacidadeAerobicaRealizadaService.cs" />
     <Compile Include="Service\Avaliacao\CapacidadeAerobicaEstimadaService.cs" />
@@ -137,7 +138,6 @@
     <Compile Include="Service\ExercicioService.cs" />
     <Compile Include="Service\ContratoService.cs" />
     <Compile Include="Service\ClienteService.cs" />
-    <Compile Include="Service\Avaliacao\AvaliacaoBaseService.cs" />
     <Compile Include="Service\GymBaseService.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -149,13 +149,13 @@
       <Project>{C5E947A4-0A97-4799-961F-CA0132C55564}</Project>
       <Name>Nano.N_Base.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Nano.N_Base.Validation\Nano.N_Base.Validation.csproj">
+      <Project>{3DF944D4-5D03-4E7E-A64C-CC37703985A9}</Project>
+      <Name>Nano.N_Base.Validation</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Nano.N_Gym.App.Model\Nano.N_Gym.App.Model.csproj">
       <Project>{ADA12047-80F2-49FE-A489-7E752F6FB637}</Project>
       <Name>Nano.N_Gym.App.Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Nano.N_Gym.App.Validation\Nano.N_Gym.App.Validation.csproj">
-      <Project>{8e975587-d47f-4ba8-8a24-31d3a1b6a42b}</Project>
-      <Name>Nano.N_Gym.App.Validation</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

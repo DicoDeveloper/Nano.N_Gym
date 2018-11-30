@@ -30,9 +30,9 @@ C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Nano.N_Base.Tests.Domain.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Nano.N_Base.Tests.Domain.pdb
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests\obj\Debug\Nano.N_Base.Tests.Domain.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests\obj\Debug\Nano.N_Base.Tests.Domain.pdb
-C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Nano.N_Gym.App.Validation.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Nano.N_Base.Validation.dll
-C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Nano.N_Gym.App.Validation.pdb
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Nano.N_Base.Validation.pdb
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Nano.N_IoC.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Nano.N_IoC.pdb
+C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Nano.N_Gym.App.Validation.dll
+C:\Repositorios\Nano.N_Gym\Nano.N_Tests\bin\Debug\Nano.N_Gym.App.Validation.pdb

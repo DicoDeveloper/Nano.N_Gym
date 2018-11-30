@@ -3,7 +3,7 @@ using Nano.N_Base.Model.Entity.ProdutoVinculos;
 
 namespace Nano.N_Base.Data.Infra.ProdutoVinculos
 {
-    public class CategoriaContext : BaseContext<Categoria>, ICategoriaContext
+    internal class CategoriaContext : BaseContext<Categoria>, ICategoriaContext
     {
     }
 }

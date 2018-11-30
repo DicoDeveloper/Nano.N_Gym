@@ -1,4 +1,5 @@
-﻿using Nano.N_Gym.App.Domain.Interface.Repository;
+﻿using Nano.N_Base.Validation.Interface;
+using Nano.N_Gym.App.Domain.Interface.Repository;
 using Nano.N_Gym.App.Domain.Interface.Service;
 using Nano.N_Gym.App.Model.Entity;
 
@@ -8,7 +9,7 @@ namespace Nano.N_Gym.App.Domain.Service
     {
         private readonly IImagemRepository _repository;
 
-        public ImagemService(IImagemRepository repository) : base(repository)
+        public ImagemService(IImagemRepository repository, IBaseValidation<Imagem> validation) : base(repository, validation)
         {
             _repository = repository;
         }

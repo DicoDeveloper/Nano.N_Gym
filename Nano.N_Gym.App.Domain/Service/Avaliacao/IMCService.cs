@@ -1,4 +1,5 @@
-﻿using Nano.N_Gym.App.Domain.Interface.Repository.Avaliacao;
+﻿using Nano.N_Base.Validation.Interface;
+using Nano.N_Gym.App.Domain.Interface.Repository.Avaliacao;
 using Nano.N_Gym.App.Domain.Interface.Service.Avaliacao;
 using Nano.N_Gym.App.Model.Entity.Avaliacao;
 
@@ -8,7 +9,7 @@ namespace Nano.N_Gym.App.Domain.Service.Avaliacao
     {
         private readonly IIMCRepository _repository;
 
-        public IMCService(IIMCRepository repository) : base(repository)
+        public IMCService(IIMCRepository repository, IBaseValidation<IMC> validation) : base(repository, validation)
         {
             _repository = repository;
         }

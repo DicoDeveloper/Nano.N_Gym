@@ -1,4 +1,5 @@
-﻿using Nano.N_Gym.App.Domain.Interface.Repository.Avaliacao;
+﻿using Nano.N_Base.Validation.Interface;
+using Nano.N_Gym.App.Domain.Interface.Repository.Avaliacao;
 using Nano.N_Gym.App.Domain.Interface.Service.Avaliacao;
 using Nano.N_Gym.App.Model.Entity.Avaliacao;
 
@@ -8,7 +9,7 @@ namespace Nano.N_Gym.App.Domain.Service.Avaliacao
     {
         private readonly IRiscoCoronarianoRepository _repository;
 
-        public RiscoCoronarianoService(IRiscoCoronarianoRepository repository) : base(repository)
+        public RiscoCoronarianoService(IRiscoCoronarianoRepository repository, IBaseValidation<RiscoCoronariano> validation) : base(repository, validation)
         {
             _repository = repository;
         }

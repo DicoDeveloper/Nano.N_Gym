@@ -4,7 +4,7 @@ using Nano.N_Gym.App.Model.Entity;
 
 namespace Nano.N_Gym.App.Data.Infra
 {
-    public class PeriodoTurmaContext : BaseContext<PeriodoTurma>, IPeriodoTurmaContext
+    internal class PeriodoTurmaContext : GymContext<PeriodoTurma>, IPeriodoTurmaContext
     {
     }
 }

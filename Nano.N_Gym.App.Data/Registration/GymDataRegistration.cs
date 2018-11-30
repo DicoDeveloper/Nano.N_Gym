@@ -10,15 +10,14 @@ using Nano.N_Gym.App.Domain.Interface.Repository.Avaliacao;
 
 namespace Nano.N_Gym.App.Data.Registration
 {
-    public static class GymDataRegistration
+    public class GymDataRegistration
     {
-        public static void Register(ref ContainerBuilder builder)
+        public void Register(ref ContainerBuilder builder)
         {
             #region Repositories
             builder.RegisterType<AgendamentoRepository>().As<IAgendamentoRepository>();
             builder.RegisterType<AnamneseRepository>().As<IAnamneseRepository>();
             builder.RegisterType<AparelhoRepository>().As<IAparelhoRepository>();
-            builder.RegisterType<AvaliacaoBaseRepository>().As<IAvaliacaoBaseRepository>();
             builder.RegisterType<CapacidadeAerobicaEstimadaRepository>().As<ICapacidadeAerobicaEstimadaRepository>();
             builder.RegisterType<CapacidadeAerobicaRealizadaRepository>().As<ICapacidadeAerobicaRealizadaRepository>();
             builder.RegisterType<CargoRepository>().As<ICargoRepository>();
@@ -51,7 +50,6 @@ namespace Nano.N_Gym.App.Data.Registration
             builder.RegisterType<AgendamentoContext>().As<IAgendamentoContext>();
             builder.RegisterType<AnamneseContext>().As<IAnamneseContext>();
             builder.RegisterType<AparelhoContext>().As<IAparelhoContext>();
-            builder.RegisterType<AvaliacaoBaseContext>().As<IAvaliacaoBaseContext>();
             builder.RegisterType<CapacidadeAerobicaEstimadaContext>().As<ICapacidadeAerobicaEstimadaContext>();
             builder.RegisterType<CapacidadeAerobicaRealizadaContext>().As<ICapacidadeAerobicaRealizadaContext>();
             builder.RegisterType<CargoContext>().As<ICargoContext>();

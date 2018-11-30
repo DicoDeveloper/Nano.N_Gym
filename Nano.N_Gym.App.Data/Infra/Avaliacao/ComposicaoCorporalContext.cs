@@ -4,7 +4,7 @@ using Nano.N_Gym.App.Model.Entity.Avaliacao;
 
 namespace Nano.N_Gym.App.Data.Infra.Avaliacao
 {
-    public class ComposicaoCorporalContext : BaseContext<ComposicaoCorporal>, IComposicaoCorporalContext
+    internal class ComposicaoCorporalContext : GymContext<ComposicaoCorporal>, IComposicaoCorporalContext
     {
     }
 }

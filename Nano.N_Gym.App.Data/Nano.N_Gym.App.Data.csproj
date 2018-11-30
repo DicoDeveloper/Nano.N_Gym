@@ -62,6 +62,7 @@
     <Compile Include="Infra\Avaliacao\RCQContext.cs" />
     <Compile Include="Infra\Avaliacao\IMCContext.cs" />
     <Compile Include="Infra\Avaliacao\ComposicaoCorporalContext.cs" />
+    <Compile Include="Infra\GymContext.cs" />
     <Compile Include="Infra\CargoContext.cs" />
     <Compile Include="Infra\ColaboradorContext.cs" />
     <Compile Include="Infra\ExercicioTreinoContext.cs" />
@@ -78,7 +79,6 @@
     <Compile Include="Infra\ExercicioContext.cs" />
     <Compile Include="Infra\ContratoContext.cs" />
     <Compile Include="Infra\ClienteContext.cs" />
-    <Compile Include="Infra\Avaliacao\AvaliacaoBaseContext.cs" />
     <Compile Include="Interface\Avaliacao\ICapacidadeAerobicaRealizadaContext.cs" />
     <Compile Include="Interface\Avaliacao\IQuestionarioAhaContext.cs" />
     <Compile Include="Interface\Avaliacao\IForcaResistenciaMuscularContext.cs" />
@@ -108,7 +108,6 @@
     <Compile Include="Interface\IExercicioContext.cs" />
     <Compile Include="Interface\IContratoContext.cs" />
     <Compile Include="Interface\IClienteContext.cs" />
-    <Compile Include="Interface\Avaliacao\IAvaliacaoBaseContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registration\GymDataRegistration.cs" />
     <Compile Include="Repository\Avaliacao\CapacidadeAerobicaRealizadaRepository.cs" />
@@ -140,7 +139,6 @@
     <Compile Include="Repository\ExercicioRepository.cs" />
     <Compile Include="Repository\ContratoRepository.cs" />
     <Compile Include="Repository\ClienteRepository.cs" />
-    <Compile Include="Repository\Avaliacao\AvaliacaoBaseRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Nano.N_Base.Data\Nano.N_Base.Data.csproj">

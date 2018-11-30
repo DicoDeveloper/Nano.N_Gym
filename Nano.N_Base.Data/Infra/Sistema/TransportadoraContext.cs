@@ -3,7 +3,7 @@ using Nano.N_Base.Model.Entity.Sistema;
 
 namespace Nano.N_Base.Data.Infra.Sistema
 {
-    public class TransportadoraContext : BaseContext<Transportadora>, ITransportadoraContext
+    internal class TransportadoraContext : BaseContext<Transportadora>, ITransportadoraContext
     {
     }
 }

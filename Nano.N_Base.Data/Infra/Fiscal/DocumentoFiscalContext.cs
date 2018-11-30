@@ -3,7 +3,7 @@ using Nano.N_Base.Model.Entity.Fiscal;
 
 namespace Nano.N_Base.Data.Infra.Fiscal
 {
-    public class DocumentoFiscalContext : BaseContext<DocumentoFiscal>, IDocumentoFiscalContext
+    internal class DocumentoFiscalContext : BaseContext<DocumentoFiscal>, IDocumentoFiscalContext
     {
     }
 }

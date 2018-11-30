@@ -2,9 +2,9 @@
 
 namespace Nano.N_Gym.App.Validation.Avaliacao
 {
-    internal static class AnamneseValidation
+    internal class AnamneseValidation
     {
-        public static void Validate(Anamnese anamnese)
+        public void Validate(Anamnese anamnese)
         {
         }
     }

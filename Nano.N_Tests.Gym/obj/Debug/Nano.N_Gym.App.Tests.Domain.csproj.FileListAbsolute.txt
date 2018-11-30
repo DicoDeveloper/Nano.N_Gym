@@ -19,7 +19,6 @@ C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Nano.N_Gym.App.Domain.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Nano.N_Gym.App.Model.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Autofac.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Newtonsoft.Json.dll
-C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Nano.N_Gym.App.Validation.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Nano.N_Base.Data.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Nano.N_Gym.App.Data.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Nano.N_Base.Validation.dll
@@ -28,7 +27,6 @@ C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Nano.N_Base.Domain.pdb
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Nano.N_Base.Model.pdb
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Nano.N_Gym.App.Domain.pdb
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Nano.N_Gym.App.Model.pdb
-C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Nano.N_Gym.App.Validation.pdb
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Nano.N_Base.Data.pdb
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Nano.N_Base.Data.dll.config
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Nano.N_Gym.App.Data.pdb
@@ -36,3 +34,5 @@ C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Nano.N_Base.Validation.pdb
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\EntityFramework.SqlServer.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Nano.N_IoC.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Nano.N_IoC.pdb
+C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Nano.N_Gym.App.Validation.dll
+C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Gym\bin\Debug\Nano.N_Gym.App.Validation.pdb

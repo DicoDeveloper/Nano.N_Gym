@@ -33,6 +33,9 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\Libs\Autofac.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,8 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseValidation.cs" />
+    <Compile Include="Interface\IBaseValidation.cs" />
+    <Compile Include="Registration\BaseValidationRegistration.cs" />
     <Compile Include="Sistema\AgendamentoBaseValidation.cs" />
-    <Compile Include="ValidationFactoryBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

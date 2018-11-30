@@ -14,7 +14,6 @@ C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Commom\bin\Debug\Nano.N_Gym.App.Model.dl
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Commom\bin\Debug\EntityFramework.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Commom\bin\Debug\Nano.N_Base.Validation.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Commom\bin\Debug\Newtonsoft.Json.dll
-C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Commom\bin\Debug\Nano.N_Gym.App.Validation.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Commom\bin\Debug\Nano.N_Base.Data.pdb
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Commom\bin\Debug\Nano.N_Base.Data.dll.config
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Commom\bin\Debug\Nano.N_Base.Domain.pdb
@@ -23,7 +22,8 @@ C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Commom\bin\Debug\Nano.N_Gym.App.Data.pdb
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Commom\bin\Debug\Nano.N_Gym.App.Domain.pdb
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Commom\bin\Debug\Nano.N_Gym.App.Model.pdb
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Commom\bin\Debug\Nano.N_Base.Validation.pdb
-C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Commom\bin\Debug\Nano.N_Gym.App.Validation.pdb
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Commom\obj\Debug\Nano.N_IoC.csproj.CopyComplete
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Commom\obj\Debug\Nano.N_IoC.dll
 C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Commom\obj\Debug\Nano.N_IoC.pdb
+C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Commom\bin\Debug\Nano.N_Gym.App.Validation.dll
+C:\Repositorios\Nano.N_Gym\Nano.N_Tests.Commom\bin\Debug\Nano.N_Gym.App.Validation.pdb

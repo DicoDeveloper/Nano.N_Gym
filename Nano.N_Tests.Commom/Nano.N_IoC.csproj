@@ -68,6 +68,10 @@
       <Project>{c5e947a4-0a97-4799-961f-ca0132c55564}</Project>
       <Name>Nano.N_Base.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Nano.N_Base.Validation\Nano.N_Base.Validation.csproj">
+      <Project>{3DF944D4-5D03-4E7E-A64C-CC37703985A9}</Project>
+      <Name>Nano.N_Base.Validation</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Nano.N_Gym.App.Data\Nano.N_Gym.App.Data.csproj">
       <Project>{bf1eeb50-467b-4bbc-952f-10341b9bd8bd}</Project>
       <Name>Nano.N_Gym.App.Data</Name>
@@ -79,6 +83,10 @@
     <ProjectReference Include="..\Nano.N_Gym.App.Model\Nano.N_Gym.App.Model.csproj">
       <Project>{ada12047-80f2-49fe-a489-7e752f6fb637}</Project>
       <Name>Nano.N_Gym.App.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nano.N_Gym.App.Validation\Nano.N_Gym.App.Validation.csproj">
+      <Project>{8E975587-D47F-4BA8-8A24-31D3A1B6A42B}</Project>
+      <Name>Nano.N_Gym.App.Validation</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

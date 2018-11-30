@@ -4,7 +4,7 @@ using Nano.N_Gym.App.Model.Entity;
 
 namespace Nano.N_Gym.App.Data.Infra
 {
-    public class ContratoContext : BaseContext<Contrato>, IContratoContext
+    internal class ContratoContext : GymContext<Contrato>, IContratoContext
     {
     }
 }

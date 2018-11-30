@@ -3,7 +3,7 @@ using Nano.N_Base.Model.Entity.Sistema;
 
 namespace Nano.N_Base.Data.Infra.Sistema
 {
-    public class CaracteristicaContext : BaseContext<Caracteristica>, ICaracteristicaContext
+    internal class CaracteristicaContext : BaseContext<Caracteristica>, ICaracteristicaContext
     {
     }
 }

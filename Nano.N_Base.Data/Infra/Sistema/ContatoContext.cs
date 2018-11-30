@@ -3,7 +3,7 @@ using Nano.N_Base.Model.Entity.Sistema;
 
 namespace Nano.N_Base.Data.Infra.Sistema
 {
-    public class ContatoContext : BaseContext<Contato>, IContatoContext
+    internal class ContatoContext : BaseContext<Contato>, IContatoContext
     {
     }
 }

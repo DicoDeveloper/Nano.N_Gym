@@ -1,6 +1,7 @@
 ﻿using Nano.N_Base.Domain.Interface.Repository.Fiscal;
 using Nano.N_Base.Domain.Interface.Service.Fiscal;
 using Nano.N_Base.Model.Entity.Fiscal;
+using Nano.N_Base.Validation.Interface;
 
 namespace Nano.N_Base.Domain.Service.Fiscal
 {
@@ -8,7 +9,7 @@ namespace Nano.N_Base.Domain.Service.Fiscal
     {
         private readonly IOperacaoFiscalRepository _repository;
 
-        public OperacaoFiscalService(IOperacaoFiscalRepository repository) : base(repository)
+        public OperacaoFiscalService(IOperacaoFiscalRepository repository, IBaseValidation<OperacaoFiscal> validation) : base(repository, validation)
         {
             _repository = repository;
         }

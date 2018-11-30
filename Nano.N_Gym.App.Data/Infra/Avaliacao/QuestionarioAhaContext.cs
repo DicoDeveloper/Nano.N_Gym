@@ -4,7 +4,7 @@ using Nano.N_Gym.App.Model.Entity.Avaliacao;
 
 namespace Nano.N_Gym.App.Data.Infra.Avaliacao
 {
-    public class QuestionarioAhaContext : BaseContext<QuestionarioAha>, IQuestionarioAhaContext
+    internal class QuestionarioAhaContext : GymContext<QuestionarioAha>, IQuestionarioAhaContext
     {
     }
 }

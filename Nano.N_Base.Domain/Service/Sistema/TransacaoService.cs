@@ -1,6 +1,7 @@
 ﻿using Nano.N_Base.Domain.Interface.Repository.Sistema;
 using Nano.N_Base.Domain.Interface.Service.Sistema;
 using Nano.N_Base.Model.Entity.Sistema;
+using Nano.N_Base.Validation.Interface;
 
 namespace Nano.N_Base.Domain.Service.Sistema
 {
@@ -8,7 +9,7 @@ namespace Nano.N_Base.Domain.Service.Sistema
     {
         private readonly ITransacaoRepository _repository;
 
-        public TransacaoService(ITransacaoRepository repository) : base(repository)
+        public TransacaoService(ITransacaoRepository repository, IBaseValidation<Transacao> validation) : base(repository, validation)
         {
             _repository = repository;
         }

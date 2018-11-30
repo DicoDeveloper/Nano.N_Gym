@@ -49,6 +49,24 @@ namespace Nano.N_Gym.App.Tests.Domain
             });
         }
 
+        [TestMethod, ExpectedException(typeof(DuplicatedPropertyException), "Serviço não trata propriedade com valores duplicados")]
+        public void InserirExercicioComNomeDuplicado()
+        {
+            _exercicioService.Save(new Exercicio
+            {
+                Nome = "Exercicio teste 2",
+                Descricao = "Descricao teste 2",
+                Tipo = Model.Enum.Exercicio.TipoExercicio.Abdominal
+            });
+
+            _exercicioService.Save(new Exercicio
+            {
+                Nome = "Exercicio teste 2",
+                Descricao = "Descricao teste 2",
+                Tipo = Model.Enum.Exercicio.TipoExercicio.Biceps
+            });
+        }
+
         [AssemblyCleanup()]
         public static void CleanupAfterAllTests()
         {
