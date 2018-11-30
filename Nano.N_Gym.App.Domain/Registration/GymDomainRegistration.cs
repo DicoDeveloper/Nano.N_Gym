@@ -1,15 +1,34 @@
 ﻿using Autofac;
+using Nano.N_Base.Model.Interface;
 using Nano.N_Gym.App.Domain.Interface.Service;
 using Nano.N_Gym.App.Domain.Interface.Service.Avaliacao;
 using Nano.N_Gym.App.Domain.Service;
 using Nano.N_Gym.App.Domain.Service.Avaliacao;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Nano.N_Gym.App.Domain.Registration
 {
     public class GymDomainRegistration
     {
-        public void Register(ref ContainerBuilder builder)
+        public void Register(ref ContainerBuilder builder, AutofacInstanceContextMode autofacInstanceContextMode)
         {
+            List<Type> tiposRepositorios = typeof(GymDomainRegistration).Assembly.GetTypes().Where(p => p.IsSubclassOf(typeof(GymBaseService<>)) && !p.IsAbstract).ToList();
+
+            switch (autofacInstanceContextMode)
+            {
+                case AutofacInstanceContextMode.PerCall:
+                    tiposRepositorios.ForEach(p => builder.RegisterType(p).AsImplementedInterfaces());
+                    break;
+                case AutofacInstanceContextMode.PerHttpRequest:
+                    tiposRepositorios.ForEach(p => builder.RegisterType(p).AsImplementedInterfaces().InstancePerRequest());
+                    break;
+                case AutofacInstanceContextMode.PerLifetimeScope:
+                    tiposRepositorios.ForEach(p => builder.RegisterType(p).AsImplementedInterfaces().InstancePerLifetimeScope());
+                    break;
+            }
+
             #region Services
             builder.RegisterType<AgendamentoService>().As<IAgendamentoService>();
             builder.RegisterType<AnamneseService>().As<IAnamneseService>();

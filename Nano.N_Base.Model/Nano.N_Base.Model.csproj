@@ -115,6 +115,7 @@
     <Compile Include="Exception\DuplicatedPropertyException.cs" />
     <Compile Include="Exception\NullEntityException.cs" />
     <Compile Include="Exception\InvalidEntityException.cs" />
+    <Compile Include="Enum\AutofacInstanceContextMode.cs" />
     <Compile Include="Interface\IEntityBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
