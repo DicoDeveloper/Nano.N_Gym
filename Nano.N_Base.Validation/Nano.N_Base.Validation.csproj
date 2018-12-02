@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseEmpresaValidation.cs" />
     <Compile Include="BaseValidation.cs" />
     <Compile Include="Interface\IBaseValidation.cs" />
     <Compile Include="Registration\BaseValidationRegistration.cs" />

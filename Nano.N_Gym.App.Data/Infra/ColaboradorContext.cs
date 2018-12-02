@@ -4,7 +4,7 @@ using Nano.N_Gym.App.Model.Entity;
 
 namespace Nano.N_Gym.App.Data.Infra
 {
-    internal class ColaboradorContext : GymContext<Colaborador>, IColaboradorContext
+    internal class ColaboradorContext : BaseContext<Colaborador>, IColaboradorContext
     {
     }
 }

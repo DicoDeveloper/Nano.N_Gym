@@ -10,7 +10,7 @@ namespace Nano.N_Base.Data.Interface
         IQueryable<TEntity> GetAll();
         TEntity GetById(long id);
         bool Delete(long id);
-        bool Delete(TEntity entity);
         bool DeleteRange(IEnumerable<TEntity> entities);
+        bool Inactivate(long id);
     }
 }

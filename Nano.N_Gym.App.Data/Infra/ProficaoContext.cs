@@ -4,7 +4,7 @@ using Nano.N_Gym.App.Model.Entity;
 
 namespace Nano.N_Gym.App.Data.Infra
 {
-    internal class ProficaoContext : GymContext<Proficao>, IProficaoContext
+    internal class ProficaoContext : BaseContext<Proficao>, IProficaoContext
     {
     }
 }

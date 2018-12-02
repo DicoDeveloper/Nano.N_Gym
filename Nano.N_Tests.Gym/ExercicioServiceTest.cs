@@ -43,8 +43,8 @@ namespace Nano.N_Gym.App.Tests.Domain
         {
             _exercicioService.Save(new Exercicio
             {
-                Nome = "Exercicio teste",
-                Descricao = "Descricao teste",
+                Nome = "Exercicio teste 1",
+                Descricao = "Descricao teste 1",
                 Tipo = Model.Enum.Exercicio.TipoExercicio.Abdominal
             });
         }
@@ -67,8 +67,30 @@ namespace Nano.N_Gym.App.Tests.Domain
             });
         }
 
-        [AssemblyCleanup()]
-        public static void CleanupAfterAllTests()
+        [TestMethod]
+        public void Inativar()
+        {
+            Exercicio exercicio = new Exercicio
+            {
+                Nome = "Exercicio teste 3",
+                Descricao = "Descricao teste 3",
+                Tipo = Model.Enum.Exercicio.TipoExercicio.Abdominal
+            };
+            _exercicioService.Save(exercicio);
+
+            Assert.IsTrue(_exercicioService.Inactivate(exercicio.Id));
+
+            Assert.IsFalse(exercicio.Ativo);
+        }
+
+        [TestMethod]
+        public void InativarComIdentificadorInexistente()
+        {
+            Assert.IsFalse(_exercicioService.Inactivate(10));
+        }
+
+        [TestCleanup()]
+        public void CleanupAfterAllTests()
         {
             using (IExercicioContext context = new IoC().Resolve<IExercicioContext>())
             {

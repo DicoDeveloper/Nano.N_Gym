@@ -1,11 +1,12 @@
-﻿using Nano.N_Base.Validation.Interface;
+﻿using Nano.N_Base.Domain.Service;
+using Nano.N_Base.Validation.Interface;
 using Nano.N_Gym.App.Domain.Interface.Repository.Avaliacao;
 using Nano.N_Gym.App.Domain.Interface.Service.Avaliacao;
 using Nano.N_Gym.App.Model.Entity.Avaliacao;
 
 namespace Nano.N_Gym.App.Domain.Service.Avaliacao
 {
-    internal class QuestionarioAhaService : GymBaseService<QuestionarioAha>, IQuestionarioAhaService
+    internal class QuestionarioAhaService : BaseService<QuestionarioAha>, IQuestionarioAhaService
     {
         private readonly IQuestionarioAhaRepository _repository;
 

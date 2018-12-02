@@ -113,6 +113,8 @@
     <Compile Include="Exception\InvalidOrNullRequiredPropertyException.cs" />
     <Compile Include="Exception\InvalidIdentifierException.cs" />
     <Compile Include="Exception\DuplicatedPropertyException.cs" />
+    <Compile Include="Exception\InvalidHierarchyException.cs" />
+    <Compile Include="Exception\InvalidDeleteOperationException.cs" />
     <Compile Include="Exception\NullEntityException.cs" />
     <Compile Include="Exception\InvalidEntityException.cs" />
     <Compile Include="Enum\AutofacInstanceContextMode.cs" />

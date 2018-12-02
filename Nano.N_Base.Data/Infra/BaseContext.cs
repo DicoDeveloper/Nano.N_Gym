@@ -6,9 +6,9 @@ using System.Linq;
 
 namespace Nano.N_Base.Data.Infra
 {
-    internal class BaseContext<TEntity> : DbContext, IBaseContext<TEntity> where TEntity : class
+    public class BaseContext<TEntity> : DbContext, IBaseContext<TEntity> where TEntity : class
     {
-        public DbSet<TEntity> Entities { get; set; }
+        public virtual DbSet<TEntity> Entities { get; set; }
 
         public BaseContext(string connectionName = "N_Base") : base("Name=" + connectionName)
         {
@@ -22,7 +22,7 @@ namespace Nano.N_Base.Data.Infra
             modelBuilder.Conventions.Remove<ManyToManyCascadeDeleteConve‌​ntion>();
         }
 
-        public bool Save(TEntity entity)
+        public virtual bool Save(TEntity entity)
         {
             Entities.Add(entity);
             if ((long)entity.GetType().GetProperty("Id").GetValue(entity) < 0)
@@ -43,13 +43,6 @@ namespace Nano.N_Base.Data.Infra
             return Entities.Find(id);
         }
 
-        public bool Delete(TEntity entity)
-        {
-            Entities.Remove(entity);
-
-            return SaveChanges() > 0;
-        }
-
         public bool Delete(long id)
         {
             Entities.Remove(Entities.Find(id));
@@ -61,6 +54,16 @@ namespace Nano.N_Base.Data.Infra
         {
             Entities.RemoveRange(entities);
 
+            return SaveChanges() > 0;
+        }
+
+        public bool Inactivate(long id)
+        {
+            TEntity entity = Entities.Find(id);
+            if (entity == null)
+                return false;
+            entity.GetType().GetProperty("Ativo").SetValue(entity, false);
+            Entry(entity).State = EntityState.Modified;
             return SaveChanges() > 0;
         }
     }

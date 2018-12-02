@@ -1,15 +1,33 @@
 ﻿using Autofac;
-using Nano.N_Gym.App.Validation.Avaliacao;
+using Nano.N_Base.Model.Interface;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Nano.N_Gym.App.Validation.Registration
 {
     public class GymValidationRegistration
     {
-        public void Register(ref ContainerBuilder builder)
+        public void Register(ref ContainerBuilder builder, AutofacInstanceContextMode autofacInstanceContextMode)
         {
-            builder.RegisterType<AgendamentoValidation>().AsImplementedInterfaces();
-            builder.RegisterType<AnamneseValidation>().AsImplementedInterfaces();
-            builder.RegisterType<ExercicioValidation>().AsImplementedInterfaces();
+            List<Type> tiposValidacoes = typeof(GymValidationRegistration).Assembly.GetTypes().Where(p => p.Name.ToUpper().Contains("VALIDATION") && !p.IsInterface && !p.Name.ToUpper().Contains("BASE") && !p.Name.ToUpper().Contains("GYM")).ToList();
+
+            ContainerBuilder tempBuilder = builder;
+
+            switch (autofacInstanceContextMode)
+            {
+                case AutofacInstanceContextMode.PerCall:
+                    tiposValidacoes.ForEach(p => tempBuilder.RegisterType(p).AsImplementedInterfaces());
+                    break;
+                case AutofacInstanceContextMode.PerHttpRequest:
+                    tiposValidacoes.ForEach(p => tempBuilder.RegisterType(p).AsImplementedInterfaces().InstancePerRequest());
+                    break;
+                case AutofacInstanceContextMode.PerLifetimeScope:
+                    tiposValidacoes.ForEach(p => tempBuilder.RegisterType(p).AsImplementedInterfaces().InstancePerLifetimeScope());
+                    break;
+            }
+
+            builder = tempBuilder;
         }
     }
 }

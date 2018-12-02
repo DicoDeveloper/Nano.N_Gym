@@ -8,6 +8,6 @@ namespace Nano.N_Base.Domain.Interface.Service
         IQueryable<TEntity> GetAll();
         TEntity GetById(long id);
         bool Delete(TEntity entity);
-        bool Delete(long id);        
+        bool Inactivate(long id);
     }
 }

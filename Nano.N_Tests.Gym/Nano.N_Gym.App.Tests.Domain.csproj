@@ -41,6 +41,10 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\Libs\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
@@ -55,6 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Avaliacao\AnamneseServiceTest.cs" />
+    <Compile Include="GymCommonTests.cs" />
+    <Compile Include="LocalizacaoServiceTest.cs" />
     <Compile Include="ExercicioServiceTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

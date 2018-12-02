@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Infra\BaseEmpresaContext.cs" />
     <Compile Include="Infra\BaseContext.cs" />
     <Compile Include="Infra\Estoque\MovimentoEstoqueContext.cs" />
     <Compile Include="Infra\Estoque\LimitadorEstoqueContext.cs" />

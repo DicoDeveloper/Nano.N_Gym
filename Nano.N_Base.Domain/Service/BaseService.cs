@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Nano.N_Base.Domain.Service
 {
-    internal class BaseService<TEntity> : IBaseService<TEntity> where TEntity : class
+    public class BaseService<TEntity> : IBaseService<TEntity> where TEntity : class
     {
         private readonly IBaseRepository<TEntity> _repository;
         private readonly IBaseValidation<TEntity> _validation;
@@ -32,18 +32,18 @@ namespace Nano.N_Base.Domain.Service
             return _repository.GetById(id);
         }
 
-        public bool Delete(TEntity entity)
+        public virtual bool Delete(TEntity entity)
         {
-            _validation.ValidateEntityToDelete(entity);
+            long id = _validation.ValidateToDelete(entity);
 
-            return _repository.Delete(entity);
+            return _repository.Delete(id);
         }
 
-        public bool Delete(long id)
+        public bool Inactivate(long id)
         {
             _validation.ValidateId(id);
 
-            return _repository.Delete(id);
+            return _repository.Inactivate(id);
         }
     }
 }

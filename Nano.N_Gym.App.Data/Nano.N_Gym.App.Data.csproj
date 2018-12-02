@@ -62,7 +62,6 @@
     <Compile Include="Infra\Avaliacao\RCQContext.cs" />
     <Compile Include="Infra\Avaliacao\IMCContext.cs" />
     <Compile Include="Infra\Avaliacao\ComposicaoCorporalContext.cs" />
-    <Compile Include="Infra\GymContext.cs" />
     <Compile Include="Infra\CargoContext.cs" />
     <Compile Include="Infra\ColaboradorContext.cs" />
     <Compile Include="Infra\ExercicioTreinoContext.cs" />

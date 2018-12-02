@@ -4,7 +4,7 @@ using Nano.N_Gym.App.Model.Entity.Avaliacao;
 
 namespace Nano.N_Gym.App.Data.Infra.Avaliacao
 {
-    internal class RiscoCoronarianoContext : GymContext<RiscoCoronariano>, IRiscoCoronarianoContext
+    internal class RiscoCoronarianoContext : BaseContext<RiscoCoronariano>, IRiscoCoronarianoContext
     {
     }
 }

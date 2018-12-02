@@ -3,7 +3,7 @@ using Nano.N_Base.Model.Entity.Estoque;
 
 namespace Nano.N_Base.Data.Infra.Estoque
 {
-    internal class EstoqueMensalContext : BaseContext<EstoqueMensal>, IEstoqueMensalContext
+    internal class EstoqueMensalContext : BaseEmpresaContext<EstoqueMensal>, IEstoqueMensalContext
     {
     }
 }

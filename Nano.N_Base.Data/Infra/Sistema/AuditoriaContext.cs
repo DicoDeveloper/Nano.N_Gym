@@ -3,7 +3,7 @@ using Nano.N_Base.Model.Entity.Sistema;
 
 namespace Nano.N_Base.Data.Infra.Sistema
 {
-    internal class AuditoriaContext : BaseContext<Auditoria>, IAuditoriaContext
+    internal class AuditoriaContext : BaseEmpresaContext<Auditoria>, IAuditoriaContext
     {
     }
 }

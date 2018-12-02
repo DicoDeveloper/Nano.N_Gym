@@ -4,7 +4,7 @@ using Nano.N_Gym.App.Model.Entity;
 
 namespace Nano.N_Gym.App.Data.Infra
 {
-    internal class TreinoContext : GymContext<Treino>, ITreinoContext
+    internal class TreinoContext : BaseContext<Treino>, ITreinoContext
     {
     }
 }

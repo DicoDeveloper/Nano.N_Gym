@@ -1,11 +1,12 @@
-﻿using Nano.N_Base.Validation.Interface;
+﻿using Nano.N_Base.Domain.Service;
+using Nano.N_Base.Validation.Interface;
 using Nano.N_Gym.App.Domain.Interface.Repository;
 using Nano.N_Gym.App.Domain.Interface.Service;
 using Nano.N_Gym.App.Model.Entity;
 
 namespace Nano.N_Gym.App.Domain.Service
 {
-    internal class TurmaService : GymBaseService<Turma>, ITurmaService
+    internal class TurmaService : BaseService<Turma>, ITurmaService
     {
         private readonly ITurmaRepository _repository;
 

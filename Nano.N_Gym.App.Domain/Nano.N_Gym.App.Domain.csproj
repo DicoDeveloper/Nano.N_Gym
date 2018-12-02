@@ -90,6 +90,7 @@
     <Compile Include="Interface\Service\ITurmaService.cs" />
     <Compile Include="Interface\Validation\Avaliacao\IAnamneseValidation.cs" />
     <Compile Include="Interface\Validation\IAgendamentoValidation.cs" />
+    <Compile Include="Interface\Validation\ILocalizacaoValidation.cs" />
     <Compile Include="Interface\Validation\IExercicioValidation.cs" />
     <Compile Include="Registration\GymDomainRegistration.cs" />
     <Compile Include="Interface\Repository\ITreinoRepository.cs" />
@@ -138,7 +139,6 @@
     <Compile Include="Service\ExercicioService.cs" />
     <Compile Include="Service\ContratoService.cs" />
     <Compile Include="Service\ClienteService.cs" />
-    <Compile Include="Service\GymBaseService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Nano.N_Base.Domain\Nano.N_Base.Domain.csproj">

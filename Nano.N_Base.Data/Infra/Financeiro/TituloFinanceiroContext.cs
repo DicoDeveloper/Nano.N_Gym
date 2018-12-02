@@ -3,7 +3,7 @@ using Nano.N_Base.Model.Entity.Financeiro;
 
 namespace Nano.N_Base.Data.Infra.Financeiro
 {
-    internal class TituloFinanceiroContext : BaseContext<TituloFinanceiro>, ITituloFinanceiroContext
+    internal class TituloFinanceiroContext : BaseEmpresaContext<TituloFinanceiro>, ITituloFinanceiroContext
     {
     }
 }

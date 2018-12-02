@@ -16,8 +16,8 @@ namespace Nano.N_Base.Data.Repository
 
         public TEntity GetById(long id) => _context.GetById(id);
 
-        public bool Delete(TEntity entity) => _context.Delete(entity);
-
         public bool Delete(long id) => _context.Delete(id);
+
+        public bool Inactivate(long id) => _context.Inactivate(id);
     }
 }

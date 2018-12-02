@@ -4,6 +4,6 @@
     {
         void Validate(TEntity entity);
         void ValidateId(long id);
-        void ValidateEntityToDelete(TEntity entity);
+        long ValidateToDelete(TEntity entity);
     }
 }

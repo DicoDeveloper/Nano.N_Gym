@@ -16,7 +16,6 @@ namespace Nano.N_Gym.App.Model.Entity
         public string Descricao { get; set; }
         [MaxLength(20)]
         public string Numeracao { get; set; }
-        [Range(0, 999999.99)]
         public decimal? ValorAquisicao { get; set; }
         public DateTime? DataAquisicao { get; set; }
         public DateTime? DataTransferencia { get; set; }

@@ -49,8 +49,8 @@
   <ItemGroup>
     <Compile Include="Avaliacao\AnamneseValidation.cs" />
     <Compile Include="AgendamentoValidation.cs" />
+    <Compile Include="LocalizacaoValidation.cs" />
     <Compile Include="ExercicioValidation.cs" />
-    <Compile Include="GymValidation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registration\GymValidationRegistration.cs" />
   </ItemGroup>
