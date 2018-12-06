@@ -2,10 +2,10 @@
 
 namespace Nano.N_Base.Model.Exception
 {
-    public class InvalidHierarchyException : System.Exception
+    public class InvalidHierarchyException : BaseException
     {
-        public InvalidHierarchyException() : base() { }
-        public InvalidHierarchyException(string message) : base($"{message}\nNivel: {NivelExcecao.Operacional}") { }
-        public InvalidHierarchyException(string message, System.Exception inner) : base($"{message}\nNivel: {NivelExcecao.Operacional}", inner) { }
+        public InvalidHierarchyException() : base() { Nivel = NivelExcecao.Operacional; }
+        public InvalidHierarchyException(string message) : base($"{message}\nNivel: {NivelExcecao.Operacional}") { Nivel = NivelExcecao.Operacional; }
+        public InvalidHierarchyException(string message, System.Exception inner) : base($"{message}\nNivel: {NivelExcecao.Operacional}", inner) { Nivel = NivelExcecao.Operacional; }
     }
 }

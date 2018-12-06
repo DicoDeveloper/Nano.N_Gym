@@ -2,10 +2,10 @@
 
 namespace Nano.N_Base.Model.Exception
 {
-    public class DuplicatedPropertyException : System.Exception
+    public class DuplicatedPropertyException : BaseException
     {
-        public DuplicatedPropertyException() : base() { }
-        public DuplicatedPropertyException(string message) : base($"{message}\nNivel: {NivelExcecao.Operacional}") { }
-        public DuplicatedPropertyException(string message, System.Exception inner) : base($"{message}\nNivel: {NivelExcecao.Operacional}", inner) { }
+        public DuplicatedPropertyException() : base() { Nivel = NivelExcecao.Operacional; }
+        public DuplicatedPropertyException(string message) : base($"{message}\nNivel: {NivelExcecao.Operacional}") { Nivel = NivelExcecao.Operacional; }
+        public DuplicatedPropertyException(string message, System.Exception inner) : base($"{message}\nNivel: {NivelExcecao.Operacional}", inner) { Nivel = NivelExcecao.Operacional; }
     }
 }

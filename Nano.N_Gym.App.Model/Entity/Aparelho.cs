@@ -11,7 +11,7 @@ namespace Nano.N_Gym.App.Model.Entity
     {
         [ForeignKey("Localizacao")]
         public long? IdLocalizacao { get; set; }
-        [MaxLength(80)]
+        [MaxLength(80), Required]
         public string Nome { get; set; }        
         public string Descricao { get; set; }
         [MaxLength(20)]

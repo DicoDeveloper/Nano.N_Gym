@@ -14,11 +14,5 @@ namespace Nano.N_Gym.App.Domain.Service
         {
             _repository = repository;
         }
-
-        public override bool Save(Aparelho aparelho)
-        {
-            // Executar verificacoes especificas
-            return base.Save(aparelho);
-        }
     }
 }

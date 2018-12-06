@@ -4,9 +4,11 @@ namespace Nano.N_Base.Model.Enum.Exception
 {
     public enum NivelExcecao : int
     {
+        [Description("")]
+        None = 0,
         [Description("Aplicativo")]
-        Aplicativo = 0,
+        Aplicativo = 1,
         [Description("Operacional")]
-        Operacional = 1
+        Operacional = 2
     }
 }

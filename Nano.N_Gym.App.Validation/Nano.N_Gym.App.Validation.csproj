@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Avaliacao\AnamneseValidation.cs" />
     <Compile Include="AgendamentoValidation.cs" />
+    <Compile Include="AparelhoValidation.cs" />
     <Compile Include="LocalizacaoValidation.cs" />
     <Compile Include="ExercicioValidation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

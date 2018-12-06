@@ -1,22 +1,12 @@
-﻿using Nano.N_Base.Model.Entity;
-using Nano.N_Base.Model.Entity.Sistema;
-using System;
+﻿using Nano.N_Base.Model.Entity.Sistema;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Nano.N_Gym.App.Model.Entity
 {
     [Table("IMAGENS")]
-    public class Imagem : EntityBase
+    public class Imagem : ImagemBase
     {
-        [ForeignKey("Base")]
-        public long IdBase { get; set; }
-
-        public virtual ImagemBase Base { get; set; }
         public virtual IList<Aparelho> Aparelhos { get; set; }
         public virtual IList<Cliente> Clientes { get; set; }
         public virtual IList<Colaborador> Colaboradores { get; set; }

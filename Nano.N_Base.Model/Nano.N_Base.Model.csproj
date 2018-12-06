@@ -110,11 +110,14 @@
     <Compile Include="Enum\Movimentacao\TipoMovimentacao.cs" />
     <Compile Include="Enum\Pessoa\EstadoCivil.cs" />
     <Compile Include="Enum\Produto\TipoLote.cs" />
+    <Compile Include="Exception\BaseException.cs" />
     <Compile Include="Exception\InvalidOrNullRequiredPropertyException.cs" />
     <Compile Include="Exception\InvalidIdentifierException.cs" />
     <Compile Include="Exception\DuplicatedPropertyException.cs" />
     <Compile Include="Exception\InvalidHierarchyException.cs" />
     <Compile Include="Exception\InvalidDeleteOperationException.cs" />
+    <Compile Include="Exception\DateBetweenInvalidException.cs" />
+    <Compile Include="Exception\NegativeValueException.cs" />
     <Compile Include="Exception\NullEntityException.cs" />
     <Compile Include="Exception\InvalidEntityException.cs" />
     <Compile Include="Enum\AutofacInstanceContextMode.cs" />

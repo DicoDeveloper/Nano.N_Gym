@@ -2,10 +2,10 @@
 
 namespace Nano.N_Base.Model.Exception
 {
-    public class InvalidEntityException : System.Exception
+    public class InvalidEntityException : BaseException
     {
-        public InvalidEntityException() : base() { }
-        public InvalidEntityException(string message) : base($"{message}\nNivel: {NivelExcecao.Aplicativo}") { }
-        public InvalidEntityException(string message, System.Exception inner) : base($"{message}\nNivel: {NivelExcecao.Aplicativo}", inner) { }
+        public InvalidEntityException() : base() { Nivel = NivelExcecao.Aplicativo; }
+        public InvalidEntityException(string message) : base($"{message}\nNivel: {NivelExcecao.Aplicativo}") { Nivel = NivelExcecao.Aplicativo; }
+        public InvalidEntityException(string message, System.Exception inner) : base($"{message}\nNivel: {NivelExcecao.Aplicativo}", inner) { Nivel = NivelExcecao.Aplicativo; }
     }
 }

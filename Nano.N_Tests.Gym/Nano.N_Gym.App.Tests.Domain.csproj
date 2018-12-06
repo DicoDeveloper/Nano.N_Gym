@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Avaliacao\AnamneseServiceTest.cs" />
     <Compile Include="GymCommonTests.cs" />
+    <Compile Include="AparelhoServiceTest.cs" />
     <Compile Include="LocalizacaoServiceTest.cs" />
     <Compile Include="ExercicioServiceTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
