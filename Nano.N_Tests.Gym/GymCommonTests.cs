@@ -39,8 +39,6 @@ namespace Nano.N_Gym.App.Tests.Domain
 
                     context.Save(empresa);
                 }
-                else
-                    empresa = context.GetById(empresa.Id);
 
                 return empresa;
             }
@@ -59,14 +57,12 @@ namespace Nano.N_Gym.App.Tests.Domain
                     aparelho = new Aparelho
                     {
                         Nome = "Teste delete",
-                        Localizacao = localizacao,
-                        Empresa = localizacao.Empresa
+                        Empresa = DefinirEmpresa("1"),
+                        Localizacao = localizacao
                     };
 
                     context.Save(aparelho);
                 }
-                else
-                    aparelho = context.GetById(aparelho.Id);
 
                 return aparelho;
             }
@@ -90,14 +86,12 @@ namespace Nano.N_Gym.App.Tests.Domain
 
                     context.Save(localizacao);
                 }
-                else
-                    localizacao = context.GetById(localizacao.Id);
 
                 return localizacao;
             }
         }
 
-        public Imagem DefinirImagemAparelho(Aparelho aparelho)
+        public Imagem DefinirImagem()
         {
             if (_ioC == null) return null;
 
@@ -109,16 +103,37 @@ namespace Nano.N_Gym.App.Tests.Domain
                 {
                     imagem = new Imagem
                     {
-                        Nome = "Teste imagem",
-                        Aparelhos = new List<Aparelho> { aparelho }
+                        Nome = "Teste imagem"
                     };
 
                     context.Save(imagem);
                 }
-                else
-                    imagem = context.GetById(imagem.Id);
 
                 return imagem;
+            }
+        }
+
+        public Modalidade DefinirModalidade()
+        {
+            if (_ioC == null) return null;
+
+            using (IModalidadeContext context = _ioC.Resolve<IModalidadeContext>())
+            {
+                Modalidade modalidade = context.GetAll().FirstOrDefault(e => e.Nome.Equals("Modalidade teste"));
+
+                if (modalidade == null)
+                {
+                    modalidade = new Modalidade
+                    {
+                        Nome = "Modalidade teste",
+                        Descricao = "Descrição teste",
+                        Valor = 100.00m
+                    };
+
+                    context.Save(modalidade);
+                }
+
+                return modalidade;
             }
         }
     }

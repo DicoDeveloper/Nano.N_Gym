@@ -14,6 +14,7 @@ namespace Nano.N_Base.Data.Infra
         {
             Database.SetInitializer(new CreateDatabaseIfNotExists<BaseContext<TEntity>>());
             Database.Initialize(false);
+            Configuration.ProxyCreationEnabled = false;
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

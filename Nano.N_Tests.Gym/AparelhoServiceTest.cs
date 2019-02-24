@@ -14,13 +14,14 @@ namespace Nano.N_Gym.App.Tests.Domain
     [TestClass]
     public class AparelhoServiceTest
     {
+        private readonly IoC _ioC;
         private readonly IAparelhoService _aparelhoService;
         private readonly GymCommonTests _commonTests;
 
         public AparelhoServiceTest()
         {
-            IoC _ioC = new IoC();
-            _commonTests = new GymCommonTests(_ioC);
+            _ioC = new IoC();
+            _commonTests = new GymCommonTests(ioC: _ioC);
 
             _aparelhoService = _ioC.Resolve<IAparelhoService>();
         }
@@ -106,8 +107,8 @@ namespace Nano.N_Gym.App.Tests.Domain
         {
             Aparelho aparelho = new Aparelho
             {
-                Nome = "Aparelho teste 1",
-                Descricao = "Descricao teste 1",
+                Nome = "Aparelho teste 7",
+                Descricao = "Descricao teste 7",
                 DataAquisicao = DateTime.Now.Date,
                 Numeracao = "001",
                 ValorAquisicao = 5395.50m,
@@ -121,13 +122,13 @@ namespace Nano.N_Gym.App.Tests.Domain
             Assert.IsFalse(aparelho.Ativo);
         }
 
-        [TestMethod, ExpectedException(typeof(InvalidHierarchyException), "Serviço não trata hierarquia invalida")]
-        public void InserirComoLocalizacao()
+        [TestMethod]
+        public void InserirComLocalizacao()
         {
             _aparelhoService.Save(new Aparelho
             {
-                Nome = "Aparelho teste 1",
-                Descricao = "Descricao teste 1",
+                Nome = "Aparelho teste 8",
+                Descricao = "Descricao teste 8",
                 DataAquisicao = DateTime.Now.Date,
                 Numeracao = "001",
                 ValorAquisicao = 5395.50m,
@@ -141,17 +142,16 @@ namespace Nano.N_Gym.App.Tests.Domain
         {
             Aparelho aparelho = new Aparelho
             {
-                Nome = "Aparelho teste 1",
-                Descricao = "Descricao teste 1",
+                Nome = "Aparelho teste 9",
+                Descricao = "Descricao teste 9",
                 DataAquisicao = DateTime.Now.Date,
                 Numeracao = "001",
                 ValorAquisicao = 5395.50m,
-                Empresa = _commonTests.DefinirEmpresa("1")
+                Empresa = _commonTests.DefinirEmpresa("1"),
+                Imagens = new List<Imagem> { _commonTests.DefinirImagem() }
             };
 
             _aparelhoService.Save(aparelho);
-
-            _commonTests.DefinirImagemAparelho(aparelho);
 
             _aparelhoService.Delete(aparelho);
         }
@@ -159,19 +159,12 @@ namespace Nano.N_Gym.App.Tests.Domain
         [TestCleanup()]
         public void CleanupAfterAllTests()
         {
-            using (IAparelhoContext context = new IoC().Resolve<IAparelhoContext>())
+            using (IAparelhoContext context = _ioC.Resolve<IAparelhoContext>())
             {
                 IQueryable<Aparelho> aparelhos = context.GetAll();
 
                 if (aparelhos.Any())
                 {
-                    using (IImagemContext imagemContext = new IoC().Resolve<IImagemContext>())
-                    {
-                        IQueryable<Imagem> imagens = imagemContext.GetAll().Where(i => i.Aparelhos != null && i.Aparelhos.Count > 0);
-                        if (imagens.Count() > 0)
-                            imagemContext.DeleteRange(imagens);
-                    }
-
                     Assert.IsTrue(context.DeleteRange(aparelhos));
                 }
             }

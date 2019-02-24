@@ -90,6 +90,9 @@
     <Compile Include="Interface\Service\ITurmaService.cs" />
     <Compile Include="Interface\Validation\Avaliacao\IAnamneseValidation.cs" />
     <Compile Include="Interface\Validation\IAgendamentoValidation.cs" />
+    <Compile Include="Interface\Validation\ITurmaValidation.cs" />
+    <Compile Include="Interface\Validation\IProficaoValidation.cs" />
+    <Compile Include="Interface\Validation\ICargoValidation.cs" />
     <Compile Include="Interface\Validation\IAparelhoValidation.cs" />
     <Compile Include="Interface\Validation\ILocalizacaoValidation.cs" />
     <Compile Include="Interface\Validation\IExercicioValidation.cs" />

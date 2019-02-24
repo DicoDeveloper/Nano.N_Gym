@@ -1,5 +1,4 @@
-﻿using Nano.N_Base.Model.Entity.Sistema;
-using Nano.N_Base.Model.Enum.Financeiro;
+﻿using Nano.N_Base.Model.Enum.Financeiro;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -9,8 +8,6 @@ namespace Nano.N_Base.Model.Entity.Financeiro
     [Table("TITULOS_FINANCEIROS")]
     public class TituloFinanceiro : EntityBaseEmpresa
     {
-        [ForeignKey("Transacao")]
-        public long IdTransacao { get; set; }
         [ForeignKey("DocumentoFinanceiro")]
         public long IdDocumentoFinanceiro { get; set; }        
         [Range(1, 999)]
@@ -27,6 +24,5 @@ namespace Nano.N_Base.Model.Entity.Financeiro
         public TipoSituacaoTitulo Situacao { get; set; }
 
         public virtual DocumentoFinanceiro DocumentoFinanceiro { get; set; }
-        public virtual Transacao Transacao { get; set; }
     }
 }

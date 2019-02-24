@@ -9,8 +9,6 @@ namespace Nano.N_Base.Model.Entity.ProdutoVinculos
     [Table("PRODUTOS")]
     public class Produto : EntityBase
     {
-        [ForeignKey("UnidadeMedida")]
-        public long IdUnidadeMedida { get; set; }
         [ForeignKey("Fabricante")]
         public long? IdFabricante { get; set; }
         [MaxLength(150)]
@@ -19,7 +17,6 @@ namespace Nano.N_Base.Model.Entity.ProdutoVinculos
         public string Abreviacao { get; set; }
         public TipoLote TipoLote { get; set; }
 
-        public virtual UnidadeMedida UnidadeMedida { get; set; }
         public virtual Fabricante Fabricante { get; set; }
         public virtual IList<ImagemBase> Imagens { get; set; }        
         public virtual IList<LoteCorTamanho> Lotes { get; set; }        

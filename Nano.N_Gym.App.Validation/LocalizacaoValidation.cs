@@ -21,13 +21,13 @@ namespace Nano.N_Gym.App.Validation
             base.Validate(localizacao);
 
             if (string.IsNullOrEmpty(localizacao.Descricao))
-                throw new InvalidOrNullRequiredPropertyException($"Propriedade {nameof(localizacao.Descricao)} é obrigatória e não pode ser vasia");
+                throw new InvalidOrNullRequiredPropertyException($"Propriedade {nameof(localizacao.Descricao)} é obrigatória e não pode ser vasia.");
 
             if (_repository.GetAll().Any(l => l.Descricao.ToUpper().Equals(localizacao.Descricao.ToUpper()) && l.Id != localizacao.Id))
-                throw new DuplicatedPropertyException($"Já existe uma localização com a descrição {localizacao.Descricao}");
+                throw new DuplicatedPropertyException($"Já existe uma localização com a descrição {localizacao.Descricao}.");
 
             if (localizacao.Pai != null && localizacao.Id > 0 && localizacao.Id == localizacao.Pai.Id)
-                throw new InvalidHierarchyException("Localização agregada não pode ser a mesma do cadastro");
+                throw new InvalidHierarchyException("Localização agregada não pode ser a mesma do cadastro.");
         }
     }
 }

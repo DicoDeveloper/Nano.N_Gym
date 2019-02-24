@@ -1,5 +1,4 @@
 ﻿using Nano.N_Base.Model.Entity;
-using Nano.N_Gym.App.Model.Enum.Modalidade;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -11,8 +10,8 @@ namespace Nano.N_Gym.App.Model.Entity
     {
         [ForeignKey("Modalidade"), Required]
         public long IdModalidade { get; set; }
-        [MaxLength(60)]
-        public string Titulo { get; set; }
+        [MaxLength(60), Required]
+        public string Nome { get; set; }
         public int? LimiteMaximo { get; set; }
 
         public virtual Modalidade Modalidade { get; set; }

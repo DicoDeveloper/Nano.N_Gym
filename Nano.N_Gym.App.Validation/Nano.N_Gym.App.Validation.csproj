@@ -47,6 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TurmaValidation.cs" />
+    <Compile Include="ProficaoValidation.cs" />
+    <Compile Include="CargoValidation.cs" />
     <Compile Include="Avaliacao\AnamneseValidation.cs" />
     <Compile Include="AgendamentoValidation.cs" />
     <Compile Include="AparelhoValidation.cs" />

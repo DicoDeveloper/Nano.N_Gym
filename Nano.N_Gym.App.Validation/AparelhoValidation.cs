@@ -21,16 +21,16 @@ namespace Nano.N_Gym.App.Validation
             base.Validate(aparelho);
 
             if (string.IsNullOrEmpty(aparelho.Nome))
-                throw new InvalidOrNullRequiredPropertyException($"Propriedade {nameof(aparelho.Nome)} é obrigatória e não pode ser vasia");
+                throw new InvalidOrNullRequiredPropertyException($"Propriedade {nameof(aparelho.Nome)} é obrigatória e não pode ser vasia.");
 
             if (_repository.GetAll().Any(l => l.Nome.ToUpper().Equals(aparelho.Nome.ToUpper()) && l.Numeracao.ToUpper().Equals(aparelho.Numeracao.ToUpper()) && l.Id != aparelho.Id))
-                throw new DuplicatedPropertyException($"Já existe uma localização com a descrição {aparelho.Descricao}");
+                throw new DuplicatedPropertyException($"Já existe um aparelho com a descrição {aparelho.Descricao} e numeração {aparelho.Numeracao}.");
 
             if (aparelho.DataTransferencia.HasValue && aparelho.DataAquisicao.HasValue && aparelho.DataTransferencia < aparelho.DataAquisicao)
-                throw new DateBetweenInvalidException("Data de transferencia não pode ser menor que data de aquisição");
+                throw new DateBetweenInvalidException("Data de transferencia não pode ser menor que data de aquisição.");
 
             if (aparelho.ValorAquisicao.HasValue && aparelho.ValorAquisicao < 0)
-                throw new NegativeValueException("Valor de aquisição não pode ser negativo");
+                throw new NegativeValueException("Valor de aquisição não pode ser negativo.");
         }
     }
 }

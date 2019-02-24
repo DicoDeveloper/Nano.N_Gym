@@ -12,7 +12,7 @@ namespace Nano.N_Base.Validation
 
             Empresa empresa = (Empresa)entity.GetType().GetProperty("Empresa").GetValue(entity);
 
-            if (empresa == null || empresa.Id == 0)
+            if (empresa == null)
                 throw new NullEntityException("Empresa precisa ser vinculada ao registro");
         }
     }

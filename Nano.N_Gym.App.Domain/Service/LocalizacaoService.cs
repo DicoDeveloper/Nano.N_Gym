@@ -16,11 +16,6 @@ namespace Nano.N_Gym.App.Domain.Service
             _repository = repository;
         }
 
-        public override bool Save(Localizacao localizacao)
-        {
-            return base.Save(localizacao);
-        }
-
         public override bool Delete(Localizacao localizacao)
         {
             if (localizacao.Filhos != null && localizacao.Filhos.Count > 0)

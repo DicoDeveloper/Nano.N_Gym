@@ -8,7 +8,7 @@ namespace Nano.N_Gym.App.Model.Entity
     [Table("PROFICOES")]
     public class Proficao : EntityBase
     {
-        [MaxLength(80)]
+        [MaxLength(80), Required]
         public string Descricao { get; set; }
 
         public virtual IList<Cliente> Clientes { get; set; }

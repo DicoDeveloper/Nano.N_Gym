@@ -58,6 +58,9 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TurmaServiceTest.cs" />
+    <Compile Include="ProficaoServiceTest.cs" />
+    <Compile Include="CargoServiceTest.cs" />
     <Compile Include="Avaliacao\AnamneseServiceTest.cs" />
     <Compile Include="GymCommonTests.cs" />
     <Compile Include="AparelhoServiceTest.cs" />

@@ -16,8 +16,6 @@ namespace Nano.N_Base.Model.Entity.Fiscal
         public TipoAplicacao Aplicacao { get; set; }
         [ForeignKey("OperacaoFiscal")]
         public long IdOperacao { get; set; }
-        [ForeignKey("Serie")]
-        public long IdSerie { get; set; }
         [Range(1, 9999)]
         public int Numero { get; set; }
         public DateTime Emissao { get; set; }
@@ -51,7 +49,6 @@ namespace Nano.N_Base.Model.Entity.Fiscal
         public virtual Endereco Endereco { get; set; }
         public virtual OperacaoFiscal OperacaoFiscal { get; set; }
         public virtual Pessoa DestinatarioEmitente { get; set; }
-        public virtual SerieFiscal Serie { get; set; }
         public virtual Transacao Transaco { get; set; }
         public virtual IList<ItemDocumentoFiscal> itens { get; set; }
 

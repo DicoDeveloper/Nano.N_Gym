@@ -1,6 +1,5 @@
 ﻿using Nano.N_Base.Model.Entity;
 using Nano.N_Gym.App.Model.Enum.Modalidade;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
